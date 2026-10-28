@@ -1,10 +1,19 @@
-scenario,interaction_contrast_L,pooled_sd_sigma,standardized_effect_L_over_sigma,n_per_group_per_sex,total_animals_4_groups,power_achieved,n_main_effect_single_sex,interaction_vs_main_sample_ratio
-Observed large crossover effect (Tshikudi 2024 estimate),4.5,1.4,3.214,4,16,0.8951,7,1.14
-High variability (SD = 2.0),4.5,2.0,2.25,7,28,0.8453,13,1.08
-Low variability (SD = 1.0),4.5,1.0,4.5,2,8,0.8891,4,1.0
-Moderate interaction (50% reduction in interaction contrast),2.25,1.4,1.607,13,52,0.8257,25,1.04
-Modest interaction (contrast = 1.5 DAI units),1.5,1.4,1.071,28,112,0.8092,55,1.02
-Subtle interaction (contrast = 1.0 DAI unit),1.0,1.4,0.714,62,248,0.8029,124,1.0
-"Subtle interaction with high SD (contrast = 1.0, SD = 2.0)",1.0,2.0,0.5,126,504,0.8013,252,1.0
-"Small effect (contrast = 0.75 DAI units, SD = 1.4)",0.75,1.4,0.536,110,440,0.8022,219,1.0
-"Male-only protective effect, zero effect in female (asymmetric)",2.5,1.4,1.786,10,40,0.8061,20,1.0
+scenario,error_bar_regime,interaction_contrast_L,residual_sd_sigma,standardized_effect_L_over_sigma,n_per_group_per_sex,total_animals_4_groups,power_achieved,n_main_effect_single_sex,interaction_vs_main_sample_ratio
+Direct SD (sigma=0.8) | High crossover estimate (L=4.5),Direct SD (Sec 4.9),4.5,0.8,5.625,2,8,0.9782,2,2.0
+Direct SD (sigma=0.8) | Central crossover estimate (L=3.5),Direct SD (Sec 4.9),3.5,0.8,4.375,2,8,0.8715,4,1.0
+Direct SD (sigma=0.8) | Conservative crossover (L=2.5),Direct SD (Sec 4.9),2.5,0.8,3.125,4,16,0.878,7,1.14
+Direct SD (sigma=1.0) | High crossover estimate (L=4.5),Direct SD (Sec 4.9),4.5,1.0,4.5,2,8,0.8891,4,1.0
+Direct SD (sigma=1.0) | Central crossover estimate (L=3.5),Direct SD (Sec 4.9),3.5,1.0,3.5,3,12,0.8579,6,1.0
+Direct SD (sigma=1.0) | Conservative crossover (L=2.5),Direct SD (Sec 4.9),2.5,1.0,2.5,6,24,0.8647,11,1.09
+Direct SD (sigma=1.0) | Moderate interaction (L=1.5),Direct SD (Sec 4.9),1.5,1.0,1.5,14,56,0.8013,28,1.0
+Direct SD (sigma=1.0) | Subtle non-sig trend (L=1.0),Direct SD (Sec 4.9),1.0,1.0,1.0,32,128,0.8074,63,1.02
+Direct SD (sigma=1.0) | Small non-sig trend (L=0.5),Direct SD (Sec 4.9),0.5,1.0,0.5,126,504,0.8013,252,1.0
+Converted SEM-to-SD (sigma=1.4) | High crossover estimate (L=4.5),Converted SEM (n=6),4.5,1.4,3.214,4,16,0.8951,7,1.14
+Converted SEM-to-SD (sigma=1.4) | Central crossover estimate (L=3.5),Converted SEM (n=6),3.5,1.4,2.5,6,24,0.8647,11,1.09
+Converted SEM-to-SD (sigma=1.4) | Conservative crossover (L=2.5),Converted SEM (n=6),2.5,1.4,1.786,10,40,0.8061,20,1.0
+Converted SEM-to-SD (sigma=1.4) | Moderate interaction (L=1.5),Converted SEM (n=6),1.5,1.4,1.071,28,112,0.8092,55,1.02
+Converted SEM-to-SD (sigma=1.4) | Subtle non-sig trend (L=1.0),Converted SEM (n=6),1.0,1.4,0.714,62,248,0.8029,124,1.0
+Converted SEM-to-SD (sigma=1.8) | High crossover estimate (L=4.5),High Converted SEM,4.5,1.8,2.5,6,24,0.8647,11,1.09
+Converted SEM-to-SD (sigma=1.8) | Central crossover estimate (L=3.5),High Converted SEM,3.5,1.8,1.944,9,36,0.8306,17,1.06
+Converted SEM-to-SD (sigma=1.8) | Conservative crossover (L=2.5),High Converted SEM,2.5,1.8,1.389,17,68,0.8168,33,1.03
+Converted SEM-to-SD (sigma=1.8) | Subtle non-sig trend (L=1.0),High Converted SEM,1.0,1.8,0.556,102,408,0.8011,204,1.0

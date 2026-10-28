@@ -26,7 +26,7 @@ Below are 10 randomly sampled study rows from the master evidence table. For eac
   - `sex_male`: `yes` | `sex_female`: `yes` → *Locator: Section 4.1 ("Animals")*
   - `disease_model`: 5% DSS-induced colitis + steady-state homeostasis → *Locator: Section 4.2*
   - `route` & `dose`: Intrarectal, `10 µg/mouse (~2.5 mg/kg)` daily → *Locator: Section 4.3*
-  - `key_result`: PSTi8 protective in males, deleterious in females → *Locator: Abstract, Section 2.1, Figure 1*
+  - `key_result`: PSTi8 delayed colitis onset in males and elevated daily DAI at 72–96 h in females, but cumulative DAI sum and macroscopic damage scores were non-significant → *Locator: Abstract, Section 2.1, Figure 1*
   - `estrous_controlled`: `NOT_READ` (verify if estrous staging is absent in Section 4.1)
   - `interaction_tested`: `NOT_READ` (verify if two-way ANOVA interaction term p-value is omitted in Section 4.9 & Results)
 
