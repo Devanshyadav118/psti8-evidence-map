@@ -9,6 +9,7 @@
 | [AGENTS.md](AGENTS.md) | Agent instructions: project goal, operational rules, schema constraints |
 | [CLAUDE.md](CLAUDE.md) | Standard redirect pointer → AGENTS.md |
 | [INDEX.md](INDEX.md) | This file — directory listing with one-line descriptions |
+| [README.md](README.md) | Project overview and scope boundary notice |
 | [STATE.md](STATE.md) | Project status, completed tasks, next actions, and identified evidence gaps |
 
 ## sources/
