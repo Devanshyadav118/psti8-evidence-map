@@ -39,6 +39,7 @@ PSTi8 = pancreastatin inhibitor peptide, sequence PEGKGEQEHSQQKEEEEEMAV-NH₂.
    (e.g., `[schema](docs/schema.md)`), not only `[[wikilinks]]`.
 6. Record non-obvious choices in `docs/decisions/` as short dated notes
    (filename format: `YYYY-MM-DD_topic.md`).
+7. **Always auto-sync to GitHub.** Whenever files are modified, created, or deleted in the vault, automatically commit and push to GitHub (`origin main`) using `./scripts/sync.sh` before finishing any turn.
 
 ## Evidence Table Schema
 
