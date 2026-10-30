@@ -66,3 +66,4 @@ Executable Python analysis tools.
 | File | Purpose |
 | :--- | :--- |
 | [scripts/power_analysis.py](scripts/power_analysis.py) | Standalone Python script computing 2×2 factorial interaction power and sensitivity |
+| [scripts/sync.sh](scripts/sync.sh) | Automated sync script to stage, commit, pull, and push updates to GitHub |
