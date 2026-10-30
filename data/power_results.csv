@@ -1,19 +1,34 @@
 scenario,error_bar_regime,interaction_contrast_L,residual_sd_sigma,standardized_effect_L_over_sigma,n_per_group_per_sex,total_animals_4_groups,power_achieved,n_main_effect_single_sex,interaction_vs_main_sample_ratio
-Direct SD (sigma=0.8) | High crossover estimate (L=4.5),Direct SD (Sec 4.9),4.5,0.8,5.625,2,8,0.9782,2,2.0
-Direct SD (sigma=0.8) | Central crossover estimate (L=3.5),Direct SD (Sec 4.9),3.5,0.8,4.375,2,8,0.8715,4,1.0
-Direct SD (sigma=0.8) | Conservative crossover (L=2.5),Direct SD (Sec 4.9),2.5,0.8,3.125,4,16,0.878,7,1.14
-Direct SD (sigma=1.0) | High crossover estimate (L=4.5),Direct SD (Sec 4.9),4.5,1.0,4.5,2,8,0.8891,4,1.0
-Direct SD (sigma=1.0) | Central crossover estimate (L=3.5),Direct SD (Sec 4.9),3.5,1.0,3.5,3,12,0.8579,6,1.0
-Direct SD (sigma=1.0) | Conservative crossover (L=2.5),Direct SD (Sec 4.9),2.5,1.0,2.5,6,24,0.8647,11,1.09
-Direct SD (sigma=1.0) | Moderate interaction (L=1.5),Direct SD (Sec 4.9),1.5,1.0,1.5,14,56,0.8013,28,1.0
-Direct SD (sigma=1.0) | Subtle non-sig trend (L=1.0),Direct SD (Sec 4.9),1.0,1.0,1.0,32,128,0.8074,63,1.02
-Direct SD (sigma=1.0) | Small non-sig trend (L=0.5),Direct SD (Sec 4.9),0.5,1.0,0.5,126,504,0.8013,252,1.0
-Converted SEM-to-SD (sigma=1.4) | High crossover estimate (L=4.5),Converted SEM (n=6),4.5,1.4,3.214,4,16,0.8951,7,1.14
-Converted SEM-to-SD (sigma=1.4) | Central crossover estimate (L=3.5),Converted SEM (n=6),3.5,1.4,2.5,6,24,0.8647,11,1.09
-Converted SEM-to-SD (sigma=1.4) | Conservative crossover (L=2.5),Converted SEM (n=6),2.5,1.4,1.786,10,40,0.8061,20,1.0
-Converted SEM-to-SD (sigma=1.4) | Moderate interaction (L=1.5),Converted SEM (n=6),1.5,1.4,1.071,28,112,0.8092,55,1.02
-Converted SEM-to-SD (sigma=1.4) | Subtle non-sig trend (L=1.0),Converted SEM (n=6),1.0,1.4,0.714,62,248,0.8029,124,1.0
-Converted SEM-to-SD (sigma=1.8) | High crossover estimate (L=4.5),High Converted SEM,4.5,1.8,2.5,6,24,0.8647,11,1.09
-Converted SEM-to-SD (sigma=1.8) | Central crossover estimate (L=3.5),High Converted SEM,3.5,1.8,1.944,9,36,0.8306,17,1.06
-Converted SEM-to-SD (sigma=1.8) | Conservative crossover (L=2.5),High Converted SEM,2.5,1.8,1.389,17,68,0.8168,33,1.03
-Converted SEM-to-SD (sigma=1.8) | Subtle non-sig trend (L=1.0),High Converted SEM,1.0,1.8,0.556,102,408,0.8011,204,1.0
+Daily DAI: Direct SD (sigma=1.0) | Conservative crossover (L=2.5),Direct SD (Sec 4.9),2.5,1.0,2.5,6,24,0.8295,12,1.0
+Daily DAI: Direct SD (sigma=1.0) | Moderate interaction (L=2.0),Direct SD (Sec 4.9),2.0,1.0,2.0,9,36,0.8287,17,1.06
+Daily DAI: Direct SD (sigma=1.0) | Attenuated interaction (L=1.5),Direct SD (Sec 4.9),1.5,1.0,1.5,15,60,0.8145,29,1.03
+Daily DAI: Direct SD (sigma=1.0) | Subtle non-sig trend (L=1.0),Direct SD (Sec 4.9),1.0,1.0,1.0,32,128,0.8014,64,1.0
+Daily DAI: Direct SD (sigma=0.8) | Conservative crossover (L=2.5),Direct SD (Sec 4.9),2.5,0.8,3.125,4,16,0.818,8,1.0
+Daily DAI: Direct SD (sigma=0.8) | Moderate interaction (L=2.0),Direct SD (Sec 4.9),2.0,0.8,2.5,6,24,0.8295,12,1.0
+Daily DAI: Direct SD (sigma=0.8) | Attenuated interaction (L=1.5),Direct SD (Sec 4.9),1.5,0.8,1.875,10,40,0.8225,19,1.05
+Daily DAI: Direct SD (sigma=0.8) | Subtle non-sig trend (L=1.0),Direct SD (Sec 4.9),1.0,0.8,1.25,21,84,0.8077,42,1.0
+Daily DAI: Direct SD (sigma=1.0) | Small non-sig trend (L=0.5),Direct SD (Sec 4.9),0.5,1.0,0.5,127,508,0.8029,253,1.0
+Daily DAI: Direct SD (sigma=1.0) | Central crossover benchmark (L=3.5),Direct SD (Sec 4.9),3.5,1.0,3.5,4,16,0.8942,7,1.14
+Daily DAI: Direct SD (sigma=0.8) | High crossover benchmark (L=4.5),Direct SD (Sec 4.9),4.5,0.8,5.625,2,8,0.8398,4,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.4) | Conservative crossover (L=2.5),Converted SEM (n=6),2.5,1.4,1.786,11,44,0.8237,21,1.05
+Daily DAI: Converted SEM-to-SD (sigma=1.4) | Moderate interaction (L=2.0),Converted SEM (n=6),2.0,1.4,1.429,16,64,0.8027,32,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.4) | Attenuated interaction (L=1.5),Converted SEM (n=6),1.5,1.4,1.071,28,112,0.8022,56,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.4) | Subtle non-sig trend (L=1.0),Converted SEM (n=6),1.0,1.4,0.714,63,252,0.8061,125,1.01
+Daily DAI: Converted SEM-to-SD (sigma=1.4) | Central crossover benchmark (L=3.5),Converted SEM (n=6),3.5,1.4,2.5,6,24,0.8295,12,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.4) | High crossover benchmark (L=4.5),Converted SEM (n=6),4.5,1.4,3.214,4,16,0.8387,8,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.8) | Conservative crossover (L=2.5),High Converted SEM,2.5,1.8,1.389,17,68,0.8051,34,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.8) | Moderate interaction (L=2.0),High Converted SEM,2.0,1.8,1.111,26,104,0.8011,52,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.8) | Attenuated interaction (L=1.5),High Converted SEM,1.5,1.8,0.833,46,184,0.8026,92,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.8) | Subtle non-sig trend (L=1.0),High Converted SEM,1.0,1.8,0.556,103,412,0.803,205,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.8) | Central crossover benchmark (L=3.5),High Converted SEM,3.5,1.8,1.944,9,36,0.8074,18,1.0
+Daily DAI: Converted SEM-to-SD (sigma=1.8) | High crossover benchmark (L=4.5),High Converted SEM,4.5,1.8,2.5,6,24,0.8295,12,1.0
+Cumulative DAI (sigma=3.0) | High cumulative contrast (L=3.5),Cumulative DAI (Fig 1C),3.5,3.0,1.167,24,96,0.8073,48,1.0
+Cumulative DAI (sigma=3.0) | Moderate cumulative contrast (L=2.5),Cumulative DAI (Fig 1C),2.5,3.0,0.833,46,184,0.8026,92,1.0
+Cumulative DAI (sigma=3.0) | Realistic subtle contrast (L=1.5),Cumulative DAI (Fig 1C),1.5,3.0,0.5,127,508,0.8029,253,1.0
+Cumulative DAI (sigma=3.0) | Small non-sig trend (L=1.0),Cumulative DAI (Fig 1C),1.0,3.0,0.333,284,1136,0.8013,567,1.0
+Cumulative DAI (sigma=2.5) | Moderate cumulative contrast (L=2.5),Cumulative DAI (Fig 1C),2.5,2.5,1.0,32,128,0.8014,64,1.0
+Cumulative DAI (sigma=2.5) | Realistic subtle contrast (L=1.5),Cumulative DAI (Fig 1C),1.5,2.5,0.6,88,352,0.8014,176,1.0
+Cumulative DAI (sigma=2.5) | Small non-sig trend (L=1.0),Cumulative DAI (Fig 1C),1.0,2.5,0.4,197,788,0.8006,394,1.0
+Cumulative DAI (sigma=4.0) | Moderate cumulative contrast (L=2.5),Cumulative DAI (Fig 1C),2.5,4.0,0.625,81,324,0.8007,162,1.0
+Cumulative DAI (sigma=4.0) | Realistic subtle contrast (L=1.5),Cumulative DAI (Fig 1C),1.5,4.0,0.375,224,896,0.8005,448,1.0
+Cumulative DAI (sigma=4.0) | Small non-sig trend (L=1.0),Cumulative DAI (Fig 1C),1.0,4.0,0.25,503,2012,0.8001,1006,1.0

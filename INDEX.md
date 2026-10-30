@@ -44,8 +44,8 @@ Master tabular datasets and analytical outputs.
 
 | File | Purpose |
 | :--- | :--- |
-| [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (11 studies × 20 schema columns) |
-| [data/power_results.csv](data/power_results.csv) | Statistical power analysis results across 9 sensitivity scenarios |
+| [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (11 studies × 22 schema columns) |
+| [data/power_results.csv](data/power_results.csv) | Statistical power analysis results across 33 sensitivity scenarios (t-distribution) |
 | [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all papers encountered across all research threads |
 | [data/staging/papers_registry_seed_old.csv](data/staging/papers_registry_seed_old.csv) | Archived initial ungrounded seed of papers_registry.csv |
 | [data/staging/thread3_registry_unverified.csv](data/staging/thread3_registry_unverified.csv) | Verified Thread 3 staging registry with verification notes and bibliometric checks |
@@ -62,6 +62,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/spot_check_list.md](docs/spot_check_list.md) | Task C protocol: 10 randomized table rows with locators for independent audit |
 | [docs/research_plan.md](docs/research_plan.md) | Phase 1 research plan: 6 topic threads with queries, criteria, and targets |
 | [docs/search_log.md](docs/search_log.md) | Reproducible log of every literature search performed during Phase 1 |
+| [docs/search_strategy.md](docs/search_strategy.md) | Comprehensive search strategy, databases, queries, and PRISMA inclusion criteria |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |

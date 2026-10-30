@@ -13,16 +13,17 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
 
 - [x] **Step 1 — Vault Scaffold:** Directory hierarchy, `AGENTS.md`, `CLAUDE.md`, `docs/schema.md`, `sources/study_guide.md`, `docs/decisions/`.
 - [x] **Step 2 — Data Extraction & Note Authoring:**
-  - [x] Populated [data/evidence_table.csv](data/evidence_table.csv) with all 11 published PSTi8 studies across 20 standardized schema columns.
+  - [x] Populated [data/evidence_table.csv](data/evidence_table.csv) with all 11 published PSTi8 studies across 22 standardized schema columns (including `sex_source`, split estrous columns, and `not_reported`).
   - [x] Created all 11 individual markdown files in [notes/papers/](notes/papers/) with YAML frontmatter, locators, and access tags.
 - [x] **Task A — Sex-Coverage Audit:**
-  - [x] Authored [docs/audit_report.md](docs/audit_report.md) with disease-by-sex matrix, two-sex study breakdown, list of unreported/`NOT_READ` studies, and explicit boundary statements.
+  - [x] Authored [docs/audit_report.md](docs/audit_report.md) with disease-by-sex matrix, two-sex study breakdown, list of unreported/`NOT_READ` studies, and explicit boundary statements. Colitis findings accurately reflect daily vs cumulative/macroscopic endpoints and descriptive characterization.
   - [x] Classified evidence gaps into (a) confirmed absent, (b) unreported, and (c) cannot assess because NOT_READ, with exact counts.
 - [x] **Task B — Statistical Power Analysis:**
   - [x] Documented extraction and derivation of $L$ and $\sigma$ from Figure 1 of Tshikudi et al. (2024).
+  - [x] Implemented exact Student's t-distribution critical values and non-central t CDF in [scripts/power_analysis.py](scripts/power_analysis.py).
   - [x] Addressed error bar ambiguity: modeled both direct SD ($\sigma \in [0.8, 1.0]$) and converted SEM-to-SD ($\sigma \in [1.4, 1.8]$).
-  - [x] Modeled interaction contrast as an estimate range ($L \in [0.5, 4.5]$) in [scripts/power_analysis.py](scripts/power_analysis.py).
-  - [x] Exported 18 sensitivity scenarios to [data/power_results.csv](data/power_results.csv) and authored synthesis in [docs/power_analysis.md](docs/power_analysis.md).
+  - [x] Headlined realistic interaction contrast range ($L \in [1.0, 2.5]$) and dedicated cumulative-DAI endpoint section ($\sigma_{\text{cum}} \in [2.5, 4.0]$, $L_{\text{cum}} \in [1.0, 3.5]$).
+  - [x] Exported 33 sensitivity scenarios to [data/power_results.csv](data/power_results.csv) and authored synthesis in [docs/power_analysis.md](docs/power_analysis.md).
 - [x] **Task C — Verification Protocol & Handoff:**
   - [x] Generated [docs/spot_check_list.md](docs/spot_check_list.md) with 10 randomly sampled table rows for audit.
   - [x] Updated [INDEX.md](INDEX.md) and [STATE.md](STATE.md).
@@ -33,6 +34,7 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
 **Goal:** Compile what is known and unknown about PSTi8, the pancreastatin/CHGA pathway, and related T2D biology, to identify a feasible computational or literature contribution.
 
 - [x] Created [docs/research_plan.md](docs/research_plan.md) with 6 topic threads, search queries, inclusion criteria, and paper targets.
+- [x] Created [docs/search_strategy.md](docs/search_strategy.md) documenting systematic literature search strategy, databases, queries, and PRISMA criteria.
 - [x] Created [data/papers_registry.csv](data/papers_registry.csv) with header + 11 existing PSTi8 studies pre-loaded.
 - [x] Created [docs/search_log.md](docs/search_log.md).
 - [x] Created `notes/topics/` directory for topic synthesis notes.
