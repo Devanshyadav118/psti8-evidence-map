@@ -44,6 +44,8 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Catalogued 9 verified NEW primary studies (+ 1 preprint) in [docs/staging_new_studies.md](docs/staging_new_studies.md).
   - Resolved 5 suspected repo errors (Garg vs Reza in 10.1016/j.lfs.2021.120221, Goand vs Dadge in 10.1016/j.cyto.2023.156354, Hossain first author & correct DOI 10.1038/s41598-018-27018-8, Singla 2026 PCOS review unverified for PSTi8, and confirmed Garg 2023 STZ paper in Eur J Pharmacol).
   - Uncovered 4 major pre-existing DOI errors in repo catalog (`valicherla2018`, `singh2020_heliyon`, `valicherla2022_pk`, `tshikudi2024_colitis`).
+  - Archived old ungrounded registry to [data/staging/papers_registry_seed_old.csv](data/staging/papers_registry_seed_old.csv) and rebuilt [data/papers_registry.csv](data/papers_registry.csv) with 26 rows, `role` column, and honest `status` tags (`full_text_read` only for 4 verified open-access studies).
+  - Corrected citations for `valicherla2018`, `reza2022_lfs`, and `dadge2023_nash` in [data/evidence_table.csv](data/evidence_table.csv); documented in [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) and [docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md](docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [ ] Execute searches for Threads 1, 2, 4, 5, 6.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
