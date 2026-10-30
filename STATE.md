@@ -1,11 +1,13 @@
 # STATE.md — Project Status
 
-**Last Updated:** 2026-10-28 (Updated)  
+**Last Updated:** 2026-10-31  
 **Vault:** `psti8-sex-bias-review`
 
 ---
 
 ## 1. Project Phase & Execution Status
+
+### Phase 0: Sex-Bias Evidence Table ✅ COMPLETE
 
 All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **complete**.
 
@@ -25,6 +27,25 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - [x] Generated [docs/spot_check_list.md](docs/spot_check_list.md) with 10 randomly sampled table rows for audit.
   - [x] Updated [INDEX.md](INDEX.md) and [STATE.md](STATE.md).
   - [x] Added "Papers to Obtain" list resolving paywalled `NOT_READ` fields.
+
+### Phase 1: RESEARCH 🔄 IN PROGRESS (Plan stage — awaiting approval)
+
+**Goal:** Compile what is known and unknown about PSTi8, the pancreastatin/CHGA pathway, and related T2D biology, to identify a feasible computational or literature contribution.
+
+- [x] Created [docs/research_plan.md](docs/research_plan.md) with 6 topic threads, search queries, inclusion criteria, and paper targets.
+- [x] Created [data/papers_registry.csv](data/papers_registry.csv) with header + 11 existing PSTi8 studies pre-loaded.
+- [x] Created [docs/search_log.md](docs/search_log.md) (empty template, awaiting search execution).
+- [x] Created `notes/topics/` directory for topic synthesis notes.
+- [x] Updated AGENTS.md with phase structure and new folder map entries.
+- [ ] **AWAITING USER APPROVAL** of research plan before executing searches.
+- [ ] Execute searches for Threads 1–6.
+- [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
+- [ ] Author 6 topic synthesis notes in `notes/topics/`.
+- [ ] Identify 2–3 candidate contributions for Phase 2.
+
+### Phase 2: CONTRIBUTION (planned)
+
+Not yet scoped. Will be defined after Phase 1 findings.
 
 ---
 

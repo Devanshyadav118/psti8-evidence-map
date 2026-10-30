@@ -46,6 +46,7 @@ Master tabular datasets and analytical outputs.
 | :--- | :--- |
 | [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (11 studies × 20 schema columns) |
 | [data/power_results.csv](data/power_results.csv) | Statistical power analysis results across 9 sensitivity scenarios |
+| [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all papers encountered across all research threads |
 
 ## docs/
 
@@ -57,6 +58,8 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/audit_report.md](docs/audit_report.md) | Task A audit report: sex-coverage matrix, estrous staging, scope boundaries |
 | [docs/power_analysis.md](docs/power_analysis.md) | Task B report: DAI extraction, interaction power modeling, sample size trade-offs |
 | [docs/spot_check_list.md](docs/spot_check_list.md) | Task C protocol: 10 randomized table rows with locators for independent audit |
+| [docs/research_plan.md](docs/research_plan.md) | Phase 1 research plan: 6 topic threads with queries, criteria, and targets |
+| [docs/search_log.md](docs/search_log.md) | Reproducible log of every literature search performed during Phase 1 |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
 
 ## scripts/
@@ -67,3 +70,11 @@ Executable Python analysis tools.
 | :--- | :--- |
 | [scripts/power_analysis.py](scripts/power_analysis.py) | Standalone Python script computing 2×2 factorial interaction power and sensitivity |
 | [scripts/sync.sh](scripts/sync.sh) | Automated sync script to stage, commit, pull, and push updates to GitHub |
+
+## notes/topics/
+
+Topic synthesis notes produced during Phase 1 research.
+
+| File | Purpose |
+| :--- | :--- |
+| *(empty — awaiting plan approval and search execution)* | |

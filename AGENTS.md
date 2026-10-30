@@ -2,9 +2,13 @@
 
 ## Project Goal
 
-Build an evidence table of **all published PSTi8 studies** (animal and cell),
-focused on whether biological sex was included, balanced, and analyzed as a
-variable.  No wet-lab work; literature extraction and data curation only.
+**Phase 0 (complete):** Build an evidence table of **all published PSTi8 studies** (animal and cell), focused on whether biological sex was included, balanced, and analyzed as a variable.
+
+**Phase 1 (active — RESEARCH):** Compile what is known and unknown about PSTi8, the pancreastatin/CHGA pathway, and related type 2 diabetes biology, to identify a feasible computational or literature contribution.
+
+**Phase 2 (planned):** Execute the contribution identified in Phase 1.
+
+No wet-lab work; literature extraction, data curation, and computational analysis only.
 
 PSTi8 = pancreastatin inhibitor peptide, sequence PEGKGEQEHSQQKEEEEEMAV-NH₂.
 
@@ -23,6 +27,10 @@ PSTi8 = pancreastatin inhibitor peptide, sequence PEGKGEQEHSQQKEEEEEMAV-NH₂.
 | `data/evidence_table.csv` | Master evidence table (see schema) |
 | `docs/schema.md` | Column definitions for the evidence table |
 | `docs/decisions/` | Short dated decision records |
+| `docs/research_plan.md` | Phase 1 research plan: 6 topic threads, queries, criteria |
+| `docs/search_log.md` | Reproducible log of every literature search performed |
+| `notes/topics/` | One synthesis note per research topic thread |
+| `data/papers_registry.csv` | Master registry of all papers encountered (any thread) |
 
 ## Rules
 
