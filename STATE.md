@@ -28,17 +28,24 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - [x] Updated [INDEX.md](INDEX.md) and [STATE.md](STATE.md).
   - [x] Added "Papers to Obtain" list resolving paywalled `NOT_READ` fields.
 
-### Phase 1: RESEARCH 🔄 IN PROGRESS (Plan stage — awaiting approval)
+### Phase 1: RESEARCH 🔄 IN PROGRESS
 
 **Goal:** Compile what is known and unknown about PSTi8, the pancreastatin/CHGA pathway, and related T2D biology, to identify a feasible computational or literature contribution.
 
 - [x] Created [docs/research_plan.md](docs/research_plan.md) with 6 topic threads, search queries, inclusion criteria, and paper targets.
 - [x] Created [data/papers_registry.csv](data/papers_registry.csv) with header + 11 existing PSTi8 studies pre-loaded.
-- [x] Created [docs/search_log.md](docs/search_log.md) (empty template, awaiting search execution).
+- [x] Created [docs/search_log.md](docs/search_log.md).
 - [x] Created `notes/topics/` directory for topic synthesis notes.
 - [x] Updated AGENTS.md with phase structure and new folder map entries.
-- [ ] **AWAITING USER APPROVAL** of research plan before executing searches.
-- [ ] Execute searches for Threads 1–6.
+- [x] **Thread 3 Verification Audit Complete:**
+  - Audited all 26 candidate studies from Gemini 4 Argon search ([data/staging/thread3_argon_raw.md](data/staging/thread3_argon_raw.md)) against PubMed and Crossref APIs.
+  - Processed in 3 sequential batches into [data/staging/thread3_registry_unverified.csv](data/staging/thread3_registry_unverified.csv) (25 verified `yes`, 1 `partial`, 0 `no`, 0 `could_not_open`).
+  - Authored comprehensive verification report in [docs/thread3_verification.md](docs/thread3_verification.md).
+  - Catalogued 9 verified NEW primary studies (+ 1 preprint) in [docs/staging_new_studies.md](docs/staging_new_studies.md).
+  - Resolved 5 suspected repo errors (Garg vs Reza in 10.1016/j.lfs.2021.120221, Goand vs Dadge in 10.1016/j.cyto.2023.156354, Hossain first author & correct DOI 10.1038/s41598-018-27018-8, Singla 2026 PCOS review unverified for PSTi8, and confirmed Garg 2023 STZ paper in Eur J Pharmacol).
+  - Uncovered 4 major pre-existing DOI errors in repo catalog (`valicherla2018`, `singh2020_heliyon`, `valicherla2022_pk`, `tshikudi2024_colitis`).
+- [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
+- [ ] Execute searches for Threads 1, 2, 4, 5, 6.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
 - [ ] Identify 2–3 candidate contributions for Phase 2.
