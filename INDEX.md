@@ -53,6 +53,9 @@ Master tabular datasets and analytical outputs.
 | [data/staging/all_26_verified_raw.json](data/staging/all_26_verified_raw.json) | Raw PubMed and Crossref API responses for all 26 verified Thread 3 records |
 | [data/staging/thread3_argon_raw.md](data/staging/thread3_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 3 (primary PSTi8 studies) |
 | [data/staging/thread1_argon_raw.md](data/staging/thread1_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 1 (pancreastatin/CHGA biology) |
+| [data/staging/thread2_argon_raw.md](data/staging/thread2_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 2 (signaling pathways) |
+| [data/staging/thread2_registry_unverified.csv](data/staging/thread2_registry_unverified.csv) | Verified Thread 2 staging registry with role assignments and bibliometric checks |
+| [data/staging/thread2_raw_api_responses.json](data/staging/thread2_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 32 verified Thread 2 records |
 
 ## docs/
 
@@ -68,6 +71,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/search_log.md](docs/search_log.md) | Reproducible log of every literature search performed during Phase 1 |
 | [docs/search_strategy.md](docs/search_strategy.md) | Comprehensive search strategy, databases, queries, and PRISMA inclusion criteria |
 | [docs/tool_usage_log.md](docs/tool_usage_log.md) | External tool usage log tracking Exa queries and Firecrawl credit consumption |
+| [docs/thread2_verification.md](docs/thread2_verification.md) | Thread 2 audit report: verification of 32 signaling studies against PubMed/Crossref |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
@@ -84,6 +88,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/sync.sh](scripts/sync.sh) | Automated sync script to stage, commit, pull, and push updates to GitHub |
 | [scripts/fetch_all_raw.py](scripts/fetch_all_raw.py) | Batch retrieval script fetching raw bibliometrics from PubMed and Crossref |
 | [scripts/verify_thread3.py](scripts/verify_thread3.py) | Verification harness auditing candidate literature against PubMed and Crossref |
+| [scripts/verify_thread2.py](scripts/verify_thread2.py) | Verification harness auditing Thread 2 candidate literature against PubMed and Crossref |
 | [scripts/rebuild_papers_registry.py](scripts/rebuild_papers_registry.py) | Rebuild script syncing verified records into master papers registry |
 | [scripts/save_verified_csv.py](scripts/save_verified_csv.py) | Serializer formatting verified staging records to CSV |
 | [scripts/run_batch.py](scripts/run_batch.py) | CLI runner processing verification batches |

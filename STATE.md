@@ -60,6 +60,16 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Added `data/fulltext_cache/`, `*.env`, and local MCP config files to [.gitignore](.gitignore).
   - Created [docs/tool_usage_log.md](docs/tool_usage_log.md) tracking queries, URLs, purposes, and credit usage.
   - Tested both MCP tools: verified Exa semantic search on `"PSTi8 pancreastatin inhibitor"` and Firecrawl single-page scrape on open-access article `PMC5992141` (2 credits consumed, 998 remaining).
+- [x] **Thread 2 Verification Audit Complete:**
+  - Audited all 32 candidate studies from Gemini 4 Argon search ([data/staging/thread2_argon_raw.md](data/staging/thread2_argon_raw.md)) against PubMed and Crossref APIs in 3 batches.
+  - Reconciled row count: resolved discrepancy between 32 CSV rows and the "28" stated in Argon's LIMITS section (32 verified `yes`, 0 `no`, 0 `could_not_open`).
+  - Populated [data/staging/thread2_registry_unverified.csv](data/staging/thread2_registry_unverified.csv) with added `role` column (`background_mechanism`: 17, `sex_estrogen`: 6, `methods_reference`: 2, `review`: 7) and honest status tags (8 `full_text_read`, 24 `abstract_only`).
+  - Saved raw API payloads for all 32 studies in [data/staging/thread2_raw_api_responses.json](data/staging/thread2_raw_api_responses.json).
+  - Verified bioRxiv DOIs with prefix `10.64898` (`franczak2026_biorxiv`, `monteillet2026_biorxiv`) and all 2026 publications on Crossref/PubMed.
+  - Reconciled `taniguchi2006_cmet` and `kubota2008_cmet` from unread to verified `abstract_only`.
+  - Flagged cell-type constraint in `zhang2013_plosone` (used breast/prostate cancer cells, not hepatocytes).
+  - Verified quantitative figures against abstracts and open full-text captions (`alves2025_pathophys`, `depaoli2025_jes`, `matsumoto2003_jci`).
+  - Authored comprehensive verification report in [docs/thread2_verification.md](docs/thread2_verification.md).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [ ] Execute searches for Threads 1, 2, 4, 5, 6.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).

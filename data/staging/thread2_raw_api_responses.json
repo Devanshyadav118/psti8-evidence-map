@@ -903,5 +903,1330 @@
       "type": "journal-article",
       "publisher": "American Diabetes Association"
     }
+  },
+  "li2010_febslett": {
+    "row": {
+      "id": "li2010_febslett",
+      "citation": "Li et al., FEBS Lett, 2010",
+      "doi": "10.1016/j.febslet.2010.01.044",
+      "year": "2010",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "paywalled",
+      "status": "abstract_only",
+      "one_line_relevance": "Demonstrates in HepG2 hepatocytes that TNF-alpha stimulates NADPH oxidase 3 (NOX3)-derived ROS, activating JNK, inhibiting IRS1, and reducing AKT/GSK phosphorylation and glycogen levels, which are rescued by NOX3 siRNA",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20102709/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "20102709",
+      "pmcid": "",
+      "title": "NOX3-derived reactive oxygen species promote TNF-alpha-induced reductions in hepatocyte glycogen levels via a JNK pathway.",
+      "first_author": "Li L",
+      "authors": [
+        "Li L",
+        "He Q",
+        "Huang X",
+        "Man Y",
+        "Zhou Y",
+        "Wang S",
+        "Wang J",
+        "Li J"
+      ],
+      "journal": "FEBS Lett",
+      "pubdate": "2010 Mar 5",
+      "abstract": "TNF-alpha-induced insulin resistance is associated with generation of reactive oxygen species (ROS). This study aims at defining the link between ROS production and hepatic insulin resistance. Treatment with TNF-alpha increased ROS generation through activating NADPH oxidase 3 (NOX3) in HepG2 hepatocytes. Down-regulation of NOX3 using siRNA prevented TNF-alpha-induced decrease of cellular glycogen. In the cells treated with TNF-alpha, there were NOX3-dependent activation of JNK, inhibition of IRS1 and phosphorylation of AKT/PKB and GSK. In conclusion, the effects of TNF-alpha on hepatic insulin resistance appear to be, at least in part, mediated by NOX3-derived ROS through a JNK pathway.",
+      "mesh": [
+        "Blotting, Western",
+        "Cell Line, Tumor",
+        "Fluorescent Antibody Technique",
+        "Glycogen",
+        "Hepatocytes",
+        "Humans",
+        "Immunohistochemistry",
+        "Insulin Resistance",
+        "JNK Mitogen-Activated Protein Kinases",
+        "Membrane Proteins",
+        "NADPH Oxidases",
+        "RNA, Small Interfering",
+        "Reactive Oxygen Species",
+        "Reverse Transcriptase Polymerase Chain Reaction",
+        "Signal Transduction",
+        "Tumor Necrosis Factor-alpha"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "NOX3\u2010derived reactive oxygen species promote TNF\u2010\u03b1\u2010induced reductions in hepatocyte glycogen levels via a JNK pathway",
+      "first_author": "Li Lanfang",
+      "authors": [
+        "Li Lanfang",
+        "He Qinghua",
+        "Huang Xiuqing",
+        "Man Yong",
+        "Zhou Yingsheng",
+        "Wang Shu",
+        "Wang Jianye",
+        "Li Jian"
+      ],
+      "journal": "FEBS Letters",
+      "year": "2010",
+      "type": "journal-article",
+      "publisher": "Wiley"
+    }
+  },
+  "gao2010_jbc": {
+    "row": {
+      "id": "gao2010_jbc",
+      "citation": "Gao et al., J Biol Chem, 2010",
+      "doi": "10.1074/jbc.M110.128694",
+      "year": "2010",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Shows in db/db mouse livers and palmitate-treated HepG2 cells that palmitate upregulates NOX3-derived ROS to activate JNK and p38MAPK, increasing gluconeogenesis and reducing hepatocyte glycogen, which is rescued by NOX3 knockdown",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20647313/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "20647313",
+      "pmcid": "PMC2943261",
+      "title": "The effects of palmitate on hepatic insulin resistance are mediated by NADPH Oxidase 3-derived reactive oxygen species through JNK and p38MAPK pathways.",
+      "first_author": "Gao D",
+      "authors": [
+        "Gao D",
+        "Nong S",
+        "Huang X",
+        "Lu Y",
+        "Zhao H",
+        "Lin Y",
+        "Man Y",
+        "Wang S",
+        "Yang J",
+        "Li J"
+      ],
+      "journal": "J Biol Chem",
+      "pubdate": "2010 Sep 24",
+      "abstract": "Elevated plasma free fatty acid (FFA) levels in obesity may play a pathogenic role in the development of insulin resistance. However, molecular mechanisms linking FFA to insulin resistance remain poorly understood. Oxidative stress acts as a link between FFA and hepatic insulin resistance. NADPH oxidase 3 (NOX3)-derived reactive oxygen species (ROS) may mediate the effect of TNF-\u03b1 on hepatocytes, in particular the drop in cellular glycogen content. In the present study, we define the critical role of NOX3-derived ROS in insulin resistance in db/db mice and HepG2 cells treated with palmitate. The db/db mice displayed increased serum FFA levels, excess generation of ROS, and up-regulation of NOX3 expression, accompanied by increased lipid accumulation and impaired glycogen content in the liver. Similar results were obtained from palmitate-treated HepG2 cells. The exposure of palmitate elevated ROS production and NOX3 expression and, in turn, increased gluconeogenesis and reduced glycogen content in HepG2 cells. We found that palmitate induced hepatic insulin resistance through JNK and p38(MAPK) pathways, which are rescued by siRNA-mediated NOX3 reduction. In conclusion, our data demonstrate a critical role of NOX3-derived ROS in palmitate-induced insulin resistance in hepatocytes, indicating that NOX3 is the predominant source of palmitate-induced ROS generation and that NOX3-derived ROS may drive palmitate-induced hepatic insulin resistance through JNK and p38(MAPK) pathways.",
+      "mesh": [
+        "Animals",
+        "Gene Expression Regulation, Enzymologic",
+        "Glycogen",
+        "Hep G2 Cells",
+        "Hepatocytes",
+        "Humans",
+        "Insulin Resistance",
+        "Liver",
+        "MAP Kinase Kinase 4",
+        "MAP Kinase Signaling System",
+        "Membrane Proteins",
+        "Mice",
+        "NADPH Oxidases",
+        "Obesity",
+        "Oxidative Stress",
+        "Palmitic Acid",
+        "Reactive Oxygen Species",
+        "Tumor Necrosis Factor-alpha",
+        "p38 Mitogen-Activated Protein Kinases"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "The Effects of Palmitate on Hepatic Insulin Resistance Are Mediated by NADPH Oxidase 3-derived Reactive Oxygen Species through JNK and p38MAPK Pathways",
+      "first_author": "Gao Dan",
+      "authors": [
+        "Gao Dan",
+        "Nong Shanwei",
+        "Huang Xiuqing",
+        "Lu Yonggang",
+        "Zhao Hongye",
+        "Lin Yajun",
+        "Man Yong",
+        "Wang Shu",
+        "Yang Jiefu",
+        "Li Jian"
+      ],
+      "journal": "Journal of Biological Chemistry",
+      "year": "2010",
+      "type": "journal-article",
+      "publisher": "Elsevier BV"
+    }
+  },
+  "li2011_cmet": {
+    "row": {
+      "id": "li2011_cmet",
+      "citation": "Li et al., Cell Metab, 2011",
+      "doi": "10.1016/j.cmet.2011.03.009",
+      "year": "2011",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Demonstrates that AMPK directly binds and phosphorylates SREBP-1c at Ser372 (and SREBP-2) in response to metformin and polyphenols, inhibiting SREBP-1c proteolytic cleavage, nuclear translocation, lipogenesis, and hepatic steatosis in insulin-resistant mice",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21459323/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "21459323",
+      "pmcid": "PMC3086578",
+      "title": "AMPK phosphorylates and inhibits SREBP activity to attenuate hepatic steatosis and atherosclerosis in diet-induced insulin-resistant mice.",
+      "first_author": "Li Y",
+      "authors": [
+        "Li Y",
+        "Xu S",
+        "Mihaylova MM",
+        "Zheng B",
+        "Hou X",
+        "Jiang B",
+        "Park O",
+        "Luo Z",
+        "Lefai E",
+        "Shyy JY",
+        "Gao B",
+        "Wierzbicki M",
+        "Verbeuren TJ",
+        "Shaw RJ",
+        "Cohen RA",
+        "Zang M"
+      ],
+      "journal": "Cell Metab",
+      "pubdate": "2011 Apr 6",
+      "abstract": "AMPK has emerged as a critical mechanism for salutary effects of polyphenols on lipid metabolic disorders in type 1 and type 2 diabetes. Here we demonstrate that AMPK interacts with and directly phosphorylates sterol regulatory element binding proteins (SREBP-1c and -2). Ser372 phosphorylation of SREBP-1c by AMPK is necessary for inhibition of proteolytic processing and transcriptional activity of SREBP-1c in response to polyphenols and metformin. AMPK stimulates Ser372 phosphorylation, suppresses SREBP-1c cleavage and nuclear translocation, and represses SREBP-1c target gene expression in hepatocytes exposed to high glucose, leading to reduced lipogenesis and lipid accumulation. Hepatic activation of AMPK by the synthetic polyphenol S17834 protects against hepatic steatosis, hyperlipidemia, and accelerated atherosclerosis in diet-induced insulin-resistant LDL receptor-deficient mice in part through phosphorylation of SREBP-1c Ser372 and suppression of SREBP-1c- and -2-dependent lipogenesis. AMPK-dependent phosphorylation of SREBP may offer therapeutic strategies to combat insulin resistance, dyslipidemia, and atherosclerosis.",
+      "mesh": [
+        "AMP-Activated Protein Kinases",
+        "Animals",
+        "Atherosclerosis",
+        "Benzopyrans",
+        "Dietary Fats",
+        "Disease Models, Animal",
+        "Fatty Liver",
+        "Humans",
+        "Insulin Resistance",
+        "Lipogenesis",
+        "Male",
+        "Metformin",
+        "Mice",
+        "Phosphorylation",
+        "Receptors, LDL",
+        "Sterol Regulatory Element Binding Protein 1",
+        "Sterol Regulatory Element Binding Protein 2",
+        "Transcription, Genetic"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "AMPK Phosphorylates and Inhibits SREBP Activity to Attenuate Hepatic Steatosis and Atherosclerosis in Diet-Induced Insulin-Resistant Mice",
+      "first_author": "Li Yu",
+      "authors": [
+        "Li Yu",
+        "Xu Shanqin",
+        "Mihaylova Maria M.",
+        "Zheng Bin",
+        "Hou Xiuyun",
+        "Jiang Bingbing",
+        "Park Ogyi",
+        "Luo Zhijun",
+        "Lefai Etienne",
+        "Shyy John\u00a0Y.-J.",
+        "Gao Bin",
+        "Wierzbicki Michel",
+        "Verbeuren Tony\u00a0J.",
+        "Shaw Reuben\u00a0J.",
+        "Cohen Richard\u00a0A.",
+        "Zang Mengwei"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2011",
+      "type": "journal-article",
+      "publisher": "Elsevier BV"
+    }
+  },
+  "yecies2011_cmet": {
+    "row": {
+      "id": "yecies2011_cmet",
+      "citation": "Yecies et al., Cell Metab, 2011",
+      "doi": "10.1016/j.cmet.2011.06.002",
+      "year": "2011",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Shows using liver-specific Tsc1 knockout (LTsc1KO) mice that constitutive mTORC1 activation is insufficient to induce hepatic SREBP1c when feedback attenuates Akt, because Akt stimulates SREBP1c via parallel mTORC1-dependent and Insig2a-suppression pathways",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21723501/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "21723501",
+      "pmcid": "PMC3652544",
+      "title": "Akt stimulates hepatic SREBP1c and lipogenesis through parallel mTORC1-dependent and independent pathways.",
+      "first_author": "Yecies JL",
+      "authors": [
+        "Yecies JL",
+        "Zhang HH",
+        "Menon S",
+        "Liu S",
+        "Yecies D",
+        "Lipovsky AI",
+        "Gorgun C",
+        "Kwiatkowski DJ",
+        "Hotamisligil GS",
+        "Lee CH",
+        "Manning BD"
+      ],
+      "journal": "Cell Metab",
+      "pubdate": "2011 Jul 6",
+      "abstract": "Through unknown mechanisms, insulin activates the sterol regulatory element-binding protein (SREBP1c) transcription factor to promote hepatic lipogenesis. We find that this induction is dependent on the mammalian target of rapamycin (mTOR) complex 1 (mTORC1). To further define the role of mTORC1 in the regulation of SREBP1c in the liver, we generated mice with liver-specific deletion of TSC1 (LTsc1KO), which results in insulin-independent activation of mTORC1. Surprisingly, the LTsc1KO mice are protected from age- and diet-induced hepatic steatosis and display hepatocyte-intrinsic defects in SREBP1c activation and de novo lipogenesis. These phenotypes result from attenuation of Akt signaling driven by mTORC1-dependent insulin resistance. Therefore, mTORC1 activation is not sufficient to stimulate hepatic SREBP1c in the absence of Akt signaling, revealing the existence of an additional downstream pathway also required for this induction. We provide evidence that this mTORC1-independent pathway involves Akt-mediated suppression of Insig2a, a liver-specific transcript encoding the SREBP1c inhibitor INSIG2.",
+      "mesh": [
+        "Animals",
+        "Cells, Cultured",
+        "Hepatocytes",
+        "Insulin",
+        "Lipogenesis",
+        "Male",
+        "Mechanistic Target of Rapamycin Complex 1",
+        "Membrane Proteins",
+        "Mice",
+        "Mice, Knockout",
+        "Multiprotein Complexes",
+        "Proteins",
+        "Proto-Oncogene Proteins c-akt",
+        "Signal Transduction",
+        "Sterol Regulatory Element Binding Protein 1",
+        "TOR Serine-Threonine Kinases",
+        "Tuberous Sclerosis Complex 1 Protein",
+        "Tumor Suppressor Proteins"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Akt Stimulates Hepatic SREBP1c and Lipogenesis through Parallel mTORC1-Dependent and Independent Pathways",
+      "first_author": "Yecies Jessica\u00a0L.",
+      "authors": [
+        "Yecies Jessica\u00a0L.",
+        "Zhang Hui\u00a0H.",
+        "Menon Suchithra",
+        "Liu Sihao",
+        "Yecies Derek",
+        "Lipovsky Alex\u00a0I.",
+        "Gorgun Cem",
+        "Kwiatkowski David\u00a0J.",
+        "Hotamisligil G\u00f6khan\u00a0S.",
+        "Lee Chih-Hao",
+        "Manning Brendan\u00a0D."
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2011",
+      "type": "journal-article",
+      "publisher": "Elsevier BV"
+    }
+  },
+  "li2013_endocrinology": {
+    "row": {
+      "id": "li2013_endocrinology",
+      "citation": "Li et al., Endocrinology, 2013",
+      "doi": "10.1210/en.2012-2127",
+      "year": "2013",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Chemogenetic activation of a hepatocyte-selective Gq-coupled designer receptor (Hep-Rq) by clozapine-N-oxide stimulates glycogenolysis and gluconeogenesis (equaling glucagon's hyperglycemic magnitude), while V1b vasopressin receptor antagonism lowers pyruvate-induced glycemia in ob/ob mice",
+      "source_url": "https://academic.oup.com/endo/article/154/10/3539/2422894",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "23861369",
+      "pmcid": "PMC3776870",
+      "title": "A novel experimental strategy to assess the metabolic effects of selective activation of a G(q)-coupled receptor in hepatocytes in vivo.",
+      "first_author": "Li JH",
+      "authors": [
+        "Li JH",
+        "Jain S",
+        "McMillin SM",
+        "Cui Y",
+        "Gautam D",
+        "Sakamoto W",
+        "Lu H",
+        "Jou W",
+        "McGuinness OP",
+        "Gavrilova O",
+        "Wess J"
+      ],
+      "journal": "Endocrinology",
+      "pubdate": "2013 Oct",
+      "abstract": "Increased hepatic glucose production is a key pathophysiological feature of type 2 diabetes. Like all other cell types, hepatocytes express many G protein-coupled receptors (GPCRs) that are linked to different functional classes of heterotrimeric G proteins. The important physiological functions mediated by G(s)-coupled hepatic glucagon receptors are well-documented. In contrast, little is known about the in vivo physiological roles of hepatocyte GPCRs that are linked to G proteins of the G(q) family. To address this issue, we established a transgenic mouse line (Hep-Rq mice) that expressed a G(q)-linked designer receptor (Rq) in a hepatocyte-selective fashion. Importantly, Rq could no longer bind endogenous ligands but could be selectively activated by a synthetic drug, clozapine-N-oxide. Clozapine-N-oxide treatment of Hep-Rq mice enabled us to determine the metabolic consequences caused by selective activation of a G(q)-coupled GPCR in hepatocytes in vivo. We found that acute Rq activation in vivo led to pronounced increases in blood glucose levels, resulting from increased rates of glycogen breakdown and gluconeogenesis. We also demonstrated that the expression of the V(1b) vasopressin receptor, a G(q)-coupled receptor expressed by hepatocytes, was drastically increased in livers of ob/ob mice, a mouse model of diabetes. Strikingly, treatment of ob/ob mice with a selective V(1b) receptor antagonist led to reduced glucose excursions in a pyruvate challenge test. Taken together, these findings underscore the importance of G(q)-coupled receptors in regulating hepatic glucose fluxes and suggest novel receptor targets for the treatment of type 2 diabetes.",
+      "mesh": [
+        "Animals",
+        "Antidiuretic Hormone Receptor Antagonists",
+        "Cells, Cultured",
+        "Diabetes Mellitus, Type 2",
+        "Enzyme Activators",
+        "Female",
+        "G-Protein-Coupled Receptor Kinases",
+        "GTP-Binding Protein alpha Subunits, Gq-G11",
+        "Gluconeogenesis",
+        "Glycogenolysis",
+        "Hepatocytes",
+        "Humans",
+        "Hypoglycemic Agents",
+        "Male",
+        "Mice",
+        "Mice, Obese",
+        "Mice, Transgenic",
+        "Protein Engineering",
+        "Protein Interaction Domains and Motifs",
+        "Receptor, Muscarinic M3",
+        "Receptors, Vasopressin",
+        "Recombinant Fusion Proteins",
+        "Specific Pathogen-Free Organisms"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "A Novel Experimental Strategy to Assess the Metabolic Effects of Selective Activation of a Gq-Coupled Receptor in Hepatocytes In Vivo",
+      "first_author": "Hua Li Jian",
+      "authors": [
+        "Hua Li Jian",
+        "Jain Shalini",
+        "McMillin Sara M.",
+        "Cui Yinghong",
+        "Gautam Dinesh",
+        "Sakamoto Wataru",
+        "Lu Huiyan",
+        "Jou William",
+        "McGuinness Owen P.",
+        "Gavrilova Oksana",
+        "Wess J\u00fcrgen"
+      ],
+      "journal": "Endocrinology",
+      "year": "2013",
+      "type": "journal-article",
+      "publisher": "The Endocrine Society"
+    }
+  },
+  "zhang2013_plosone": {
+    "row": {
+      "id": "zhang2013_plosone",
+      "citation": "Zhang et al., PLoS One, 2013",
+      "doi": "10.1371/journal.pone.0080071",
+      "year": "2013",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Demonstrates that ER stress and therapy resistance promote GRP78 translocation to the cell surface (sGRP78), where it complexes with the p85 subunit of PI3K (disrupted by an N-terminal insertion mutation) to enhance PIP3 production and PI3K/AKT signaling",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24244613/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "24244613",
+      "pmcid": "PMC3823711",
+      "title": "Cancer cells resistant to therapy promote cell surface relocalization of GRP78 which complexes with PI3K and enhances PI(3,4,5)P3 production.",
+      "first_author": "Zhang Y",
+      "authors": [
+        "Zhang Y",
+        "Tseng CC",
+        "Tsai YL",
+        "Fu X",
+        "Schiff R",
+        "Lee AS"
+      ],
+      "journal": "PLoS One",
+      "pubdate": "2013",
+      "abstract": "Traditionally, GRP78 has been regarded as an endoplasmic reticulum (ER) lumenal protein due to its carboxyl KDEL retention motif. Recently, a subfraction of GRP78 is found to localize to the surface of specific cell types, serving as co-receptors and regulating signaling. However, the physiological relevance of cell surface GRP78 (sGRP78) expression in cancer and its functional interactions at the cell surface are just emerging. In this report, we combined biochemical, imaging and mutational approaches to address these issues. For detection of sGRP78, we utilized a mouse monoclonal antibody highly potent and specific for GRP78 or epitope-tagged GRP78, coupled with imaging and biochemical techniques that allowed detection of sGRP78 but not intracellular GRP78. Our studies revealed that breast and prostate cancer cells resistant to hormonal therapy actively promote GRP78 to the cell surface, which can be further elevated by a variety of ER stress-inducing conditions. We showed that sGRP78 forms complex with PI3K, and overexpression of sGRP78 promotes PIP3 formation, indicative of PI3K activation. We further discovered that an insertion mutant of GRP78 at its N-terminus domain, while retaining stable expression and the ability to translocate to the cell surface as the wild-type protein, exhibited reduced complex formation with p85 and production of PIP3. Thus, our studies provide a mechanistic explanation for the regulation of the PI3K/AKT signaling by sGRP78. Our findings suggest that targeting sGRP78 may suppress therapeutic resistance in cancer cells and offer a novel strategy to suppress PI3K activity.",
+      "mesh": [
+        "Animals",
+        "Antibodies, Monoclonal",
+        "Antineoplastic Agents, Hormonal",
+        "Cell Line, Tumor",
+        "Cell Membrane",
+        "Drug Resistance, Neoplasm",
+        "Endoplasmic Reticulum Chaperone BiP",
+        "Fibroblasts",
+        "Gene Expression Regulation, Neoplastic",
+        "Heat-Shock Proteins",
+        "Humans",
+        "Mice",
+        "Mutation",
+        "Phosphatidylinositol 3-Kinases",
+        "Phosphatidylinositols",
+        "Plasmids",
+        "Proto-Oncogene Proteins c-akt",
+        "Recombinant Fusion Proteins",
+        "Signal Transduction",
+        "Solubility",
+        "Tamoxifen",
+        "Transfection"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Cancer Cells Resistant to Therapy Promote Cell Surface Relocalization of GRP78 Which Complexes with PI3K and Enhances PI(3,4,5)P3 Production",
+      "first_author": "Zhang Yi",
+      "authors": [
+        "Zhang Yi",
+        "Tseng Chun-Chih",
+        "Tsai Yuan-Li",
+        "Fu Xiaoyong",
+        "Schiff Rachel",
+        "Lee Amy S."
+      ],
+      "journal": "PLoS ONE",
+      "year": "2013",
+      "type": "journal-article",
+      "publisher": "Public Library of Science (PLoS)"
+    }
+  },
+  "zhu2014_ajpendo": {
+    "row": {
+      "id": "zhu2014_ajpendo",
+      "citation": "Zhu et al., Am J Physiol Endocrinol Metab, 2014",
+      "doi": "10.1152/ajpendo.00579.2013",
+      "year": "2014",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Male liver-specific ER-alpha knockout (LKO) mice on an HFD fail to suppress endogenous glucose production during hyperinsulinemic-euglycemic clamps, lose insulin-stimulated hepatic Akt-Ser473 phosphorylation, nuclear FOXO1 exclusion, and ACC phosphorylation, and accumulate liver triglycerides/diacylglycerides",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24691030/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "24691030",
+      "pmcid": "PMC4116406",
+      "title": "Estrogen signaling prevents diet-induced hepatic insulin resistance in male mice with obesity.",
+      "first_author": "Zhu L",
+      "authors": [
+        "Zhu L",
+        "Martinez MN",
+        "Emfinger CH",
+        "Palmisano BT",
+        "Stafford JM"
+      ],
+      "journal": "Am J Physiol Endocrinol Metab",
+      "pubdate": "2014 May 15",
+      "abstract": "The development of insulin resistance in the liver is a key event that drives dyslipidemia and predicts diabetes and cardiovascular risk with obesity. Clinical data show that estrogen signaling in males helps prevent adiposity and insulin resistance, which may be mediated through estrogen receptor-\u03b1 (ER\u03b1). The tissues and pathways that mediate the benefits of estrogen signaling in males with obesity are not well defined. In female mice, ER\u03b1 signaling in the liver helps to correct pathway-selective insulin resistance with estrogen treatment after ovariectomy. We assessed the importance of liver estrogen signaling in males using liver ER\u03b1-knockout (LKO) mice fed a high-fat diet (HFD). We found that the LKO male mice had decreased insulin sensitivity compared with their wild-type floxed (fl/fl) littermates during hyperinsulinemic euglycemic clamps. Insulin failed to suppress endogenous glucose production in LKO mice, indicating liver insulin resistance. Insulin promoted glucose disappearance in LKO and fl/fl mice similarly. In the liver, insulin failed to induce phosphorylation of Akt-Ser(473) and exclude FOXO1 from the nucleus in LKO mice, a pathway important for liver glucose and lipid metabolism. Liver triglycerides and diacylglycerides were also increased in LKO mice, which corresponded with dysregulation of insulin-stimulated ACC phosphorylation and DGAT1/2 protein levels. Our studies demonstrate that estrogen signaling through ER\u03b1 in the liver helps prevent whole body and hepatic insulin resistance associated with HFD feeding in males. Augmenting hepatic estrogen signaling through ER\u03b1 may lessen the impact of obesity on diabetes and cardiovascular risk in males.",
+      "mesh": [
+        "Animals",
+        "Diacylglycerol O-Acyltransferase",
+        "Diet, High-Fat",
+        "Estrogen Receptor alpha",
+        "Estrogens",
+        "Female",
+        "Insulin Resistance",
+        "Liver",
+        "Male",
+        "Mice",
+        "Mice, Knockout",
+        "Obesity",
+        "Sex Factors",
+        "Signal Transduction"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Estrogen signaling prevents diet-induced hepatic insulin resistance in male mice with obesity",
+      "first_author": "Zhu Lin",
+      "authors": [
+        "Zhu Lin",
+        "Martinez Melissa N.",
+        "Emfinger Christopher H.",
+        "Palmisano Brian T.",
+        "Stafford John M."
+      ],
+      "journal": "American Journal of Physiology-Endocrinology and Metabolism",
+      "year": "2014",
+      "type": "journal-article",
+      "publisher": "American Physiological Society"
+    }
+  },
+  "kimura2020_biomol": {
+    "row": {
+      "id": "kimura2020_biomol",
+      "citation": "Kimura et al., Biomolecules, 2020",
+      "doi": "10.3390/biom10101445",
+      "year": "2020",
+      "type": "review",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Reviews metabolic functions of >50 hepatocyte GPCRs, detailing how Gq/11-PLCbeta-IP3/DAG/Ca2+, Gs-cAMP-PKA, and Gi-JNK signaling cascades regulate hepatic glucose output, Pck1, lipogenesis, and steatosis in diabetes and NAFLD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33076386/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "33076386",
+      "pmcid": "PMC7602561",
+      "title": "Metabolic Functions of G Protein-Coupled Receptors in Hepatocytes-Potential Applications for Diabetes and NAFLD.",
+      "first_author": "Kimura T",
+      "authors": [
+        "Kimura T",
+        "Pydi SP",
+        "Pham J",
+        "Tanaka N"
+      ],
+      "journal": "Biomolecules",
+      "pubdate": "2020 Oct 15",
+      "abstract": "G protein-coupled receptors (GPCRs) are cell surface receptors that mediate the function of extracellular ligands. Understanding how GPCRs work at the molecular level has important therapeutic implications, as 30-40% of the drugs currently in clinical use mediate therapeutic effects by acting on GPCRs. Like many other cell types, liver function is regulated by GPCRs. More than 50 different GPCRs are predicted to be expressed in the mouse liver. However, knowledge of how GPCRs regulate liver metabolism is limited. A better understanding of the metabolic role of GPCRs in hepatocytes, the dominant constituent cells of the liver, could lead to the development of novel drugs that are clinically useful for the treatment of various metabolic diseases, including type 2 diabetes, nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH). In this review, we describe the functions of multiple GPCRs expressed in hepatocytes and their role in metabolic processes.",
+      "mesh": [
+        "Animals",
+        "Diabetes Mellitus, Type 2",
+        "GTP-Binding Proteins",
+        "Hepatocytes",
+        "Humans",
+        "Hypoglycemic Agents",
+        "Liver",
+        "Mice",
+        "Non-alcoholic Fatty Liver Disease",
+        "Receptors, G-Protein-Coupled"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Metabolic Functions of G Protein-Coupled Receptors in Hepatocytes\u2014Potential Applications for Diabetes and NAFLD",
+      "first_author": "Kimura Takefumi",
+      "authors": [
+        "Kimura Takefumi",
+        "Pydi Sai P.",
+        "Pham Jonathan",
+        "Tanaka Naoki"
+      ],
+      "journal": "Biomolecules",
+      "year": "2020",
+      "type": "journal-article",
+      "publisher": "MDPI AG"
+    }
+  },
+  "samanta2021_canres": {
+    "row": {
+      "id": "samanta2021_canres",
+      "citation": "Samanta et al., Cancer Res, 2021",
+      "doi": "10.1158/0008-5472.CAN-20-1540",
+      "year": "2021",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "full_text_read",
+      "one_line_relevance": "Discovers the hydroxyquinoline GRP78 inhibitor YUM70 (docking to the C-terminal substrate-binding domain), which inhibits full-length GRP78 ATPase activity with IC50 = 1.5 +/- 0.3 uM (vs VER-155008 IC50 = 0.7 +/- 0.3 uM), dissociates GRP78 from PERK/IRE1alpha, and triggers eIF2alpha/ATF4/CHOP ER stress",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8137563/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "33531374",
+      "pmcid": "PMC8137563",
+      "title": "The Hydroxyquinoline Analogue YUM70 Inhibits GRP78 to Induce ER Stress-Mediated Apoptosis in Pancreatic Cancer.",
+      "first_author": "Samanta S",
+      "authors": [
+        "Samanta S",
+        "Yang S",
+        "Debnath B",
+        "Xue D",
+        "Kuang Y",
+        "Ramkumar K",
+        "Lee AS",
+        "Ljungman M",
+        "Neamati N"
+      ],
+      "journal": "Cancer Res",
+      "pubdate": "2021 Apr 1",
+      "abstract": "GRP78 (glucose-regulated protein, 78 kDa) is a key regulator of endoplasmic reticulum (ER) stress signaling. Cancer cells are highly proliferative and have high demand for protein synthesis and folding, which results in significant stress on the ER. To respond to ER stress and maintain cellular homeostasis, cells activate the unfolded protein response (UPR) that promotes either survival or apoptotic death. Cancer cells utilize the UPR to promote survival and growth. In this study, we describe the discovery of a series of novel hydroxyquinoline GRP78 inhibitors. A representative analogue, YUM70, inhibited pancreatic cancer cell growth ",
+      "mesh": [
+        "A549 Cells",
+        "Animals",
+        "Apoptosis",
+        "Cell Line, Tumor",
+        "Endoplasmic Reticulum Chaperone BiP",
+        "Endoplasmic Reticulum Stress",
+        "Female",
+        "HCT116 Cells",
+        "HT29 Cells",
+        "Heat-Shock Proteins",
+        "Humans",
+        "Hydroxyquinolines",
+        "MCF-7 Cells",
+        "Mice",
+        "Mice, Nude",
+        "Pancreatic Neoplasms",
+        "Unfolded Protein Response",
+        "Xenograft Model Antitumor Assays"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "The Hydroxyquinoline Analogue YUM70 Inhibits GRP78 to Induce ER Stress\u2013Mediated Apoptosis in Pancreatic Cancer",
+      "first_author": "Samanta Soma",
+      "authors": [
+        "Samanta Soma",
+        "Yang Suhui",
+        "Debnath Bikash",
+        "Xue Ding",
+        "Kuang Yuting",
+        "Ramkumar Kavya",
+        "Lee Amy S.",
+        "Ljungman Mats",
+        "Neamati Nouri"
+      ],
+      "journal": "Cancer Research",
+      "year": "2021",
+      "type": "journal-article",
+      "publisher": "American Association for Cancer Research (AACR)"
+    }
+  },
+  "nasce2022_antiox": {
+    "row": {
+      "id": "nasce2022_antiox",
+      "citation": "Nasce et al., Antioxidants (Basel), 2022",
+      "doi": "10.3390/antiox11061131",
+      "year": "2022",
+      "type": "review",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "full_text_read",
+      "one_line_relevance": "Comprehensive review of hepatic redox homeostasis and NADPH oxidase isoforms (NOX1-5, DUOX1/2) linking NAFLD, DAG-PKCepsilon/JNK-IRS1/2 inhibition, and T2D (noting ~56% NAFLD prevalence in T2D and that NOX3 is documented in HepG2 cells while primary hepatocyte expression remains undetermined)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35740032/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "35740032",
+      "pmcid": "PMC9219746",
+      "title": "NADPH Oxidases Connecting Fatty Liver Disease, Insulin Resistance and Type 2 Diabetes: Current Knowledge and Therapeutic Outlook.",
+      "first_author": "Nasc\u00e8 A",
+      "authors": [
+        "Nasc\u00e8 A",
+        "Gariani K",
+        "Jornayvaz FR",
+        "Szanto I"
+      ],
+      "journal": "Antioxidants (Basel)",
+      "pubdate": "2022 Jun 9",
+      "abstract": "Nonalcoholic fatty liver disease (NAFLD), characterized by ectopic fat accumulation in hepatocytes, is closely linked to insulin resistance and is the most frequent complication of type 2 diabetes mellitus (T2DM). One of the features connecting NAFLD, insulin resistance and T2DM is cellular oxidative stress. Oxidative stress refers to a redox imbalance due to an inequity between the capacity of production and the elimination of reactive oxygen species (ROS). One of the major cellular ROS sources is NADPH oxidase enzymes (NOX-es). In physiological conditions, NOX-es produce ROS purposefully in a timely and spatially regulated manner and are crucial regulators of various cellular events linked to metabolism, receptor signal transmission, proliferation and apoptosis. In contrast, dysregulated NOX-derived ROS production is related to the onset of diverse pathologies. This review provides a synopsis of current knowledge concerning NOX enzymes as connective elements between NAFLD, insulin resistance and T2DM and weighs their potential relevance as pharmacological targets to alleviate fatty liver disease.",
+      "mesh": []
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "NADPH Oxidases Connecting Fatty Liver Disease, Insulin Resistance and Type 2 Diabetes: Current Knowledge and Therapeutic Outlook",
+      "first_author": "Nasc\u00e8 Alberto",
+      "authors": [
+        "Nasc\u00e8 Alberto",
+        "Gariani Karim",
+        "Jornayvaz Fran\u00e7ois R.",
+        "Szanto Ildiko"
+      ],
+      "journal": "Antioxidants",
+      "year": "2022",
+      "type": "journal-article",
+      "publisher": "MDPI AG"
+    }
+  },
+  "pan2022_ijerph": {
+    "row": {
+      "id": "pan2022_ijerph",
+      "citation": "Pan et al., Int J Environ Res Public Health, 2022",
+      "doi": "10.3390/ijerph192315965",
+      "year": "2022",
+      "type": "review",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Reviews GRP78 overexpression in obesity, fatty liver, and diabetes, small-molecule inhibitors targeting the GRP78 ATPase domain (including EGCG, DHM, and HA15), and GRP78-interacting proteins in lipid metabolism",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36498048/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "36498048",
+      "pmcid": "PMC9739731",
+      "title": "GRP78 Activity Moderation as a Therapeutic Treatment against Obesity.",
+      "first_author": "Pan D",
+      "authors": [
+        "Pan D",
+        "Yang Y",
+        "Nong A",
+        "Tang Z",
+        "Li QX"
+      ],
+      "journal": "Int J Environ Res Public Health",
+      "pubdate": "2022 Nov 30",
+      "abstract": "Glucose-regulated protein 78 (GRP78), a molecular chaperone, is overexpressed in patients suffering from obesity, fatty liver, hyperlipidemia and diabetes. GRP78, therefore, can be not only a biomarker to predict the progression and prognosis of obesity and metabolic diseases but also a potential therapeutic target for anti-obesity treatment. In this paper, GRP78 inhibitors targeting its ATPase domain have been reviewed. Small molecules and proteins that directly bind GRP78 have been described. Putative mechanisms of GRP78 in regulating lipid metabolism were also summarized so as to investigate the role of GRP78 in obesity and other related diseases and provide a theoretical basis for the development and design of anti-obesity drugs targeting GRP78.",
+      "mesh": [
+        "Humans",
+        "Endoplasmic Reticulum Chaperone BiP",
+        "Obesity"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "GRP78 Activity Moderation as a Therapeutic Treatment against Obesity",
+      "first_author": "Pan Dongjin",
+      "authors": [
+        "Pan Dongjin",
+        "Yang Yunzhu",
+        "Nong Aihua",
+        "Tang Zhenzhou",
+        "Li Qing X."
+      ],
+      "journal": "International Journal of Environmental Research and Public Health",
+      "year": "2022",
+      "type": "journal-article",
+      "publisher": "MDPI AG"
+    }
+  },
+  "angelini2022_natcommun": {
+    "row": {
+      "id": "angelini2022_natcommun",
+      "citation": "Angelini et al., Nat Commun, 2022",
+      "doi": "10.1038/s41467-022-35310-5",
+      "year": "2022",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Shows that continuous infusion of recombinant GRP78 and HSP70 induces hepatic and whole-body insulin resistance, hyperglycemia, and NASH in chow-fed rats, whereas monoclonal antibodies against GRP78/HSP70 reverse these phenotypes in HFD-fed rats, mimicking metabolic surgery",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36513656/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "36513656",
+      "pmcid": "PMC9748124",
+      "title": "Upper gut heat shock proteins HSP70 and GRP78 promote insulin resistance, hyperglycemia, and non-alcoholic steatohepatitis.",
+      "first_author": "Angelini G",
+      "authors": [
+        "Angelini G",
+        "Castagneto-Gissey L",
+        "Salinari S",
+        "Bertuzzi A",
+        "Anello D",
+        "Pradhan M",
+        "Zsch\u00e4tzsch M",
+        "Ritter P",
+        "Le Roux CW",
+        "Rubino F",
+        "Basso N",
+        "Casella G",
+        "Bornstein SR",
+        "Tremaroli V",
+        "Mingrone G"
+      ],
+      "journal": "Nat Commun",
+      "pubdate": "2022 Dec 13",
+      "abstract": "A high-fat diet increases the risk of insulin resistance, type-2 diabetes, and non-alcoholic steato-hepatitis. Here we identified two heat-shock proteins, Heat-Shock-Protein70 and Glucose-Regulated Protein78, which are increased in the jejunum of rats on a high-fat diet. We demonstrated a causal link between these proteins and hepatic and whole-body insulin-resistance, as well as the metabolic response to bariatric/metabolic surgery. Long-term continuous infusion of Heat-Shock-Protein70 and Glucose-Regulated Protein78 caused insulin-resistance, hyperglycemia, and non-alcoholic steato-hepatitis in rats on a chow diet, while in rats on a high-fat diet continuous infusion of monoclonal antibodies reversed these phenotypes, mimicking metabolic surgery. Infusion of these proteins or their antibodies was also associated with shifts in fecal microbiota composition. Serum levels of Heat-Shock-Protein70 and Glucose-Regulated Protein78were elevated in patients with non-alcoholic steato-hepatitis, but decreased following metabolic surgery. Understanding the intestinal regulation of metabolism may provide options to reverse metabolic diseases.",
+      "mesh": [
+        "Rats",
+        "Animals",
+        "Insulin Resistance",
+        "Endoplasmic Reticulum Chaperone BiP",
+        "Heat-Shock Proteins",
+        "Insulin",
+        "Non-alcoholic Fatty Liver Disease",
+        "Diet, High-Fat",
+        "HSP70 Heat-Shock Proteins",
+        "Liver",
+        "Hyperglycemia",
+        "Glucose",
+        "Hepatitis"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Upper gut heat shock proteins HSP70 and GRP78 promote insulin resistance, hyperglycemia, and non-alcoholic steatohepatitis",
+      "first_author": "Angelini Giulia",
+      "authors": [
+        "Angelini Giulia",
+        "Castagneto-Gissey Lidia",
+        "Salinari Serenella",
+        "Bertuzzi Alessandro",
+        "Anello Danila",
+        "Pradhan Meenakshi",
+        "Zsch\u00e4tzsch Marlen",
+        "Ritter Paul",
+        "Le Roux Carel W.",
+        "Rubino Francesco",
+        "Basso Nicola",
+        "Casella Giovanni",
+        "Bornstein Stefan R.",
+        "Tremaroli Valentina",
+        "Mingrone Geltrude"
+      ],
+      "journal": "Nature Communications",
+      "year": "2022",
+      "type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC"
+    }
+  },
+  "depaoli2024_ijms": {
+    "row": {
+      "id": "depaoli2024_ijms",
+      "citation": "De Paoli et al., Int J Mol Sci, 2024",
+      "doi": "10.3390/ijms25031816",
+      "year": "2024",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Shows in sexually dimorphic ApoE-/-:Ins2+/Akita mice and BTC6 beta cells that male and ovariectomized female mice have elevated apoptotic UPR markers, whereas 17-beta estradiol supplementation represses apoptotic UPR and enhances adaptive UPR",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38339098/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "38339098",
+      "pmcid": "PMC10855194",
+      "title": "Investigating the Role of 17-Beta Estradiol in the Regulation of the Unfolded Protein Response (UPR) in Pancreatic Beta Cells.",
+      "first_author": "De Paoli M",
+      "authors": [
+        "De Paoli M",
+        "Shah D",
+        "Zakharia A",
+        "Patel Z",
+        "Patel Z",
+        "Pakhi P",
+        "Werstuck GH"
+      ],
+      "journal": "Int J Mol Sci",
+      "pubdate": "2024 Feb 2",
+      "abstract": "Diabetes mellitus is clinically defined by chronic hyperglycemia. Sex differences in the presentation and outcome of diabetes exist with premenopausal women having a reduced risk of developing diabetes, relative to men, or women after menopause. Accumulating evidence shows a protective role of estrogens, specifically 17-beta estradiol, in the maintenance of pancreatic beta cell health; however, the mechanisms underlying this protection are still unknown. To elucidate these potential mechanisms, we used a pancreatic beta cell line (BTC6) and a mouse model of hyperglycemia-induced atherosclerosis, the ApoE",
+      "mesh": [
+        "Humans",
+        "Female",
+        "Mice",
+        "Male",
+        "Animals",
+        "Insulin-Secreting Cells",
+        "Estradiol",
+        "Unfolded Protein Response",
+        "Diabetes Mellitus",
+        "Endoplasmic Reticulum Stress",
+        "Hyperglycemia",
+        "Apolipoproteins E"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Investigating the Role of 17-Beta Estradiol in the Regulation of the Unfolded Protein Response (UPR) in Pancreatic Beta Cells",
+      "first_author": "De Paoli Monica",
+      "authors": [
+        "De Paoli Monica",
+        "Shah Deep",
+        "Zakharia Alexander",
+        "Patel Zil",
+        "Patel Zinal",
+        "Pakhi Pakhi",
+        "Werstuck Geoff H."
+      ],
+      "journal": "International Journal of Molecular Sciences",
+      "year": "2024",
+      "type": "journal-article",
+      "publisher": "MDPI AG"
+    }
+  },
+  "alves2025_pathophys": {
+    "row": {
+      "id": "alves2025_pathophys",
+      "citation": "Alves et al., Pathophysiology, 2025",
+      "doi": "10.3390/pathophysiology32010001",
+      "year": "2025",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "AAV-mediated hepatic ER-alpha overexpression in male C57BL/6J mice (n=8-10/group, 6 weeks) reduces body fat by 28%, increases primary hepatocyte basal (19%) and maximal (34%) respiration, and in HFD-fed mice decreases hepatic triglycerides by 43% while improving hepatic insulin sensitivity by 145%",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39846638/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "39846638",
+      "pmcid": "PMC11755535",
+      "title": "Hepatic Estrogen Receptor Alpha Overexpression Protects Against Hepatic Insulin Resistance and MASLD.",
+      "first_author": "Alves ES",
+      "authors": [
+        "Alves ES",
+        "Santos JDM",
+        "Cruz AG",
+        "Camargo FN",
+        "Talarico CHZ",
+        "Santos ARM",
+        "Silva CAA",
+        "Morgan HJN",
+        "Matos SL",
+        "Araujo LCC",
+        "Camporez JP"
+      ],
+      "journal": "Pathophysiology",
+      "pubdate": "2025 Jan 3",
+      "abstract": "",
+      "mesh": []
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Hepatic Estrogen Receptor Alpha Overexpression Protects Against Hepatic Insulin Resistance and MASLD",
+      "first_author": "Alves Ester S.",
+      "authors": [
+        "Alves Ester S.",
+        "Santos Jessica D. M.",
+        "Cruz Alessandra G.",
+        "Camargo Felipe N.",
+        "Talarico Carlos H. Z.",
+        "Santos Anne R. M.",
+        "Silva Carlos A. A.",
+        "Morgan Henrique J. N.",
+        "Matos Sandro L.",
+        "Araujo Layanne C. C.",
+        "Camporez Jo\u00e3o Paulo"
+      ],
+      "journal": "Pathophysiology",
+      "year": "2025",
+      "type": "journal-article",
+      "publisher": "MDPI AG"
+    }
+  },
+  "depaoli2025_jes": {
+    "row": {
+      "id": "depaoli2025_jes",
+      "citation": "De Paoli et al., J Endocr Soc, 2025",
+      "doi": "10.1210/jendso/bvaf048",
+      "year": "2025",
+      "type": "primary",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "full_text_read",
+      "one_line_relevance": "In sexually dimorphic TALLYHO/JngJ mice (n=4-10/group), males (by 5 wk, fasting glucose 27.55 vs 7.9 mmol/L in females) and ovariectomized females (by 12 wk) develop chronic hyperglycemia (>15 mM) with increased islet GRP78/GRP94 and (in OVX females) GADD153/CHOP; 4-PBA (1 g/kg/day) reduces GRP78/GRP94 and improves glucose tolerance",
+      "source_url": "https://academic.oup.com/jes/article/9/5/bvaf048/8078772",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "40191018",
+      "pmcid": "PMC11968335",
+      "title": "The Role of Estrogen and ER Stress in Glycemic Regulation in the Sexually Dimorphic TALLYHO/JngJ Mouse Model of Diabetes.",
+      "first_author": "De Paoli M",
+      "authors": [
+        "De Paoli M",
+        "Patel Z",
+        "Fang S",
+        "Werstuck GH"
+      ],
+      "journal": "J Endocr Soc",
+      "pubdate": "2025 May",
+      "abstract": "The global incidence of diabetes mellitus is increasing, causing a heavy burden on health care management and costs. Sex differences in the incidence and prevalence of diabetes mellitus do exist, with premenopausal women being protected from developing this disease, compared to men or postmenopausal women. The mechanisms underlying these differences are not yet known and experimental animal models can significantly advance our understanding of these processes. In this study we characterized a mouse model of polygenic type 2 diabetes, the TALLYHO/JngJ mouse, which shows sexual dimorphism in blood glucose regulation. Male TALLYHO/JngJ mice develop chronic hyperglycemia by 5 weeks of age, while females remain normoglycemic. We analyzed the role of endoplasmic reticulum (ER) stress and the activation of the unfolded protein response (UPR) in the development of hyperglycemia in this mouse model. Additionally, we evaluated the effect of estrogen depletion in female TALLYHO/JngJ mice through ovariectomies. Ovariectomized female mice and males become chronically hyperglycemic (fasting blood glucose threshold >15\u2005mM) and show significantly increased expression of GRP78/GRP94, markers of the adaptive unfolded protein response (UPR). GADD153/CHOP, a marker of the apoptotic UPR, is significantly increased in ovariectomized female mice. Treatment with a chemical chaperone 4-PBA, an ER stress alleviator, improves but does not normalize blood glucose levels in male and ovariectomized female TALLYHO/JngJ mice. Together, these findings support a protective role for estrogen and identify the UPR as a pathway through which estrogen may maintain pancreatic beta cell health.",
+      "mesh": []
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "The Role of Estrogen and ER Stress in Glycemic Regulation in the Sexually Dimorphic TALLYHO/JngJ Mouse Model of Diabetes",
+      "first_author": "De Paoli Monica",
+      "authors": [
+        "De Paoli Monica",
+        "Patel Zinal",
+        "Fang Susanna",
+        "Werstuck Geoff H"
+      ],
+      "journal": "Journal of the Endocrine Society",
+      "year": "2025",
+      "type": "journal-article",
+      "publisher": "The Endocrine Society"
+    }
+  },
+  "lee2025_pnas": {
+    "row": {
+      "id": "lee2025_pnas",
+      "citation": "Lee, Proc Natl Acad Sci U S A, 2025",
+      "doi": "10.1073/pnas.2412246122",
+      "year": "2025",
+      "type": "review",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "Perspective reviewing ER stress-induced translocation of GRP78/BiP (HSPA5) to the cell surface as a signaling receptor and to the nucleus as a transcriptional regulator, and its therapeutic targeting across human diseases",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40699920/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "40699920",
+      "pmcid": "PMC12318151",
+      "title": "Stress-induced translocation of the endoplasmic reticulum chaperone GRP78/BiP and its impact on human disease and therapy.",
+      "first_author": "Lee AS",
+      "authors": [
+        "Lee AS"
+      ],
+      "journal": "Proc Natl Acad Sci U S A",
+      "pubdate": "2025 Jul 29",
+      "abstract": "Since their discoveries in the 1960s as a family of proteins produced by cells in response to stress, molecular chaperones are increasingly recognized as major regulators of cellular homeostasis in health and disease. Among the heat shock protein 70 family, the 78-kDa glucose-regulated protein (GRP78), also referred to as BiP and encoded by the ",
+      "mesh": [
+        "Animals",
+        "Humans",
+        "COVID-19",
+        "Endoplasmic Reticulum",
+        "Endoplasmic Reticulum Chaperone BiP",
+        "Endoplasmic Reticulum Stress",
+        "Heat-Shock Proteins",
+        "Neoplasms",
+        "Protein Transport",
+        "Unfolded Protein Response"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Stress-induced translocation of the endoplasmic reticulum chaperone GRP78/BiP and its impact on human disease and therapy",
+      "first_author": "Lee Amy S.",
+      "authors": [
+        "Lee Amy S."
+      ],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": "2025",
+      "type": "journal-article",
+      "publisher": "National Academy of Sciences"
+    }
+  },
+  "yang2026_cells": {
+    "row": {
+      "id": "yang2026_cells",
+      "citation": "Yang et al., Cells, 2026",
+      "doi": "10.3390/cells15020109",
+      "year": "2026",
+      "type": "review",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "abstract_only",
+      "one_line_relevance": "2026 review of 25 years of Foxo1 research detailing multi-hormonal control of Foxo1, hepatocyte vs myeloid cell-specific roles in gluconeogenesis, SREBP-1c lipogenesis suppression, ATGL lipolysis, and inter-organ crosstalk in insulin resistance",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41597184/",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "41597184",
+      "pmcid": "PMC12838618",
+      "title": "Studies of Foxo1 over the Past 25 Years: Mechanisms of Insulin Resistance and Glucose Dysregulation.",
+      "first_author": "Yang W",
+      "authors": [
+        "Yang W",
+        "Guo J",
+        "Song J",
+        "Guo S"
+      ],
+      "journal": "Cells",
+      "pubdate": "2026 Jan 8",
+      "abstract": "Forkhead box protein O1 (Foxo1) is an insulin-suppressed transcription factor that governs multiple biological processes, including cell proliferation, apoptosis, autophagy, mitochondrial function, and energy metabolism. Over the past 25 years, Foxo1 has evolved from a liner insulin effector to a pleiotropic integrator of systemic metabolic stress during obesity and aging. Foxo1 integrates hormonal signals with energy balance and plays a central role in glucose and lipid metabolism, organ homeostasis, and immune responses. Given its pleiotropic functions, therapeutic targeting of Foxo1 pathway will require a nuanced, context-specific approach. Here, we reviewed key advances in Foxo1 studies over the past 25 years, including multi-hormonal control of Foxo1 activity, Foxo1-mediated inter-organ crosstalk, immune modulation, and contributions to aging-associated pathologies. Understanding the regulation of Foxo1 and its pleiotropic function across multiple tissues will advance insight into the pathogenesis of metabolic diseases and promote the translation potential of Foxo1 signaling manipulation for the treatment of metabolic disorders, including insulin resistance and type 2 diabetes.",
+      "mesh": [
+        "Humans",
+        "Forkhead Box Protein O1",
+        "Insulin Resistance",
+        "Animals",
+        "Glucose",
+        "Signal Transduction",
+        "Energy Metabolism"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Studies of Foxo1 over the Past 25 Years: Mechanisms of Insulin Resistance and Glucose Dysregulation",
+      "first_author": "Yang Wanbao",
+      "authors": [
+        "Yang Wanbao",
+        "Guo Jeffrey",
+        "Song Jianxun",
+        "Guo Shaodong"
+      ],
+      "journal": "Cells",
+      "year": "2026",
+      "type": "journal-article",
+      "publisher": "MDPI AG"
+    }
+  },
+  "franczak2026_biorxiv": {
+    "row": {
+      "id": "franczak2026_biorxiv",
+      "citation": "Franczak et al., bioRxiv, 2026",
+      "doi": "10.64898/2026.02.22.706993",
+      "year": "2026",
+      "type": "preprint",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "full_text_read",
+      "one_line_relevance": "PREPRINT; in middle-aged (36-40 wk) ovariectomized HFD-fed female mice (n=9-11/group), 17beta-estradiol replacement lowers hepatic triglycerides and mitochondrial H2O2 in both control and AAV-Cre hepatocyte ER-alpha knockout (LERKO) mice, but requires hepatocyte ER-alpha to stimulate palmitoyl-CoA-supported basal and State 3 mitochondrial respiration",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.22.706993v1",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "42124645",
+      "pmcid": "PMC13160098",
+      "title": "Hepatocyte Estrogen Receptor \u03b1 Mediates Estrogen-induced Augmentation of Hepatic Mitochondrial Respiration Following Ovariectomy.",
+      "first_author": "Franczak E",
+      "authors": [
+        "Franczak E",
+        "Kugler BA",
+        "Salathe SF",
+        "Allen JA",
+        "McCoin CS",
+        "Morris EM",
+        "Thyfault JP"
+      ],
+      "journal": "bioRxiv",
+      "pubdate": "2026 Feb 23",
+      "abstract": "Whole-body estrogen receptor \u03b1 (ER\u03b1) knockout mice develop hepatic steatosis; however, liver-specific ER\u03b1 knockout (LERKO) mice fail to recapitulate this susceptibility and maintain normal hepatic mitochondrial function. However, estrogen-mediated protection against hepatic steatosis is lost in LERKO mice following ovariectomy (OVX). Here, we tested whether loss of hepatic ER\u03b1 blunts estrogen modulation of hepatic mitochondrial respiratory capacity and mitochondrial proteome following ovariectomy (OVX). Sham or ovariectomy (OVX) surgery was performed in middle-aged female mice (36-40 weeks), followed by AAV injection to generate Control (Con; GFP) or LERKO mice (Cre). All mice were placed on a high-fat diet (HFD) for 10 weeks following surgery. Half of the OVX mice received 17-beta estradiol (E2) replacement (OVX+E2) for the last 4 weeks of HFD. OVX mice had greater body mass and adiposity, which was reversed by E2 replacement in both Con and LERKO mice. While E2 replacement reduced steatosis in both Con and LERKO OVX mice, the LERKO OVX mice maintained greater hepatic triglyceride content. E2 replacement promoted greater basal and ADP-stimulated (State 3) mitochondrial respiration in Con OVX but not in LERKO OVX mice under palmitate-supported conditions. Changes in mitochondrial respiration could not be attributed to altered responses to changes in energy demand (G ",
+      "mesh": []
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "Hepatocyte Estrogen Receptor \u03b1 Mediates Estrogen-induced Augmentation of Hepatic Mitochondrial Respiration Following Ovariectomy",
+      "first_author": "Franczak Edziu",
+      "authors": [
+        "Franczak Edziu",
+        "Kugler Benjamin A.",
+        "Salathe Sebastian F.",
+        "Allen Julie A.",
+        "McCoin Colin S.",
+        "Morris E. Matthew",
+        "Thyfault John P."
+      ],
+      "journal": "",
+      "year": "2026",
+      "type": "posted-content",
+      "publisher": "openRxiv"
+    }
+  },
+  "li2026_theranostics": {
+    "row": {
+      "id": "li2026_theranostics",
+      "citation": "Li et al., Theranostics, 2026",
+      "doi": "10.7150/thno.136060",
+      "year": "2026",
+      "type": "review",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "full_text_read",
+      "one_line_relevance": "2026 comprehensive review of GRP78 structure (NBD/SBD allostery), 8 post-translational modifications (Thr453/473/500 phosphorylation, Arg470/492 ADP-ribosylation, Lys585 methylation, Cys420 palmitoylation/sulfhydration, Lys633 acetylation), IRE1alpha-SRC-ASAP1 cell-surface translocation, PP2A/Akt survival signaling, and small-molecule inhibitors (HA15, YUM70, sanguinarine IC50 = 8.6 uM)",
+      "source_url": "https://www.thno.org/v16p7196.htm",
+      "verified": "no"
+    },
+    "pubmed": {
+      "source": "pubmed",
+      "pmid": "42370180",
+      "pmcid": "PMC13294974",
+      "title": "GRP78 in human diseases: From molecular chaperone to therapeutic target.",
+      "first_author": "Li Y",
+      "authors": [
+        "Li Y",
+        "Mu D",
+        "Feng J",
+        "Li Z",
+        "Zhang L",
+        "Wang L"
+      ],
+      "journal": "Theranostics",
+      "pubdate": "2026",
+      "abstract": "Glucose-regulated Protein 78 (GRP78, also known as BiP/HSPA5) is a central member of the Hsp70 family. As a key molecular chaperone in the endoplasmic reticulum (ER), it plays an important role in cell survival and biological function by maintaining protein folding homeostasis and regulating endoplasmic reticulum stress (ERS) and the unfolded protein response (UPR). Its function is precisely regulated by various post-translational modifications (PTMs), including phosphorylation and acetylation. In addition, GRP78 can translocate to subcellular locations such as the cell membrane and nucleus, where it performs non-classical functions under stress conditions. Under pathological states, the aberrant expression and function of GRP78 are extensively involved in the onset and progression of diverse human diseases, including cancer, neurodegenerative diseases, infectious diseases, cardiovascular diseases, inflammatory diseases and metabolic diseases, and often exhibit a dual role dependent on tissue specificity and disease stage. To date, a variety of intervention strategies have been developed, such as small-molecule modulators, antibodies and genetic intervention approaches. These strategies have demonstrated promising potential in preclinical studies, yet are confronted with challenges including insufficient specificity and delayed clinical translation. This paper systematically elucidates the structure, PTMs, biological functions and disease regulatory mechanisms of GRP78, summarizes the existing intervention strategies, and discusses the unresolved issues and future research directions in this field. Future research should focus on developing highly specific regulatory tools and integrating precision medicine strategies to advance the clinical translation and application of GRP78 as a therapeutic target.",
+      "mesh": [
+        "Humans",
+        "Endoplasmic Reticulum Chaperone BiP",
+        "Heat-Shock Proteins",
+        "Protein Processing, Post-Translational",
+        "Animals",
+        "Unfolded Protein Response",
+        "Molecular Chaperones",
+        "Endoplasmic Reticulum Stress",
+        "Neoplasms"
+      ]
+    },
+    "crossref": {
+      "source": "crossref",
+      "title": "GRP78 in human diseases: From molecular chaperone to therapeutic target",
+      "first_author": "Li Yang",
+      "authors": [
+        "Li Yang",
+        "Mu Dan",
+        "Feng Jiajie",
+        "Li Zhijia",
+        "Zhang Lan",
+        "Wang Lei"
+      ],
+      "journal": "Theranostics",
+      "year": "2026",
+      "type": "journal-article",
+      "publisher": "Ivyspring International Publisher"
+    }
+  },
+  "monteillet2026_biorxiv": {
+    "row": {
+      "id": "monteillet2026_biorxiv",
+      "citation": "Monteillet et al., bioRxiv, 2026",
+      "doi": "10.64898/2026.07.18.739339",
+      "year": "2026",
+      "type": "preprint",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "full_text_read",
+      "one_line_relevance": "PREPRINT; shows beta-cell adaptor NCK1 is reduced in human T2D islets and that beta-cell-specific Nck1 knockout (NCK1betaKO) mice on a 23-week HF/HS diet exhibit sex-specific UPR adaptation: males increase PERK activity, beta-cell proliferation, and islet size to maintain insulin secretion, whereas females have reduced PERK activity, ~50% lower CyclinA/B mRNA, small islets, and impaired insulin secretion",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.18.739339v1",
+      "verified": "no"
+    },
+    "pubmed": null,
+    "crossref": {
+      "source": "crossref",
+      "title": "\u03b2-cell NCK1 is reduced in type 2 diabetes, leading to inefficient \u03b2-cell UPR and insulin secretion and revealing sex-specific adaptation during metabolic stress",
+      "first_author": "Monteillet L.",
+      "authors": [
+        "Monteillet L.",
+        "Jouvet N.",
+        "Huet R.",
+        "Touzot J.",
+        "Grieco-St-Pierre L.",
+        "Galipeau M.",
+        "Schmitt C.",
+        "Schoumacher M.",
+        "Courty E.",
+        "Baldwin C.",
+        "Paraskevas S.",
+        "Estall J.L."
+      ],
+      "journal": "",
+      "year": "2026",
+      "type": "posted-content",
+      "publisher": "openRxiv"
+    }
+  },
+  "cruzvillarreal2026_kp": {
+    "row": {
+      "id": "cruzvillarreal2026_kp",
+      "citation": "Cruz-Villarreal et al., Kinases Phosphatases, 2026",
+      "doi": "10.3390/kinasesphosphatases4030025",
+      "year": "2026",
+      "type": "review",
+      "thread": "Thread 2",
+      "access": "open",
+      "status": "full_text_read",
+      "one_line_relevance": "2026 review of conventional, novel, and atypical PKC isoforms in insulin signaling and metabolic syndrome, detailing DAG-PKCepsilon phosphorylation of human InsR at Thr1160, PKCzeta inhibitory phosphorylation of IRS-1 at Ser323/318, and aPKC/PKCdelta/PKCbetaII activation of SREBP-1c lipogenesis",
+      "source_url": "https://www.mdpi.com/2813-3757/4/3/25",
+      "verified": "no"
+    },
+    "pubmed": null,
+    "crossref": {
+      "source": "crossref",
+      "title": "Role of Protein Kinase C in Insulin Resistance and Metabolic Syndrome",
+      "first_author": "Cruz-Villarreal Daphne E.",
+      "authors": [
+        "Cruz-Villarreal Daphne E.",
+        "Hernandez-Gonzalez Karla D.",
+        "Olivares-Reyes J. Alberto"
+      ],
+      "journal": "Kinases and Phosphatases",
+      "year": "2026",
+      "type": "journal-article",
+      "publisher": "MDPI AG"
+    }
   }
 }
