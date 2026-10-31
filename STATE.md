@@ -70,6 +70,12 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Flagged cell-type constraint in `zhang2013_plosone` (used breast/prostate cancer cells, not hepatocytes).
   - Verified quantitative figures against abstracts and open full-text captions (`alves2025_pathophys`, `depaoli2025_jes`, `matsumoto2003_jci`).
   - Authored comprehensive verification report in [docs/thread2_verification.md](docs/thread2_verification.md).
+- [x] **Thread 2 Audit Addendum Complete:**
+  - Evaluated laboratory independence across all 9 Established knowledge summary bullets: identified single-lab dependencies for hepatocyte NOX3 (`li2010_febslett`/`gao2010_jbc`, Jian Li lab), in vivo hepatocyte $G_q$ chemogenetics (`li2013_endocrinology`, Jürgen Wess lab), circulating GRP78 infusion in NASH (`angelini2022_natcommun`, Geltrude Mingrone lab), and allosteric YUM70 GRP78 ATPase inhibition (`samanta2021_canres`, Pinku Mukherjee lab).
+  - Formalized dedicated structured entry on the GRP78 mechanistic paradox reconciling intracellular chaperone folding (`kammoun2009_jci`), heterozygous adaptive UPR hormesis (`ye2010_diabetes`), and circulating pathogenic GRP78 signaling (`angelini2022_natcommun`).
+  - Audited biological sex reporting across abstracts: identified exactly 25 rows where sex was unstated (`sex=NOT_READ`) vs 7 rows where sex was explicitly reported.
+  - Audited one-liner claims exceeding abstract statements: catalogued 8 rows with specific locators (figure captions and full-text methods).
+  - Documented findings in [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [ ] Execute searches for Threads 1, 2, 4, 5, 6.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).

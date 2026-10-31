@@ -72,6 +72,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/search_strategy.md](docs/search_strategy.md) | Comprehensive search strategy, databases, queries, and PRISMA inclusion criteria |
 | [docs/tool_usage_log.md](docs/tool_usage_log.md) | External tool usage log tracking Exa queries and Firecrawl credit consumption |
 | [docs/thread2_verification.md](docs/thread2_verification.md) | Thread 2 audit report: verification of 32 signaling studies against PubMed/Crossref |
+| [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) | Thread 2 audit addendum: laboratory independence, GRP78 paradox, sex reporting, and one-liner audit |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
