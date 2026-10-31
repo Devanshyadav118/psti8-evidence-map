@@ -29,8 +29,17 @@ PSTi8 = pancreastatin inhibitor peptide, sequence PEGKGEQEHSQQKEEEEEMAV-NH₂.
 | `docs/decisions/` | Short dated decision records |
 | `docs/research_plan.md` | Phase 1 research plan: 6 topic threads, queries, criteria |
 | `docs/search_log.md` | Reproducible log of every literature search performed |
+| `docs/tool_usage_log.md` | Usage log for external tools (Exa, Firecrawl) |
 | `notes/topics/` | One synthesis note per research topic thread |
 | `data/papers_registry.csv` | Master registry of all papers encountered (any thread) |
+
+## Tool Usage Policy
+
+1. **Exa:** Discovery and semantic search. Use freely and log queries in `docs/tool_usage_log.md`.
+2. **Firecrawl:** Hard budget of 1,000 credits total. Use only to scrape one specific open-access page (`firecrawl_scrape`). Never crawl or map (`firecrawl_crawl`, `firecrawl_map` prohibited). Maximum 25 pages per task unless the user explicitly approves.
+3. **Citation Verification Gate:** PubMed and Crossref remain the authoritative gate for verifying any citation, DOI, author list, or publication metadata before it enters `data/papers_registry.csv` or `data/evidence_table.csv`.
+4. **Security & Secrets:** Never store or commit API keys, access tokens, `.env` files, or MCP configuration files in this repository. All credentials must reside exclusively in user configuration.
+5. **Copyright:** Never commit full text of copyrighted or paywalled papers to the repository. Only open-access extracts, paraphrased notes, and summary tables with locators may be stored.
 
 ## Rules
 

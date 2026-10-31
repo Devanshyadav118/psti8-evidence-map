@@ -1,2 +1,18 @@
 .obsidian/
 *.pdf
+
+# Cache and full texts
+data/fulltext_cache/
+fulltext_cache/
+
+# Credentials, secrets, and environment files
+.env
+.env.*
+*.env
+*.key
+*.token
+
+# Local MCP configs
+*mcp*.json
+mcp-config.json
+.mcp/

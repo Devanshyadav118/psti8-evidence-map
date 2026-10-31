@@ -55,6 +55,11 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Documented in [docs/decisions/2026-10-31_license-cc-by-4.0.md](docs/decisions/2026-10-31_license-cc-by-4.0.md).
 - [x] **Repository Consistency & Indexing:**
   - Audited and updated [INDEX.md](INDEX.md) to catalogue `LICENSE`, all analytical scripts in `scripts/`, staging datasets, and new decision records with zero broken links.
+- [x] **MCP Tool Integration & Usage Policy:**
+  - Formulated and documented Tool Usage Policy in [AGENTS.md](AGENTS.md): Exa for semantic search/discovery; Firecrawl for single-page open-access scrapes with strict 1,000 credit cap (never crawl/map, max 25 pages/task); PubMed/Crossref as gate for citation verification; strict exclusion of credentials and full text.
+  - Added `data/fulltext_cache/`, `*.env`, and local MCP config files to [.gitignore](.gitignore).
+  - Created [docs/tool_usage_log.md](docs/tool_usage_log.md) tracking queries, URLs, purposes, and credit usage.
+  - Tested both MCP tools: verified Exa semantic search on `"PSTi8 pancreastatin inhibitor"` and Firecrawl single-page scrape on open-access article `PMC5992141` (2 credits consumed, 998 remaining).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [ ] Execute searches for Threads 1, 2, 4, 5, 6.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
