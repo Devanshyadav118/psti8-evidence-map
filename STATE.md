@@ -48,6 +48,13 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Uncovered 4 major pre-existing DOI errors in repo catalog (`valicherla2018`, `singh2020_heliyon`, `valicherla2022_pk`, `tshikudi2024_colitis`).
   - Archived old ungrounded registry to [data/staging/papers_registry_seed_old.csv](data/staging/papers_registry_seed_old.csv) and rebuilt [data/papers_registry.csv](data/papers_registry.csv) with 26 rows, `role` column, and honest `status` tags (`full_text_read` only for 4 verified open-access studies).
   - Corrected citations for `valicherla2018`, `reza2022_lfs`, and `dadge2023_nash` in [data/evidence_table.csv](data/evidence_table.csv); documented in [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) and [docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md](docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md).
+- [x] **Repository Licensing & Governance (CC BY 4.0):**
+  - Applied **Creative Commons Attribution 4.0 International (CC BY 4.0)** across the entire repository (including all datasets, markdown notes, and `scripts/`).
+  - Added [LICENSE](LICENSE) containing the full legal text with copyright holder Devansh Pratap Singh.
+  - Updated [README.md](README.md) with attribution guidelines and publisher copyright boundary notices.
+  - Documented in [docs/decisions/2026-10-31_license-cc-by-4.0.md](docs/decisions/2026-10-31_license-cc-by-4.0.md).
+- [x] **Repository Consistency & Indexing:**
+  - Audited and updated [INDEX.md](INDEX.md) to catalogue `LICENSE`, all analytical scripts in `scripts/`, staging datasets, and new decision records with zero broken links.
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [ ] Execute searches for Threads 1, 2, 4, 5, 6.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).

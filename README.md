@@ -29,3 +29,17 @@ All data points in this repository represent extracted summary values linked to 
 - `docs/search_strategy.md`: Systematic search strategy, databases, queries, and PRISMA-aligned inclusion/exclusion criteria.
 - `docs/power_analysis.md`: Detailed statistical power analysis documentation, mathematical derivation, and effect-size ranges.
 - `scripts/`: Reproducible Python analytical scripts for power calculations and verification.
+
+---
+
+## License
+
+This repository, including all datasets, documentation, scholarly notes, and code in `scripts/`, is licensed under the **Creative Commons Attribution 4.0 International Public License (CC BY 4.0)**. See the [LICENSE](LICENSE) file for the full legal text.
+
+### Attribution Requirement
+When sharing, adapting, citing, or distributing content from this repository, appropriate credit must be provided as follows:
+> Singh, Devansh Pratap (2026). *PSTi8 Evidence Map: Systematic Literature Audit and Preclinical Sex-Bias Review*. GitHub repository: [https://github.com/Devanshyadav118/psti8-evidence-map](https://github.com/Devanshyadav118/psti8-evidence-map)
+
+### Third-Party Literature Notice
+Cited primary research papers, journal articles, and publisher materials remain under their respective publishers' and authors' copyright. This repository contains only extracted values, summary statistics, bibliometrics, and original paraphrased scholarly notes.
+

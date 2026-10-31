@@ -9,7 +9,8 @@
 | [AGENTS.md](AGENTS.md) | Agent instructions: project goal, operational rules, schema constraints |
 | [CLAUDE.md](CLAUDE.md) | Standard redirect pointer → AGENTS.md |
 | [INDEX.md](INDEX.md) | This file — directory listing with one-line descriptions |
-| [README.md](README.md) | Project overview and scope boundary notice |
+| [LICENSE](LICENSE) | Creative Commons Attribution 4.0 International (CC BY 4.0) License |
+| [README.md](README.md) | Project overview, caveats, repository structure, and license notice |
 | [STATE.md](STATE.md) | Project status, completed tasks, next actions, and identified evidence gaps |
 
 ## sources/
@@ -49,6 +50,9 @@ Master tabular datasets and analytical outputs.
 | [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all papers encountered across all research threads |
 | [data/staging/papers_registry_seed_old.csv](data/staging/papers_registry_seed_old.csv) | Archived initial ungrounded seed of papers_registry.csv |
 | [data/staging/thread3_registry_unverified.csv](data/staging/thread3_registry_unverified.csv) | Verified Thread 3 staging registry with verification notes and bibliometric checks |
+| [data/staging/all_26_verified_raw.json](data/staging/all_26_verified_raw.json) | Raw PubMed and Crossref API responses for all 26 verified Thread 3 records |
+| [data/staging/thread3_argon_raw.md](data/staging/thread3_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 3 (primary PSTi8 studies) |
+| [data/staging/thread1_argon_raw.md](data/staging/thread1_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 1 (pancreastatin/CHGA biology) |
 
 ## docs/
 
@@ -56,7 +60,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 
 | File | Purpose |
 | :--- | :--- |
-| [docs/schema.md](docs/schema.md) | 20-column data dictionary and allowable value definitions for evidence table |
+| [docs/schema.md](docs/schema.md) | 22-column data dictionary and allowable value definitions for evidence table |
 | [docs/audit_report.md](docs/audit_report.md) | Task A audit report: sex-coverage matrix, estrous staging, scope boundaries |
 | [docs/power_analysis.md](docs/power_analysis.md) | Task B report: DAI extraction, interaction power modeling, sample size trade-offs |
 | [docs/spot_check_list.md](docs/spot_check_list.md) | Task C protocol: 10 randomized table rows with locators for independent audit |
@@ -67,15 +71,22 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
 | [docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md](docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md) | Decision record: fix registry seed DOIs, unsupported reading statuses, and archive old seed |
+| [docs/decisions/2026-10-31_license-cc-by-4.0.md](docs/decisions/2026-10-31_license-cc-by-4.0.md) | Decision record: CC BY 4.0 open repository license and attribution terms |
 
 ## scripts/
 
-Executable Python analysis tools.
+Executable Python analysis tools and automation scripts.
 
 | File | Purpose |
 | :--- | :--- |
 | [scripts/power_analysis.py](scripts/power_analysis.py) | Standalone Python script computing 2×2 factorial interaction power and sensitivity |
 | [scripts/sync.sh](scripts/sync.sh) | Automated sync script to stage, commit, pull, and push updates to GitHub |
+| [scripts/fetch_all_raw.py](scripts/fetch_all_raw.py) | Batch retrieval script fetching raw bibliometrics from PubMed and Crossref |
+| [scripts/verify_thread3.py](scripts/verify_thread3.py) | Verification harness auditing candidate literature against PubMed and Crossref |
+| [scripts/rebuild_papers_registry.py](scripts/rebuild_papers_registry.py) | Rebuild script syncing verified records into master papers registry |
+| [scripts/save_verified_csv.py](scripts/save_verified_csv.py) | Serializer formatting verified staging records to CSV |
+| [scripts/run_batch.py](scripts/run_batch.py) | CLI runner processing verification batches |
+| [scripts/update_evidence_table.py](scripts/update_evidence_table.py) | Utility updating citations and authenticated DOIs in evidence table |
 
 ## notes/topics/
 
