@@ -18,3 +18,4 @@ Every prompt given to an agent for this project is saved here before it runs.
 | 12 | [12_new_chat_starter.md](12_new_chat_starter.md) | Standardized starter prompt for opening new chat sessions in the Gemini Project | Gemini Project | Gemini 4 Argon | ready | 2026-10-31 | - |
 | 13 | [13_antigravity_save_prompts.md](13_antigravity_save_prompts.md) | Save prompt library into repo, index all prompts, and add prompt-saving & policy rules to AGENTS.md | Antigravity | Gemini 3.8 Flash (High) | done | 2026-11-01 | `ea9750c` |
 | 14 | [14_collect_structural_assets.md](14_collect_structural_assets.md) | Collect and verify 1D, 2D, and 3D molecular and structural assets for PST/PSTi8 and GRP78 | Antigravity | Gemini 3.8 Flash (High) | done | 2026-11-02 | `5819d87` |
+| 15 | [15_verify_thread6.md](15_verify_thread6.md) | Verify all Thread 6 (Methods and Reporting Standards) records against PubMed/Crossref | Antigravity | Gemini 3.8 Flash (High) | running | 2026-11-02 | - |
