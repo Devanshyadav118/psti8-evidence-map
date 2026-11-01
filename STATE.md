@@ -1,6 +1,6 @@
 # STATE.md — Project Status
 
-**Last Updated:** 2026-10-31  
+**Last Updated:** 2026-11-01  
 **Vault:** `psti8-sex-bias-review`
 
 ---
@@ -76,6 +76,10 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Audited biological sex reporting across abstracts: identified exactly 25 rows where sex was unstated (`sex=NOT_READ`) vs 7 rows where sex was explicitly reported.
   - Audited one-liner claims exceeding abstract statements: catalogued 8 rows with specific locators (figure captions and full-text methods).
   - Documented findings in [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md).
+- [x] **2026-11-01: Prompt library added:**
+  - Standardized prompt library established in [prompts/](prompts/) with 13 prompt files indexed in [prompts/INDEX.md](prompts/INDEX.md).
+  - Validated YAML frontmatter across all files (`prompt_id`, `slug`, `status`, `tool`, `model`).
+  - Added "Prompt Saving Rule" and extended "Tool Usage Policy" (free routes first, credit pre-approval, 15-word quote limit, Argon verification gate, single-lab network rule, MeSH sex provenance) to [AGENTS.md](AGENTS.md).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [ ] Execute searches for Threads 1, 2, 4, 5, 6.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).

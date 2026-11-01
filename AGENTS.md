@@ -32,6 +32,7 @@ PSTi8 = pancreastatin inhibitor peptide, sequence PEGKGEQEHSQQKEEEEEMAV-NH₂.
 | `docs/tool_usage_log.md` | Usage log for external tools (Exa, Firecrawl) |
 | `notes/topics/` | One synthesis note per research topic thread |
 | `data/papers_registry.csv` | Master registry of all papers encountered (any thread) |
+| `prompts/` | Permanent prompt library (one markdown file per prompt, indexed in [prompts/INDEX.md](prompts/INDEX.md)) |
 
 ## Tool Usage Policy
 
@@ -40,6 +41,18 @@ PSTi8 = pancreastatin inhibitor peptide, sequence PEGKGEQEHSQQKEEEEEMAV-NH₂.
 3. **Citation Verification Gate:** PubMed and Crossref remain the authoritative gate for verifying any citation, DOI, author list, or publication metadata before it enters `data/papers_registry.csv` or `data/evidence_table.csv`.
 4. **Security & Secrets:** Never store or commit API keys, access tokens, `.env` files, or MCP configuration files in this repository. All credentials must reside exclusively in user configuration.
 5. **Copyright:** Never commit full text of copyrighted or paywalled papers to the repository. Only open-access extracts, paraphrased notes, and summary tables with locators may be stored.
+6. **Try Free Routes First:** Always query free academic APIs (PubMed, Crossref, PMC, Europe PMC) before using Exa or Firecrawl. Use Exa or Firecrawl only when those free routes cannot answer.
+7. **Credit Pre-Approval:** Before any batch that would consume more than 10 credits, list planned calls and the credit estimate and wait for user approval.
+8. **Quote Length Limit:** Paraphrase only; no quote longer than 15 words in any file.
+9. **Argon Verification Rule:** Argon output is never trusted until verified against PubMed/Crossref.
+10. **Laboratory Independence Rule:** A lab network counts as one lab when assessing independent validation.
+11. **Sex Field Provenance Rule:** MeSH indexing is a hint, not a source for sex fields. Animal/human sex must be verified directly in the abstract or open text, otherwise marked `NOT_READ`.
+
+## Prompt Saving Rule
+1. Every prompt that a human gives to an agent for this project is saved verbatim in prompts/ as prompts/NN_slug.md BEFORE the agent starts the work (Step 0 of the prompt).
+2. Front matter: prompt_id, slug, status (running / done / failed / pending), tool, model, date.
+3. When the run ends, update status and add the repo commit hash. Never edit the prompt text after it has run; if it must change, save a new file with the next id.
+4. Keep prompts/INDEX.md in sync, and list prompts/ in INDEX.md.
 
 ## Rules
 

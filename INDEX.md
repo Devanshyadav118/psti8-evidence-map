@@ -102,3 +102,24 @@ Topic synthesis notes produced during Phase 1 research.
 | File | Purpose |
 | :--- | :--- |
 | *(empty — awaiting plan approval and search execution)* | |
+
+## prompts/
+
+Permanent prompt library storing every prompt given to an agent before execution.
+
+| File | Purpose |
+| :--- | :--- |
+| [prompts/INDEX.md](prompts/INDEX.md) | Prompts master index: id, slug, purpose, model, status, and commit tracking |
+| [prompts/01_tool_policy_setup.md](prompts/01_tool_policy_setup.md) | Prompt 01: Tool usage policy setup for Exa and Firecrawl |
+| [prompts/02_verify_thread1.md](prompts/02_verify_thread1.md) | Prompt 02: Verification of Thread 1 (pancreastatin/CHGA biology) literature |
+| [prompts/03_verify_thread_pattern.md](prompts/03_verify_thread_pattern.md) | Prompt 03: Verification prompt pattern for candidate threads |
+| [prompts/04_argon_search_template.md](prompts/04_argon_search_template.md) | Prompt 04: Argon literature search template (Google AI Studio) |
+| [prompts/05_thread2_audit_addendum.md](prompts/05_thread2_audit_addendum.md) | Prompt 05: Thread 2 audit addendum (lab independence, GRP78 conflict, sex reporting) |
+| [prompts/06_thread2_addendum_fixes.md](prompts/06_thread2_addendum_fixes.md) | Prompt 06: Fix quote lengths, inference labels, and sex provenance in Thread 2 addendum |
+| [prompts/07_merge_registries.md](prompts/07_merge_registries.md) | Prompt 07: Merge verified registries into master papers registry |
+| [prompts/08_add_thread3_to_evidence_table.md](prompts/08_add_thread3_to_evidence_table.md) | Prompt 08: Add new Thread 3 primary studies to master evidence table |
+| [prompts/09_fulltext_extraction.md](prompts/09_fulltext_extraction.md) | Prompt 09: Open-access full-text extraction |
+| [prompts/10_novelty_check_direction1.md](prompts/10_novelty_check_direction1.md) | Prompt 10: Novelty check for PSTi8 preclinical systematic reviews |
+| [prompts/11_gap_map.md](prompts/11_gap_map.md) | Prompt 11: Gap map synthesis and contribution direction selection |
+| [prompts/12_new_chat_starter.md](prompts/12_new_chat_starter.md) | Prompt 12: Starter prompt for new Gemini Project chat sessions |
+| [prompts/13_antigravity_save_prompts.md](prompts/13_antigravity_save_prompts.md) | Prompt 13: Save prompt library into repo and enforce prompt-saving rules |
