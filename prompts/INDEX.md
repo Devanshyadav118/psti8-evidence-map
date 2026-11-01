@@ -5,7 +5,7 @@ Every prompt given to an agent for this project is saved here before it runs.
 | id | file | what it does | tool | model | status | date | repo commit (if known) |
 |:---:|---|---|---|---|:---:|:---:|---|
 | 01 | [01_tool_policy_setup.md](01_tool_policy_setup.md) | Tool usage policy setup for Exa/Firecrawl, gitignore secrets/cache, create tool_usage_log.md | Antigravity | Gemini 3.8 Flash (High) | done | 2026-10-31 | `be74f43` |
-| 02 | [02_verify_thread1.md](02_verify_thread1.md) | Verify all 34 Thread 1 (pancreastatin/CHGA biology) rows against PubMed/Crossref | Antigravity | Gemini 3.8 Flash (High) | running | 2026-11-02 | - |
+| 02 | [02_verify_thread1.md](02_verify_thread1.md) | Verify all 34 Thread 1 (pancreastatin/CHGA biology) rows against PubMed/Crossref | Antigravity | Gemini 3.8 Flash (High) | done | 2026-11-02 | `5c40be1` |
 | 03 | [03_verify_thread_pattern.md](03_verify_thread_pattern.md) | Reusable verification prompt pattern for candidate threads (used for Thread 2; reuse for Threads 4–6) | Antigravity | Gemini 3.8 Flash (High) | template | 2026-10-31 | `96dc0fe` |
 | 04 | [04_argon_search_template.md](04_argon_search_template.md) | Argon literature search prompt template and scope blocks (AI Studio) for Threads 2, 4, 5, 6 | Google AI Studio | Gemini 4 Argon | template | 2026-10-31 | - |
 | 05 | [05_thread2_audit_addendum.md](05_thread2_audit_addendum.md) | Thread 2 audit addendum (lab independence, GRP78 conflict, sex reporting, one-liners) | Antigravity | Gemini 3.8 Flash (High) | done | 2026-10-31 | `35d3a8c` / `7893768` |
