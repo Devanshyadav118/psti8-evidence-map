@@ -80,7 +80,6 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Standardized prompt library established in [prompts/](prompts/) with 13 prompt files indexed in [prompts/INDEX.md](prompts/INDEX.md).
   - Validated YAML frontmatter across all files (`prompt_id`, `slug`, `status`, `tool`, `model`).
   - Added "Prompt Saving Rule" and extended "Tool Usage Policy" (free routes first, credit pre-approval, 15-word quote limit, Argon verification gate, single-lab network rule, MeSH sex provenance) to [AGENTS.md](AGENTS.md).
-- [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [x] **Threads 1, 2, 3, 6 searched and verified** (Thread 1 audited in [docs/thread1_verification.md](docs/thread1_verification.md); Thread 2 audited in [docs/thread2_verification.md](docs/thread2_verification.md); Thread 3 audited in [docs/thread3_verification.md](docs/thread3_verification.md); Thread 6 audited in [docs/thread6_verification.md](docs/thread6_verification.md)).
 - [ ] **Open Thread tasks:** Threads 4, 5 not searched.
 - [x] **2026-11-02: Direction 1 Novelty Check Complete:**
@@ -119,7 +118,16 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Verified that Phillips et al. 2023 (`10.1371/journal.pbio.3002129`) two-way ANOVA factorial power simulation without sample size doubling is accurately categorized as a single-lab simulation study under Contested.
   - Audited all quantitative claims in one-liners: separated abstract-level metrics from full-text-only locators and identified hallucinated metrics.
   - Authored comprehensive audit report in [docs/thread6_verification.md](docs/thread6_verification.md).
-- [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
+- [x] **2026-11-02: Merged verified staging registries into master data/papers_registry.csv:**
+  - Backed up initial 26-row Thread 3 registry to [data/staging/papers_registry_pre_merge.csv](data/staging/papers_registry_pre_merge.csv).
+  - Quarantined 3 unverified Thread 6 candidate records (`booth2020_systrev`, `vandervaart2020_jaha`, `vandernaald2024_jce`) to [data/staging/rejected_rows.csv](data/staging/rejected_rows.csv) with explicit reasons.
+  - Case-insensitively deduplicated DOIs across all threads: 0 cross-thread duplicate DOIs identified.
+  - Merged 90 new verified records (34 from Thread 1, 32 from Thread 2, 24 from Thread 6) into master registry, expanding [data/papers_registry.csv](data/papers_registry.csv) from 26 to **116 verified records** (exceeding 40–60 target).
+  - Added `published_version_of` column cross-linking preprints to published counterparts (`goand2022_ssrn` $\leftrightarrow$ `goand2023_peptides`, `muntjewerff2025_biorxiv` $\leftrightarrow$ `muntjewerff2025_commbiol`).
+  - Standardized controlled role vocabulary (`methods_reference`: 26, `primary_evidence`: 21, `background_mechanism`: 21, `pst_chga_biology`: 20, `review`: 18, `sex_estrogen`: 7, `context_only`: 3).
+  - Preserved existing Thread 3 corrections and metadata integrity without overwriting.
+  - Authored comprehensive audit report in [docs/registry_merge_report.md](docs/registry_merge_report.md).
+- [ ] Incorporate verified new primary studies into master evidence table (Prompt 08).
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
 - [ ] Identify 2–3 candidate contributions for Phase 2.
 

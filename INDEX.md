@@ -47,7 +47,9 @@ Master tabular datasets and analytical outputs.
 | :--- | :--- |
 | [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (11 studies × 22 schema columns) |
 | [data/power_results.csv](data/power_results.csv) | Statistical power analysis results across 33 sensitivity scenarios (t-distribution) |
-| [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all papers encountered across all research threads |
+| [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all 116 verified papers across Threads 1, 2, 3, and 6 |
+| [data/staging/papers_registry_pre_merge.csv](data/staging/papers_registry_pre_merge.csv) | Baseline pre-merge backup of papers_registry.csv (26 Thread 3 rows) |
+| [data/staging/rejected_rows.csv](data/staging/rejected_rows.csv) | Quarantined unverified candidate records (3 Thread 6 rows) |
 | [data/staging/papers_registry_seed_old.csv](data/staging/papers_registry_seed_old.csv) | Archived initial ungrounded seed of papers_registry.csv |
 | [data/staging/thread3_registry_unverified.csv](data/staging/thread3_registry_unverified.csv) | Verified Thread 3 staging registry with verification notes and bibliometric checks |
 | [data/staging/all_26_verified_raw.json](data/staging/all_26_verified_raw.json) | Raw PubMed and Crossref API responses for all 26 verified Thread 3 records |
@@ -85,6 +87,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) | Thread 2 audit addendum: laboratory independence, GRP78 paradox, sex reporting, and one-liner audit |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
 | [docs/thread6_verification.md](docs/thread6_verification.md) | Thread 6 audit report: verification of 27 methods and reporting studies against PubMed/Crossref |
+| [docs/registry_merge_report.md](docs/registry_merge_report.md) | Registry merge report: consolidation of Threads 1, 2, 3, and 6 into master papers registry (116 records) |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md) | Direction 1 novelty assessment: Exa search log, existing review critique, and verdict |
 | [docs/structural_data_inventory.md](docs/structural_data_inventory.md) | Inventory of 1D/2D/3D structural assets, physicochemical comparisons, and AlphaFold 3 co-folding job inputs |
@@ -110,6 +113,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/update_evidence_table.py](scripts/update_evidence_table.py) | Utility updating citations and authenticated DOIs in evidence table |
 | [scripts/collect_structures.py](scripts/collect_structures.py) | Automated pipeline retrieving and generating 1D, 2D, and 3D structural assets via UniProt, RCSB PDB, AlphaFold DB, and RDKit |
 | [scripts/verify_thread6.py](scripts/verify_thread6.py) | Verification harness auditing Thread 6 candidate literature against PubMed and Crossref |
+| [scripts/merge_registries.py](scripts/merge_registries.py) | Automated merge script consolidating verified staging registries into master data/papers_registry.csv |
 
 ## notes/topics/
 
