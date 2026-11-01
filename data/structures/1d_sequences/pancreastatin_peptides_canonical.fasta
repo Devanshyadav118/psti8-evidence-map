@@ -1,0 +1,16 @@
+>human_psti8_21 PSTi8 (21-mer inhibitor) | Species: Human | Coords: 273-293 (Mature) / 291-311 (Preprotein)
+PEGKGEQEHSQQKEEEEEMAV
+>human_wt_pst_29 Pancreastatin WT (29-mer) | Species: Human | Coords: 273-301 (Mature) / 291-319 (Preprotein)
+PEGKGEQEHSQQKEEEEEMAVVPQGLFRG
+>human_g297s_pst_29 Pancreastatin Gly297Ser (29-mer) | Species: Human | Coords: 273-301 with rs9658664 G297S
+PEGKGEQEHSQQKEEEEEMAVVPQSLFRG
+>human_e287k_pst_29 Pancreastatin Glu287Lys (29-mer) | Species: Human | Coords: 273-301 with E287K
+PEGKGEQEHSQQKEKEEEMAVVPQGLFRG
+>human_pst_52 Pancreastatin full (52-mer) | Species: Human | Coords: 250-301 (Mature) / 268-319 (Preprotein)
+GESRSEALAVDGAGKPGAEEAQDPEGKGEQEHSQQKEEEEEMAVVPQGLFRG
+>cleaved_c_term_8 PST C-terminal 8-mer (cleaved in PSTi8) | Species: Human | Coords: 294-301 (Mature) / 312-319 (Preprotein)
+VPQGLFRG
+>mouse_pst_54 Mouse Pancreastatin (54-mer) | Species: Mouse | Coords: 276-329 (Preprotein)
+DDGQSDSQAVDGDGKTEASEALPSEGKGELEHSQQEEDGEEAMVGTPQGLFPQG
+>rat_pst_52 Rat Pancreastatin (52-mer) | Species: Rat | Coords: 281-332 (Preprotein)
+DDDGQSESQAVNGKTGASEAVPSEGKGELEHSQQEEDGEEAMAGPPQGLFPG

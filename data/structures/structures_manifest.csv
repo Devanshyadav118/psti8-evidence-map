@@ -1,0 +1,29 @@
+asset_id,molecule,species,dimension,source_db,accession_or_pdb,resolution_or_plddt,file_path,notes
+PDB_3LDL,GRP78 / HSPA5,Homo sapiens,3D_experimental,RCSB PDB,3LDL,2.30 A,data/structures/3d_models/PDB_3LDL.pdb,Crystal structure of human GRP78 ATPase domain bound to ATP
+PDB_5EVZ,GRP78 / HSPA5,Homo sapiens,3D_experimental,RCSB PDB,5EVZ,1.85 A,data/structures/3d_models/PDB_5EVZ.pdb,Crystal structure of human GRP78 ATPase domain complex
+PDB_5E84,GRP78 / HSPA5,Homo sapiens,3D_experimental,RCSB PDB,5E84,2.99 A,data/structures/3d_models/PDB_5E84.pdb,Full-length BiP / GRP78 in ATP-bound domain-docked open conformation
+PDB_5E85,GRP78 / HSPA5,Homo sapiens,3D_experimental,RCSB PDB,5E85,2.57 A,data/structures/3d_models/PDB_5E85.pdb,Isolated substrate-binding domain (SBD) / domain-undocked conformation of BiP
+AF_P10645_F1_PDB,Chromogranin A (CHGA),Homo sapiens,3D_predicted,AlphaFold DB,AF-P10645-F1,mean pLDDT: 58.8,data/structures/3d_models/AF_P10645_F1_model.pdb,Full-length predicted monomer 3D coordinates (457 residues)
+AF_P10645_F1_PAE,Chromogranin A (CHGA),Homo sapiens,3D_predicted_error,AlphaFold DB,AF-P10645-F1,PAE matrix,data/structures/3d_models/AF_P10645_F1_pae.json,Predicted Aligned Error (PAE) matrix JSON document
+AF_P11021_F1_PDB,GRP78 / HSPA5,Homo sapiens,3D_predicted,AlphaFold DB,AF-P11021-F1,mean pLDDT: 90.0,data/structures/3d_models/AF_P11021_F1_model.pdb,Full-length predicted monomer 3D coordinates (654 residues)
+AF_P11021_F1_PAE,GRP78 / HSPA5,Homo sapiens,3D_predicted_error,AlphaFold DB,AF-P11021-F1,PAE matrix,data/structures/3d_models/AF_P11021_F1_pae.json,Predicted Aligned Error (PAE) matrix JSON document
+UNIPROT_P10645_FASTA,CHGA (Chromogranin A),Human,1D_sequence,UniProt,P10645,len=457,data/structures/1d_sequences/P10645_CHGA_HUMAN.fasta,Canonical FASTA sequence
+UNIPROT_P10645_JSON,CHGA (Chromogranin A),Human,1D_metadata,UniProt,P10645,len=457,data/structures/1d_sequences/P10645_CHGA_HUMAN.json,Full entry metadata JSON
+UNIPROT_P26339_FASTA,CHGA (Chromogranin A),Mouse,1D_sequence,UniProt,P26339,len=463,data/structures/1d_sequences/P26339_CHGA_MOUSE.fasta,Canonical FASTA sequence
+UNIPROT_P26339_JSON,CHGA (Chromogranin A),Mouse,1D_metadata,UniProt,P26339,len=463,data/structures/1d_sequences/P26339_CHGA_MOUSE.json,Full entry metadata JSON
+UNIPROT_P10354_FASTA,CHGA (Chromogranin A),Rat,1D_sequence,UniProt,P10354,len=466,data/structures/1d_sequences/P10354_CHGA_RAT.fasta,Canonical FASTA sequence
+UNIPROT_P10354_JSON,CHGA (Chromogranin A),Rat,1D_metadata,UniProt,P10354,len=466,data/structures/1d_sequences/P10354_CHGA_RAT.json,Full entry metadata JSON
+UNIPROT_P11021_FASTA,GRP78 (Endoplasmic reticulum chaperone BiP / HSPA5),Human,1D_sequence,UniProt,P11021,len=654,data/structures/1d_sequences/P11021_GRP78_HUMAN.fasta,Canonical FASTA sequence
+UNIPROT_P11021_JSON,GRP78 (Endoplasmic reticulum chaperone BiP / HSPA5),Human,1D_metadata,UniProt,P11021,len=654,data/structures/1d_sequences/P11021_GRP78_HUMAN.json,Full entry metadata JSON
+UNIPROT_P20029_FASTA,GRP78 (Endoplasmic reticulum chaperone BiP / Hspa5),Mouse,1D_sequence,UniProt,P20029,len=655,data/structures/1d_sequences/P20029_GRP78_MOUSE.fasta,Canonical FASTA sequence
+UNIPROT_P20029_JSON,GRP78 (Endoplasmic reticulum chaperone BiP / Hspa5),Mouse,1D_metadata,UniProt,P20029,len=655,data/structures/1d_sequences/P20029_GRP78_MOUSE.json,Full entry metadata JSON
+UNIPROT_P06761_FASTA,GRP78 (Endoplasmic reticulum chaperone BiP / Hspa5),Rat,1D_sequence,UniProt,P06761,len=654,data/structures/1d_sequences/P06761_GRP78_RAT.fasta,Canonical FASTA sequence
+UNIPROT_P06761_JSON,GRP78 (Endoplasmic reticulum chaperone BiP / Hspa5),Rat,1D_metadata,UniProt,P06761,len=654,data/structures/1d_sequences/P06761_GRP78_RAT.json,Full entry metadata JSON
+HUMAN_PSTI8_21_FREE_COOH,human_psti8_21,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 2428.53,data/structures/2d_chemical/human_psti8_21_free_cooh.sdf,2D molecular structure (free)
+HUMAN_PSTI8_21_AMIDATED_CONH2,human_psti8_21,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 2427.55,data/structures/2d_chemical/human_psti8_21_amidated_conh2.sdf,2D molecular structure (amidated)
+HUMAN_WT_PST_29_FREE_COOH,human_wt_pst_29,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 3283.54,data/structures/2d_chemical/human_wt_pst_29_free_cooh.sdf,2D molecular structure (free)
+HUMAN_WT_PST_29_AMIDATED_CONH2,human_wt_pst_29,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 3282.56,data/structures/2d_chemical/human_wt_pst_29_amidated_conh2.sdf,2D molecular structure (amidated)
+HUMAN_G297S_PST_29_FREE_COOH,human_g297s_pst_29,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 3313.57,data/structures/2d_chemical/human_g297s_pst_29_free_cooh.sdf,2D molecular structure (free)
+HUMAN_G297S_PST_29_AMIDATED_CONH2,human_g297s_pst_29,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 3312.58,data/structures/2d_chemical/human_g297s_pst_29_amidated_conh2.sdf,2D molecular structure (amidated)
+HUMAN_E287K_PST_29_FREE_COOH,human_e287k_pst_29,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 3282.60,data/structures/2d_chemical/human_e287k_pst_29_free_cooh.sdf,2D molecular structure (free)
+HUMAN_E287K_PST_29_AMIDATED_CONH2,human_e287k_pst_29,Homo sapiens,2D_chemical,RDKit,SMILES/SDF,MW: 3281.62,data/structures/2d_chemical/human_e287k_pst_29_amidated_conh2.sdf,2D molecular structure (amidated)

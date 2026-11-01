@@ -1,0 +1,9 @@
+peptide_id,name,species,coordinates,sequence,length,mw_free_cooh_avg,mw_free_cooh_monoisotopic,mw_amidated_conh2_avg,mw_amidated_conh2_monoisotopic,net_charge_pH_7_4,isoelectric_point_pI,gravy_hydropathy,acidic_residues_D_E,basic_residues_R_K_H,glu_count,lys_count
+human_psti8_21,PSTi8 (21-mer inhibitor),Human,273-293 (Mature) / 291-311 (Preprotein),PEGKGEQEHSQQKEEEEEMAV,21,2428.531,2427.0496,2427.547,2426.0656,-6.06,4.26,-2.133,8,3,8,2
+human_wt_pst_29,Pancreastatin WT (29-mer),Human,273-301 (Mature) / 291-319 (Preprotein),PEGKGEQEHSQQKEEEEEMAVVPQGLFRG,29,3283.542,3281.5259,3282.558,3280.5419,-5.06,4.47,-1.531,8,4,8,2
+human_g297s_pst_29,Pancreastatin Gly297Ser (29-mer),Human,273-301 with rs9658664 G297S,PEGKGEQEHSQQKEEEEEMAVVPQSLFRG,29,3313.568,3311.5364,3312.584,3310.5524,-5.06,4.47,-1.545,8,4,8,2
+human_e287k_pst_29,Pancreastatin Glu287Lys (29-mer),Human,273-301 with E287K,PEGKGEQEHSQQKEKEEEMAVVPQGLFRG,29,3282.602,3280.5783,3281.618,3279.5942,-3.06,4.84,-1.545,7,5,7,3
+human_pst_52,Pancreastatin full (52-mer),Human,250-301 (Mature) / 268-319 (Preprotein),GESRSEALAVDGAGKPGAEEAQDPEGKGEQEHSQQKEEEEEMAVVPQGLFRG,52,5509.765,N/A,N/A,N/A,-9.4,4.28,-1.252,14,6,12,3
+cleaved_c_term_8,PST C-terminal 8-mer (cleaved in PSTi8),Human,294-301 (Mature) / 312-319 (Preprotein),VPQGLFRG,8,873.01,N/A,N/A,N/A,0.52,9.72,0.05,0,1,0,0
+mouse_pst_54,Mouse Pancreastatin (54-mer),Mouse,276-329 (Preprotein),DDGQSDSQAVDGDGKTEASEALPSEGKGELEHSQQEEDGEEAMVGTPQGLFPQG,54,5575.643,N/A,N/A,N/A,-13.4,4.05,-1.233,15,3,9,2
+rat_pst_52,Rat Pancreastatin (52-mer),Rat,281-332 (Preprotein),DDDGQSESQAVNGKTGASEAVPSEGKGELEHSQQEEDGEEAMAGPPQGLFPG,52,5285.373,N/A,N/A,N/A,-11.4,4.05,-1.202,13,3,9,2

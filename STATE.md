@@ -101,6 +101,14 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Added formal "Statements to downgrade from Established to Contested (single-lab)" section for bullets 2, 3, 7, 8.
   - Cleaned up stray 1-byte file `data/staging/thread2_argon_raw..md` via `git rm`.
   - Replaced stale "Execute searches for Threads 1, 2, 4, 5, 6" checklist item with precise done/open thread tracking.
+- [x] **2026-11-02: 1D, 2D, and 3D Structural Asset Collection Complete:**
+  - Retrieved canonical FASTA sequences and UniProt metadata for CHGA (`P10645`, `P26339`, `P10354`) and GRP78 (`P11021`, `P20029`, `P06761`).
+  - Extracted exact coordinates for human WT PST-29 (preprotein 291–319), human PST-52 (268–319), PSTi8 (291–311), Gly297Ser PST-29 (pos 315 G$\rightarrow$S), and Glu287Lys PST-29 (pos 305 E$\rightarrow$K).
+  - Computed 1D physicochemical descriptors with Biopython ProtParam in [data/structures/1d_sequences/peptide_1d_properties.csv](data/structures/1d_sequences/peptide_1d_properties.csv): truncating C-terminal octapeptide `VPQGLFRG` shifts net charge from -5.06 to -6.06, drops GRAVY from -1.531 to -2.133, and concentrates Glu density to 38.1%.
+  - Generated RDKit 2D chemical representations (.sdf, .smi, .svg) for free carboxylate (-COOH) and biologically active amidated (-CONH2) states across all peptide variants in [data/structures/2d_chemical/](data/structures/2d_chemical/).
+  - Downloaded 4 experimental RCSB PDB crystal structures of GRP78 (`3LDL`, `5EVZ`, `5E84`, `5E85`) and 2 full-length AlphaFold DB predictions with PAE matrices (`AF-P10645-F1`, `AF-P11021-F1`) in [data/structures/3d_models/](data/structures/3d_models/).
+  - Authored [docs/structural_data_inventory.md](docs/structural_data_inventory.md) synthesizing biophysical mechanisms, disorder profiles, and ready-to-run AlphaFold 3 Web Server co-folding input JSON blocks for WT PST-29, PSTi8, and Gly297Ser against human GRP78.
+  - Generated complete structural catalog in [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv).
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
 - [ ] Identify 2–3 candidate contributions for Phase 2.

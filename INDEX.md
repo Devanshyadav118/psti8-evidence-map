@@ -58,6 +58,10 @@ Master tabular datasets and analytical outputs.
 | [data/staging/thread2_raw_api_responses.json](data/staging/thread2_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 32 verified Thread 2 records |
 | [data/staging/thread1_registry_unverified.csv](data/staging/thread1_registry_unverified.csv) | Verified Thread 1 staging registry with role assignments and bibliometric checks |
 | [data/staging/thread1_raw_api_responses.json](data/staging/thread1_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 34 verified Thread 1 records |
+| [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv) | Manifest cataloguing 28 1D, 2D, and 3D structural assets for PST/PSTi8 and GRP78 |
+| [data/structures/1d_sequences/](data/structures/1d_sequences/) | Canonical FASTA, JSON metadata, and ProtParam physicochemical properties |
+| [data/structures/2d_chemical/](data/structures/2d_chemical/) | RDKit-modeled .sdf, .smi, and .svg chemical representations of free and amidated peptides |
+| [data/structures/3d_models/](data/structures/3d_models/) | RCSB PDB crystal structures (3LDL, 5EVZ, 5E84, 5E85) and AlphaFold DB models with PAE |
 
 ## docs/
 
@@ -79,6 +83,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md) | Direction 1 novelty assessment: Exa search log, existing review critique, and verdict |
+| [docs/structural_data_inventory.md](docs/structural_data_inventory.md) | Inventory of 1D/2D/3D structural assets, physicochemical comparisons, and AlphaFold 3 co-folding job inputs |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
 | [docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md](docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md) | Decision record: fix registry seed DOIs, unsupported reading statuses, and archive old seed |
 | [docs/decisions/2026-10-31_license-cc-by-4.0.md](docs/decisions/2026-10-31_license-cc-by-4.0.md) | Decision record: CC BY 4.0 open repository license and attribution terms |
@@ -99,6 +104,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/save_verified_csv.py](scripts/save_verified_csv.py) | Serializer formatting verified staging records to CSV |
 | [scripts/run_batch.py](scripts/run_batch.py) | CLI runner processing verification batches |
 | [scripts/update_evidence_table.py](scripts/update_evidence_table.py) | Utility updating citations and authenticated DOIs in evidence table |
+| [scripts/collect_structures.py](scripts/collect_structures.py) | Automated pipeline retrieving and generating 1D, 2D, and 3D structural assets via UniProt, RCSB PDB, AlphaFold DB, and RDKit |
 
 ## notes/topics/
 
@@ -128,3 +134,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/11_gap_map.md](prompts/11_gap_map.md) | Prompt 11: Gap map synthesis and contribution direction selection |
 | [prompts/12_new_chat_starter.md](prompts/12_new_chat_starter.md) | Prompt 12: Starter prompt for new Gemini Project chat sessions |
 | [prompts/13_antigravity_save_prompts.md](prompts/13_antigravity_save_prompts.md) | Prompt 13: Save prompt library into repo and enforce prompt-saving rules |
+| [prompts/14_collect_structural_assets.md](prompts/14_collect_structural_assets.md) | Prompt 14: Collect and verify 1D, 2D, and 3D molecular and structural assets for PST/PSTi8 and GRP78 |
