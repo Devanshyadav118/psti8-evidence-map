@@ -1,10 +1,11 @@
 ---
 prompt_id: 07
 slug: merge_registries
-status: running
+status: done
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-02
+commit: 99c4e60
 ---
 # 07 Merge verified registries into data/papers_registry.csv
 
