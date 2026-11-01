@@ -1,10 +1,11 @@
 ---
 prompt_id: 15
 slug: verify_thread6
-status: running
+status: done
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-02
+commit: 1fe110a
 ---
 # 15 Verify Thread 6 Registry (Methods and Reporting Standards)
 
