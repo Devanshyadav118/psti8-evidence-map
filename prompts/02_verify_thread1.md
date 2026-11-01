@@ -1,9 +1,10 @@
 ---
 prompt_id: 02
 slug: verify_thread1
-status: PENDING (not run yet; no docs/thread1_verification.md in the repo)
+status: running
+date: 2026-11-02
 tool: Antigravity
-model: Gemini 3.8 Flash (High); Claude Sonnet 4.6 if Claude quota is back
+model: Gemini 3.8 Flash (High)
 depends_on: data/staging/thread1_argon_raw.md (in repo)
 legacy_name: '"Thread 1 verification" / "Step 2"'
 ---
