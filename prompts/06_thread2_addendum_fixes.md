@@ -1,9 +1,10 @@
 ---
 prompt_id: 06
 slug: thread2_addendum_fixes
-status: PENDING (new, written 2026-10-31 after checking the addendum against the repo)
+status: done (2026-11-01)
 tool: Antigravity
 model: Gemini 3.8 Flash (High)
+date: 2026-11-01
 depends_on: docs/thread2_audit_addendum.md (in repo)
 ---
 # 06 Fix the four rule problems in the Thread 2 audit addendum, plus two cleanups

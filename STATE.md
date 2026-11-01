@@ -81,7 +81,15 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Validated YAML frontmatter across all files (`prompt_id`, `slug`, `status`, `tool`, `model`).
   - Added "Prompt Saving Rule" and extended "Tool Usage Policy" (free routes first, credit pre-approval, 15-word quote limit, Argon verification gate, single-lab network rule, MeSH sex provenance) to [AGENTS.md](AGENTS.md).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
-- [ ] Execute searches for Threads 1, 2, 4, 5, 6.
+- [x] **Threads 1, 2, 3 searched; Threads 2 and 3 verified** (Thread 2 audited in [docs/thread2_verification.md](docs/thread2_verification.md); Thread 3 audited in [docs/thread3_verification.md](docs/thread3_verification.md)).
+- [ ] **Open Thread tasks:** Thread 1 not yet verified (unverified staging in [data/staging/thread1_argon_raw.md](data/staging/thread1_argon_raw.md)); Threads 4, 5, 6 not searched.
+- [x] **2026-11-01: Thread 2 audit addendum fixes & checklist update:**
+  - Fixed quote length in [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) (all quotes $\le 15$ words with exact word counts).
+  - Added explicit [Inference] labels and testable hypothesis disclaimer to Mechanistic Reconciliation.
+  - Corrected sex provenance column for abstract-only rows (MeSH hints vs unread Methods locators removed).
+  - Added formal "Statements to downgrade from Established to Contested (single-lab)" section for bullets 2, 3, 7, 8.
+  - Cleaned up stray 1-byte file `data/staging/thread2_argon_raw..md` via `git rm`.
+  - Replaced stale "Execute searches for Threads 1, 2, 4, 5, 6" checklist item with precise done/open thread tracking.
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
 - [ ] Identify 2–3 candidate contributions for Phase 2.
