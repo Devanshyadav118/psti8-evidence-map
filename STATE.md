@@ -1,6 +1,6 @@
 # STATE.md — Project Status
 
-**Last Updated:** 2026-11-01  
+**Last Updated:** 2026-11-02  
 **Vault:** `psti8-sex-bias-review`
 
 ---
@@ -81,8 +81,14 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Validated YAML frontmatter across all files (`prompt_id`, `slug`, `status`, `tool`, `model`).
   - Added "Prompt Saving Rule" and extended "Tool Usage Policy" (free routes first, credit pre-approval, 15-word quote limit, Argon verification gate, single-lab network rule, MeSH sex provenance) to [AGENTS.md](AGENTS.md).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
-- [x] **Threads 1, 2, 3 searched; Threads 2 and 3 verified** (Thread 2 audited in [docs/thread2_verification.md](docs/thread2_verification.md); Thread 3 audited in [docs/thread3_verification.md](docs/thread3_verification.md)).
-- [ ] **Open Thread tasks:** Thread 1 not yet verified (unverified staging in [data/staging/thread1_argon_raw.md](data/staging/thread1_argon_raw.md)); Threads 4, 5, 6 not searched.
+- [x] **Threads 1, 2, 3 searched and verified** (Thread 1 audited in [docs/thread1_verification.md](docs/thread1_verification.md); Thread 2 audited in [docs/thread2_verification.md](docs/thread2_verification.md); Thread 3 audited in [docs/thread3_verification.md](docs/thread3_verification.md)).
+- [ ] **Open Thread tasks:** Threads 4, 5, 6 not searched.
+- [x] **2026-11-02: Thread 1 verification complete:**
+  - Audited all 34 candidate records from [data/staging/thread1_argon_raw.md](data/staging/thread1_argon_raw.md) against PubMed and Crossref APIs.
+  - Reconciled metadata and statuses in [data/staging/thread1_registry_unverified.csv](data/staging/thread1_registry_unverified.csv) (31 verified `yes`, 3 `partial`, 0 `no`, 0 `could_not_open`).
+  - Saved raw API payloads in [data/staging/thread1_raw_api_responses.json](data/staging/thread1_raw_api_responses.json).
+  - Resolved specific audit items 5a–5h: normal plasma PST range (~5–30 pM conflates assays); weight-loss claim misattribution corrected to O'Connor 2005; Gly297Ser crude co-association vs attenuated adjusted effects for HTN/CAD in `allu2022_diabetes`; confirmed 439-aa and chromosome 14 supported by `ioannidis2022_peptides`; reclassified single-lab network claims (Mahata/O'Connor/Gayen/Mahapatra treated as one network); evaluated mouse vs human conflation and lack of unpartnered external replication for Chga-KO and PSTv1.
+  - Documented findings in [docs/thread1_verification.md](docs/thread1_verification.md).
 - [x] **2026-11-01: Thread 2 audit addendum fixes & checklist update:**
   - Fixed quote length in [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) (all quotes $\le 15$ words with exact word counts).
   - Added explicit [Inference] labels and testable hypothesis disclaimer to Mechanistic Reconciliation.

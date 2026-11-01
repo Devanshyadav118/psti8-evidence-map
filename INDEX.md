@@ -56,6 +56,8 @@ Master tabular datasets and analytical outputs.
 | [data/staging/thread2_argon_raw.md](data/staging/thread2_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 2 (signaling pathways) |
 | [data/staging/thread2_registry_unverified.csv](data/staging/thread2_registry_unverified.csv) | Verified Thread 2 staging registry with role assignments and bibliometric checks |
 | [data/staging/thread2_raw_api_responses.json](data/staging/thread2_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 32 verified Thread 2 records |
+| [data/staging/thread1_registry_unverified.csv](data/staging/thread1_registry_unverified.csv) | Verified Thread 1 staging registry with role assignments and bibliometric checks |
+| [data/staging/thread1_raw_api_responses.json](data/staging/thread1_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 34 verified Thread 1 records |
 
 ## docs/
 
@@ -71,6 +73,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/search_log.md](docs/search_log.md) | Reproducible log of every literature search performed during Phase 1 |
 | [docs/search_strategy.md](docs/search_strategy.md) | Comprehensive search strategy, databases, queries, and PRISMA inclusion criteria |
 | [docs/tool_usage_log.md](docs/tool_usage_log.md) | External tool usage log tracking Exa queries and Firecrawl credit consumption |
+| [docs/thread1_verification.md](docs/thread1_verification.md) | Thread 1 audit report: verification of 34 pancreastatin/CHGA studies against PubMed/Crossref |
 | [docs/thread2_verification.md](docs/thread2_verification.md) | Thread 2 audit report: verification of 32 signaling studies against PubMed/Crossref |
 | [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) | Thread 2 audit addendum: laboratory independence, GRP78 paradox, sex reporting, and one-liner audit |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
@@ -90,6 +93,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/fetch_all_raw.py](scripts/fetch_all_raw.py) | Batch retrieval script fetching raw bibliometrics from PubMed and Crossref |
 | [scripts/verify_thread3.py](scripts/verify_thread3.py) | Verification harness auditing candidate literature against PubMed and Crossref |
 | [scripts/verify_thread2.py](scripts/verify_thread2.py) | Verification harness auditing Thread 2 candidate literature against PubMed and Crossref |
+| [scripts/verify_thread1.py](scripts/verify_thread1.py) | Verification harness auditing Thread 1 candidate literature against PubMed and Crossref |
 | [scripts/rebuild_papers_registry.py](scripts/rebuild_papers_registry.py) | Rebuild script syncing verified records into master papers registry |
 | [scripts/save_verified_csv.py](scripts/save_verified_csv.py) | Serializer formatting verified staging records to CSV |
 | [scripts/run_batch.py](scripts/run_batch.py) | CLI runner processing verification batches |
