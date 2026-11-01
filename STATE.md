@@ -81,8 +81,8 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Validated YAML frontmatter across all files (`prompt_id`, `slug`, `status`, `tool`, `model`).
   - Added "Prompt Saving Rule" and extended "Tool Usage Policy" (free routes first, credit pre-approval, 15-word quote limit, Argon verification gate, single-lab network rule, MeSH sex provenance) to [AGENTS.md](AGENTS.md).
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
-- [x] **Threads 1, 2, 3 searched and verified** (Thread 1 audited in [docs/thread1_verification.md](docs/thread1_verification.md); Thread 2 audited in [docs/thread2_verification.md](docs/thread2_verification.md); Thread 3 audited in [docs/thread3_verification.md](docs/thread3_verification.md)).
-- [ ] **Open Thread tasks:** Threads 4, 5, 6 not searched.
+- [x] **Threads 1, 2, 3, 6 searched and verified** (Thread 1 audited in [docs/thread1_verification.md](docs/thread1_verification.md); Thread 2 audited in [docs/thread2_verification.md](docs/thread2_verification.md); Thread 3 audited in [docs/thread3_verification.md](docs/thread3_verification.md); Thread 6 audited in [docs/thread6_verification.md](docs/thread6_verification.md)).
+- [ ] **Open Thread tasks:** Threads 4, 5 not searched.
 - [x] **2026-11-02: Direction 1 Novelty Check Complete:**
   - Conducted 19 targeted Exa semantic searches covering systematic reviews, preclinical meta-analyses, protocol registrations (OSF, PROSPERO, PreclinicalTrials.eu), preprint archives (bioRxiv, medRxiv), SABV audits, and known review evaluations; logged all calls in [docs/tool_usage_log.md](docs/tool_usage_log.md) (0 Firecrawl credits consumed).
   - Critically audited five existing reviews citing PSTi8 (`garg2023_review`, `lu2025_fimmu`, `maj2025_fimmu`, `christoffersson2026_fcdhc`, `ioannidis2022_peptides`), confirming all are narrative syntheses lacking PRISMA methodology, SYRCLE risk of bias, ARRIVE 2.0 reporting quality, or SABV audits.
@@ -109,6 +109,16 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Downloaded 4 experimental RCSB PDB crystal structures of GRP78 (`3LDL`, `5EVZ`, `5E84`, `5E85`) and 2 full-length AlphaFold DB predictions with PAE matrices (`AF-P10645-F1`, `AF-P11021-F1`) in [data/structures/3d_models/](data/structures/3d_models/).
   - Authored [docs/structural_data_inventory.md](docs/structural_data_inventory.md) synthesizing biophysical mechanisms, disorder profiles, and ready-to-run AlphaFold 3 Web Server co-folding input JSON blocks for WT PST-29, PSTi8, and Gly297Ser against human GRP78.
   - Generated complete structural catalog in [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv).
+- [x] **2026-11-02: Thread 6 verification complete (Methods and Reporting Standards):**
+  - Audited all 27 candidate records from [data/staging/thread6_argon_raw.md](data/staging/thread6_argon_raw.md) against PubMed, Crossref, and Europe PMC APIs.
+  - Reconciled metadata and statuses in [data/staging/thread6_registry_unverified.csv](data/staging/thread6_registry_unverified.csv) (14 verified `yes`, 10 `partial`, 3 `no`, 0 `could_not_open`).
+  - Saved raw API payloads in [data/staging/thread6_raw_api_responses.json](data/staging/thread6_raw_api_responses.json).
+  - Uncovered extensive metadata fabrication by Argon: 7 non-existent DOIs (HTTP 404), 9 mismatched DOIs pointing to unrelated adjacent papers, and URL PMIDs pointing to irrelevant clinical articles.
+  - Discovered peer-reviewed journal publication for `lieberum2025_medrxiv` in *Journal of Clinical Epidemiology* (May 2025; Vol. 181: 111746; DOI `10.1016/j.jclinepi.2025.111746`, PMID `40021099`).
+  - Audited consensus across ARRIVE 2.0 (Delphi consensus across 73 experts in 19 countries), SYRCLE (international consortium adapted from Cochrane), SABV policy audits (6 independent institutions), and PRISMA 2020.
+  - Verified that Phillips et al. 2023 (`10.1371/journal.pbio.3002129`) two-way ANOVA factorial power simulation without sample size doubling is accurately categorized as a single-lab simulation study under Contested.
+  - Audited all quantitative claims in one-liners: separated abstract-level metrics from full-text-only locators and identified hallucinated metrics.
+  - Authored comprehensive audit report in [docs/thread6_verification.md](docs/thread6_verification.md).
 - [ ] Populate `data/papers_registry.csv` (target: 40–60 entries).
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
 - [ ] Identify 2–3 candidate contributions for Phase 2.

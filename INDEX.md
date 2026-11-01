@@ -58,6 +58,9 @@ Master tabular datasets and analytical outputs.
 | [data/staging/thread2_raw_api_responses.json](data/staging/thread2_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 32 verified Thread 2 records |
 | [data/staging/thread1_registry_unverified.csv](data/staging/thread1_registry_unverified.csv) | Verified Thread 1 staging registry with role assignments and bibliometric checks |
 | [data/staging/thread1_raw_api_responses.json](data/staging/thread1_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 34 verified Thread 1 records |
+| [data/staging/thread6_argon_raw.md](data/staging/thread6_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 6 (methods and reporting standards) |
+| [data/staging/thread6_registry_unverified.csv](data/staging/thread6_registry_unverified.csv) | Verified Thread 6 staging registry with role assignments and bibliometric checks |
+| [data/staging/thread6_raw_api_responses.json](data/staging/thread6_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 27 verified Thread 6 records |
 | [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv) | Manifest cataloguing 28 1D, 2D, and 3D structural assets for PST/PSTi8 and GRP78 |
 | [data/structures/1d_sequences/](data/structures/1d_sequences/) | Canonical FASTA, JSON metadata, and ProtParam physicochemical properties |
 | [data/structures/2d_chemical/](data/structures/2d_chemical/) | RDKit-modeled .sdf, .smi, and .svg chemical representations of free and amidated peptides |
@@ -81,6 +84,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/thread2_verification.md](docs/thread2_verification.md) | Thread 2 audit report: verification of 32 signaling studies against PubMed/Crossref |
 | [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) | Thread 2 audit addendum: laboratory independence, GRP78 paradox, sex reporting, and one-liner audit |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
+| [docs/thread6_verification.md](docs/thread6_verification.md) | Thread 6 audit report: verification of 27 methods and reporting studies against PubMed/Crossref |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md) | Direction 1 novelty assessment: Exa search log, existing review critique, and verdict |
 | [docs/structural_data_inventory.md](docs/structural_data_inventory.md) | Inventory of 1D/2D/3D structural assets, physicochemical comparisons, and AlphaFold 3 co-folding job inputs |
@@ -105,6 +109,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/run_batch.py](scripts/run_batch.py) | CLI runner processing verification batches |
 | [scripts/update_evidence_table.py](scripts/update_evidence_table.py) | Utility updating citations and authenticated DOIs in evidence table |
 | [scripts/collect_structures.py](scripts/collect_structures.py) | Automated pipeline retrieving and generating 1D, 2D, and 3D structural assets via UniProt, RCSB PDB, AlphaFold DB, and RDKit |
+| [scripts/verify_thread6.py](scripts/verify_thread6.py) | Verification harness auditing Thread 6 candidate literature against PubMed and Crossref |
 
 ## notes/topics/
 
@@ -135,3 +140,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/12_new_chat_starter.md](prompts/12_new_chat_starter.md) | Prompt 12: Starter prompt for new Gemini Project chat sessions |
 | [prompts/13_antigravity_save_prompts.md](prompts/13_antigravity_save_prompts.md) | Prompt 13: Save prompt library into repo and enforce prompt-saving rules |
 | [prompts/14_collect_structural_assets.md](prompts/14_collect_structural_assets.md) | Prompt 14: Collect and verify 1D, 2D, and 3D molecular and structural assets for PST/PSTi8 and GRP78 |
+| [prompts/15_verify_thread6.md](prompts/15_verify_thread6.md) | Prompt 15: Verification of Thread 6 (Methods and Reporting Standards) literature |
