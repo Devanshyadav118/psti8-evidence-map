@@ -1,7 +1,7 @@
 ---
 prompt_id: 06
 slug: thread2_addendum_fixes
-status: done (2026-11-01)
+status: done (2026-11-01, repo commit 0eb8bf9)
 tool: Antigravity
 model: Gemini 3.8 Flash (High)
 date: 2026-11-01
