@@ -1,7 +1,8 @@
 ---
 prompt_id: 14
 slug: collect_structural_assets
-status: running
+status: done
+commit: 5819d87
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-02
