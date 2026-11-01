@@ -83,6 +83,11 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
 - [ ] Incorporate verified new studies and corrected DOIs into master tables in next phase.
 - [x] **Threads 1, 2, 3 searched and verified** (Thread 1 audited in [docs/thread1_verification.md](docs/thread1_verification.md); Thread 2 audited in [docs/thread2_verification.md](docs/thread2_verification.md); Thread 3 audited in [docs/thread3_verification.md](docs/thread3_verification.md)).
 - [ ] **Open Thread tasks:** Threads 4, 5, 6 not searched.
+- [x] **2026-11-02: Direction 1 Novelty Check Complete:**
+  - Conducted 19 targeted Exa semantic searches covering systematic reviews, preclinical meta-analyses, protocol registrations (OSF, PROSPERO, PreclinicalTrials.eu), preprint archives (bioRxiv, medRxiv), SABV audits, and known review evaluations; logged all calls in [docs/tool_usage_log.md](docs/tool_usage_log.md) (0 Firecrawl credits consumed).
+  - Critically audited five existing reviews citing PSTi8 (`garg2023_review`, `lu2025_fimmu`, `maj2025_fimmu`, `christoffersson2026_fcdhc`, `ioannidis2022_peptides`), confirming all are narrative syntheses lacking PRISMA methodology, SYRCLE risk of bias, ARRIVE 2.0 reporting quality, or SABV audits.
+  - Confirmed zero registered review protocols or preclinical animal trial protocols exist on OSF, PROSPERO, or PreclinicalTrials.eu.
+  - Formulated formal novelty verdict in [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md): Direction 1 is **partly novel / completely untouched as a formal systematic synthesis**; defined 5 pillars ensuring definitive novelty.
 - [x] **2026-11-02: Thread 1 verification complete:**
   - Audited all 34 candidate records from [data/staging/thread1_argon_raw.md](data/staging/thread1_argon_raw.md) against PubMed and Crossref APIs.
   - Reconciled metadata and statuses in [data/staging/thread1_registry_unverified.csv](data/staging/thread1_registry_unverified.csv) (31 verified `yes`, 3 `partial`, 0 `no`, 0 `could_not_open`).

@@ -78,6 +78,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) | Thread 2 audit addendum: laboratory independence, GRP78 paradox, sex reporting, and one-liner audit |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
+| [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md) | Direction 1 novelty assessment: Exa search log, existing review critique, and verdict |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
 | [docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md](docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md) | Decision record: fix registry seed DOIs, unsupported reading statuses, and archive old seed |
 | [docs/decisions/2026-10-31_license-cc-by-4.0.md](docs/decisions/2026-10-31_license-cc-by-4.0.md) | Decision record: CC BY 4.0 open repository license and attribution terms |

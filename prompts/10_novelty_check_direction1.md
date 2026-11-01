@@ -1,9 +1,10 @@
 ---
 prompt_id: 10
 slug: novelty_check_direction1
-status: PENDING (recommended next after prompts 06 and 02)
+status: running
+date: 2026-11-02
 tool: Antigravity (Exa)
-model: Gemini 3.8 Flash (High); can also be run in a Gemini 4 Argon chat with search
+model: Gemini 3.8 Flash (High)
 legacy_name: "Prompt 7"
 ---
 # 10 Direction 1 novelty check (systematic review + sex-as-variable audit of PSTi8 preclinical studies)
