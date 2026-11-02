@@ -3,7 +3,8 @@ prompt_id: 08
 slug: add_thread3_to_evidence_table
 date: 2026-11-02
 model: "Gemini 3.8 Flash (High)"
-status: running
+status: done
+commit: f1b60b3
 ---
 # 08 Add the new Thread 3 primary studies to the evidence table
 
