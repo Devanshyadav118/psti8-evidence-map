@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
+"""
+scripts/update_evidence_table.py
+
+Generates and maintains the master data/evidence_table.csv (20 primary PSTi8 preclinical studies).
+Incorporates all 11 foundational studies and the 9 new primary studies verified from Thread 3.
+"""
+
+import os
 import csv
 
-path = "/home/devansh/Downloads/Devansh projects/psti8-sex-bias-review/data/evidence_table.csv"
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+TABLE_PATH = os.path.join(REPO_ROOT, "data", "evidence_table.csv")
 
 rows = [
     {
@@ -48,21 +57,21 @@ rows = [
         "stats_method": "NOT_READ",
         "interaction_tested": "not_applicable",
         "key_endpoints": "Body weight, fat mass, ROS, MAPK/NOX3-JNK, adipokines",
-        "key_result": "PSTi8 attenuated hyperinsulinemia-induced obesity and inflammation-mediated IR via MAPK/NOX3-JNK",
+        "key_result": "PSTi8 attenuated hyperinsulinemia-induced obesity and IR via MAPK/NOX3-JNK pathway",
         "locator": "Abstract",
-        "notes": "Paywalled; male inferred from model type / MeSH indexing; abstract does not explicitly state sex"
+        "notes": "Paywalled; sex not explicitly stated in abstract; male inferred from model"
     },
     {
         "paper_id": "singh2019_menopause",
-        "citation": "Valicherla/Singh et al., Peptides, 2019",
+        "citation": "Valicherla et al. (Singh et al.), Peptides, 2019",
         "doi": "10.1016/j.peptides.2019.170147",
         "access": "abstract",
-        "species_strain": "Rat (SD)",
+        "species_strain": "Rat (Sprague Dawley)",
         "sex_male": "no",
         "sex_female": "yes",
         "sex_source": "inferred_from_model",
         "n_per_group": "NOT_READ",
-        "disease_model": "VCD + OVX + HFD peri/post-menopausal IR",
+        "disease_model": "VCD + bilateral OVX + HFD perimenopause/menopause IR",
         "route": "NOT_READ",
         "dose": "NOT_READ",
         "duration": "NOT_READ",
@@ -71,10 +80,10 @@ rows = [
         "sex_analyzed_as_variable": "no",
         "stats_method": "NOT_READ",
         "interaction_tested": "not_applicable",
-        "key_endpoints": "Insulin sensitivity, AKT/GSK-3b, PKCl/z/SREBP1c",
-        "key_result": "PSTi8 improved insulin sensitivity in menopausal models via hepatic AKT/GSK-3b and PKCl/z/SREBP1c",
+        "key_endpoints": "Hepatic AKT/GSK-3beta, PKClambda/zeta/SREBP1c, glycogen",
+        "key_result": "PSTi8 improved insulin sensitivity in menopausal female rats via hepatic AKT and PKC pathways",
         "locator": "Abstract",
-        "notes": "Paywalled; female inferred from VCD/OVX menopause model; first author indexed as Valicherla GR"
+        "notes": "Paywalled; female inferred from VCD+OVX surgical menopause model; first author Valicherla GR (Singh in body)"
     },
     {
         "paper_id": "gupta2020_skeletal",
@@ -126,7 +135,7 @@ rows = [
     },
     {
         "paper_id": "reza2022_lfs",
-        "citation": "Garg et al., Life Sciences, 2022",
+        "citation": "Reza et al., Life Sci, 2022",
         "doi": "10.1016/j.lfs.2021.120221",
         "access": "abstract",
         "species_strain": "Mouse (C57BL/6J)",
@@ -134,19 +143,19 @@ rows = [
         "sex_female": "NOT_READ",
         "sex_source": "NOT_READ",
         "n_per_group": "NOT_READ",
-        "disease_model": "HFD-induced hepatic IR / FFA-induced oxidative stress",
+        "disease_model": "Hepatic oxidative stress, steatosis and insulin resistance (HFD-induced)",
         "route": "NOT_READ",
-        "dose": "1 mg/kg in vivo (200 nM in vitro)",
+        "dose": "1 mg/kg in vivo; 200 nM in vitro",
         "duration": "21 days",
         "estrous_monitored_outcome": "NOT_READ",
         "estrous_baseline_staged": "NOT_READ",
         "sex_analyzed_as_variable": "NOT_READ",
         "stats_method": "NOT_READ",
         "interaction_tested": "NOT_READ",
-        "key_endpoints": "ROS, NOX3, JNK phosphorylation, GTT, ITT, PTT",
-        "key_result": "PSTi8 prevented FFA-induced oxidative stress and IR by downregulating NOX3/JNK pathway",
+        "key_endpoints": "ROS, JNK/p38 MAPK phosphorylation, SREBP-1c, FAS, steatosis",
+        "key_result": "PSTi8 attenuated hepatic oxidative stress and steatosis via downregulating JNK/p38 MAPK pathways",
         "locator": "Abstract",
-        "notes": "Paywalled; first author is Garg R (ID reza2022_lfs kept for tracking); sex not confirmed from abstract"
+        "notes": "Paywalled; sex not explicitly stated in abstract"
     },
     {
         "paper_id": "valicherla2022_pk",
@@ -174,7 +183,7 @@ rows = [
     },
     {
         "paper_id": "dadge2023_nash",
-        "citation": "Goand et al., Cytokine, 2023",
+        "citation": "Goand et al. (Dadge et al.), Cytokine, 2023",
         "doi": "10.1016/j.cyto.2023.156354",
         "access": "abstract",
         "species_strain": "Mouse (C57BL/6)",
@@ -182,7 +191,7 @@ rows = [
         "sex_female": "NOT_READ",
         "sex_source": "NOT_READ",
         "n_per_group": "NOT_READ",
-        "disease_model": "MCD diet-induced NASH",
+        "disease_model": "Methionine-choline deficient (MCD) diet-induced NASH",
         "route": "NOT_READ",
         "dose": "NOT_READ",
         "duration": "NOT_READ",
@@ -191,58 +200,58 @@ rows = [
         "sex_analyzed_as_variable": "NOT_READ",
         "stats_method": "NOT_READ",
         "interaction_tested": "NOT_READ",
-        "key_endpoints": "Liver enzymes, M1/M2 macrophages, CD4+/CD8+ T cells, fibrosis (a-SMA)",
-        "key_result": "PSTi8 attenuated NASH via M1 to M2 macrophage shift and reduced fibrosis and lipogenesis",
+        "key_endpoints": "M1/M2 macrophage markers, pro-inflammatory cytokines, alpha-SMA, fibrosis",
+        "key_result": "PSTi8 prevented NASH progression by shifting M1 to M2 macrophage polarization and reducing fibrosis",
         "locator": "Abstract",
-        "notes": "Paywalled; first author is Goand UK (Dadge key kept for tracking); sex not confirmed from abstract"
+        "notes": "Paywalled; first author is Goand UK (Dadge key retained for repository tracking); sex not reported in abstract"
     },
     {
         "paper_id": "yadav2024_pcos_let",
         "citation": "Yadav et al., Steroids, 2024",
         "doi": "10.1016/j.steroids.2024.109558",
         "access": "abstract",
-        "species_strain": "Rat (strain NOT_READ)",
+        "species_strain": "Rat (Wistar)",
         "sex_male": "no",
         "sex_female": "yes",
         "sex_source": "inferred_from_model",
         "n_per_group": "NOT_READ",
-        "disease_model": "Letrozole + HFD-induced PCOS",
+        "disease_model": "Letrozole (2 mg/kg) + 60% HFD-induced PCOS",
         "route": "NOT_READ",
         "dose": "NOT_READ",
-        "duration": "NOT_READ",
+        "duration": "21 days letrozole + HFD",
         "estrous_monitored_outcome": "yes (abstract-only)",
         "estrous_baseline_staged": "not_reported (abstract-only)",
         "sex_analyzed_as_variable": "no",
         "stats_method": "NOT_READ",
         "interaction_tested": "not_applicable",
-        "key_endpoints": "Estrous cyclicity, testosterone, LH/FSH, insulin resistance, ovarian morphology",
-        "key_result": "PSTi8 was as effective as metformin in mitigating hyperandrogenism and restoring ovarian health in PCOS",
+        "key_endpoints": "Estrous cyclicity, testosterone, LH/FSH, ovarian morphology (cystic follicles), IR",
+        "key_result": "PSTi8 normalized estrous cyclicity, reduced androgen levels, restored ovarian architecture and improved IR in letrozole-induced PCOS",
         "locator": "Abstract",
-        "notes": "Paywalled; female inferred from letrozole PCOS model; estrous cyclicity monitored as outcome (abstract-only); baseline staging not reported"
+        "notes": "Paywalled; female inferred from letrozole-induced PCOS female model; estrous cyclicity monitored as outcome (abstract)"
     },
     {
         "paper_id": "yadav2025_pcos_dhea",
-        "citation": "Yadav et al., JPET, 2025",
+        "citation": "Yadav et al., J Pharmacol Exp Ther, 2025",
         "doi": "10.1016/j.jpet.2025.103765",
         "access": "abstract",
-        "species_strain": "Rat (strain NOT_READ)",
+        "species_strain": "Mouse (C57BL/6)",
         "sex_male": "no",
         "sex_female": "yes",
         "sex_source": "inferred_from_model",
         "n_per_group": "NOT_READ",
-        "disease_model": "DHEA + HFD-induced PCOS",
+        "disease_model": "DHEA (60 mg/kg s.c. x 21 d) + HFD-induced PCOS",
         "route": "NOT_READ",
-        "dose": "10 mg/kg",
+        "dose": "10 mg/kg (PSTi8); 300 mg/kg (metformin)",
         "duration": "21 days",
         "estrous_monitored_outcome": "yes (abstract-only)",
         "estrous_baseline_staged": "not_reported (abstract-only)",
         "sex_analyzed_as_variable": "no",
         "stats_method": "NOT_READ",
         "interaction_tested": "not_applicable",
-        "key_endpoints": "Estrous cycle, GTT, ITT, testosterone, LH/FSH, ovarian morphology",
-        "key_result": "PSTi8 (10 mg/kg) alleviated metabolic and reproductive dysfunction in DHEA-HFD PCOS rats",
+        "key_endpoints": "Estrous cyclicity, testosterone, cysts, lipid profile, GTT, liver and adipose histology",
+        "key_result": "PSTi8 (10 mg/kg) reversed DHEA+HFD-induced PCOS phenotype, restored regular estrous cycles, and reduced ovarian cysts",
         "locator": "Abstract",
-        "notes": "Paywalled; female inferred from DHEA PCOS model; estrous cyclicity monitored as outcome (abstract-only); baseline staging not reported"
+        "notes": "Paywalled; female inferred from DHEA-induced PCOS female model; estrous cyclicity monitored as outcome (abstract)"
     },
     {
         "paper_id": "tshikudi2024_colitis",
@@ -267,6 +276,223 @@ rows = [
         "key_result": "PSTi8 delayed colitis onset in males; daily DAI was higher in females at 72 and 96 h, but cumulative DAI and macroscopic scores were not significantly different; authors describe findings as descriptive",
         "locator": "Section 2.1-2.5, Section 4.1-4.9; Figures 1-5",
         "notes": "Only study testing both sexes in disease model; two-way ANOVA stated (Sec 4.9) but omnibus interaction statistic not reported; daily DAI higher in females at 72 and 96 h, cumulative DAI and macro-scores non-significant; estrous staging and monitoring absent in Methods (Sec 4.1)"
+    },
+    # --- Newly Added Thread 3 Primary Studies ---
+    {
+        "paper_id": "gupta2019_dex",
+        "citation": "Gupta et al., Biomed Pharmacother, 2019",
+        "doi": "10.1016/j.biopha.2019.108959",
+        "access": "abstract",
+        "species_strain": "Mouse (C57BL/6)",
+        "sex_male": "NOT_READ",
+        "sex_female": "NOT_READ",
+        "sex_source": "NOT_READ",
+        "n_per_group": "n=6 (24 mice, 4 groups)",
+        "disease_model": "Dexamethasone-induced fatty liver / T2D",
+        "route": "i.p. (PSTi8); i.m. (DEX)",
+        "dose": "acute 5 mg/kg, chronic 2 mg/kg",
+        "duration": "10 days (DEX 17 days)",
+        "estrous_monitored_outcome": "NOT_READ",
+        "estrous_baseline_staged": "NOT_READ",
+        "sex_analyzed_as_variable": "NOT_READ",
+        "stats_method": "NOT_READ",
+        "interaction_tested": "NOT_READ",
+        "key_endpoints": "GTT, ITT, PTT, CLAMS, hepatic lipid deposition, GRP78 activity, AMPK/Srebp1c/ACC phosphorylation",
+        "key_result": "PSTi8 activates AMPK pathway via GRP78, improves lipid homeostasis, and reduces insulin resistance in dexamethasone-treated mice",
+        "locator": "Abstract",
+        "notes": "Paywalled; animal sex not specified in abstract; MeSH indexing (Male) not used to fill sex fields"
+    },
+    {
+        "paper_id": "valicherla2020_jpba",
+        "citation": "Valicherla et al., J Pharm Biomed Anal, 2020",
+        "doi": "10.1016/j.jpba.2019.113074",
+        "access": "abstract",
+        "species_strain": "Mouse",
+        "sex_male": "NOT_READ",
+        "sex_female": "NOT_READ",
+        "sex_source": "NOT_READ",
+        "n_per_group": "NOT_READ",
+        "disease_model": "PK and bioanalytical assay development in healthy mice",
+        "route": "i.v., i.p.",
+        "dose": "NOT_READ",
+        "duration": "Single dose (PK time-course)",
+        "estrous_monitored_outcome": "NOT_READ",
+        "estrous_baseline_staged": "NOT_READ",
+        "sex_analyzed_as_variable": "NOT_READ",
+        "stats_method": "NOT_READ",
+        "interaction_tested": "NOT_READ",
+        "key_endpoints": "LC-ESI-MS/MS bioanalytical validation, plasma PK parameters, absolute bioavailability (52.7%)",
+        "key_result": "Developed and validated LC-ESI-MS/MS assay for PSTi8 in mouse plasma with 52.7% absolute bioavailability",
+        "locator": "Abstract",
+        "notes": "Paywalled; animal sex not specified in abstract; MeSH lists Male but unverified in text"
+    },
+    {
+        "paper_id": "singh2020_fetuina",
+        "citation": "Singh et al., Heliyon, 2020",
+        "doi": "10.1016/j.heliyon.2020.e05133",
+        "access": "full",
+        "species_strain": "Mouse (C57BL/6)",
+        "sex_male": "yes",
+        "sex_female": "no",
+        "sex_source": "full_text",
+        "n_per_group": "n=6",
+        "disease_model": "HFD + STZ-induced T2D",
+        "route": "i.p.",
+        "dose": "acute 5 mg/kg, chronic 2 mg/kg alone (1 mg/kg in combo with Met 150 mg/kg)",
+        "duration": "10 days (after 12-week HFD + STZ)",
+        "estrous_monitored_outcome": "not_applicable",
+        "estrous_baseline_staged": "not_applicable",
+        "sex_analyzed_as_variable": "no",
+        "stats_method": "Student's t-test, one-way or two-way ANOVA with Bonferroni posttest",
+        "interaction_tested": "not_applicable",
+        "key_endpoints": "Fetuin-A mRNA/protein, GTT, ITT, CLAMS energy expenditure, lipid profile",
+        "key_result": "Combination of PSTi8 with metformin synergistically inhibited hepatic Fetuin-A and mitigated insulin resistance in diabetic mice",
+        "locator": "Section 2.2 (\"Animals\"), Section 2.3 (\"Treatment protocol\"), Section 2.18, Figure 1",
+        "notes": "Full text open access via PMC7533370; Section 2.2 explicitly specifies 7-8 weeks old male C57BL/6 mice"
+    },
+    {
+        "paper_id": "reza2021_mito",
+        "citation": "Reza et al., Life Sci, 2021",
+        "doi": "10.1016/j.lfs.2021.119905",
+        "access": "abstract",
+        "species_strain": "Mouse (C57BL/6)",
+        "sex_male": "NOT_READ",
+        "sex_female": "NOT_READ",
+        "sex_source": "NOT_READ",
+        "n_per_group": "NOT_READ",
+        "disease_model": "HFD-induced T2D / hepatic steatosis",
+        "route": "NOT_READ",
+        "dose": "NOT_READ",
+        "duration": "NOT_READ",
+        "estrous_monitored_outcome": "NOT_READ",
+        "estrous_baseline_staged": "NOT_READ",
+        "sex_analyzed_as_variable": "NOT_READ",
+        "stats_method": "NOT_READ",
+        "interaction_tested": "NOT_READ",
+        "key_endpoints": "Mitochondrial ROS, OCR, MMP, ATP, lipid accumulation, apoptosis, IL-6, TNF-alpha",
+        "key_result": "PSTi8 protected against mitochondrial dysfunction, oxidative stress, apoptosis, and hepatic steatosis in HFD-induced T2D mice",
+        "locator": "Abstract",
+        "notes": "Paywalled; animal sex not stated in abstract; MeSH indexing not used"
+    },
+    {
+        "paper_id": "goand2023_peptides",
+        "citation": "Goand et al., Peptides, 2023",
+        "doi": "10.1016/j.peptides.2022.170902",
+        "access": "abstract",
+        "species_strain": "Mouse (C57BL/6)",
+        "sex_male": "NOT_READ",
+        "sex_female": "NOT_READ",
+        "sex_source": "NOT_READ",
+        "n_per_group": "NOT_READ",
+        "disease_model": "Diet-induced obesity (DIO)",
+        "route": "NOT_READ",
+        "dose": "NOT_READ",
+        "duration": "NOT_READ",
+        "estrous_monitored_outcome": "NOT_READ",
+        "estrous_baseline_staged": "NOT_READ",
+        "sex_analyzed_as_variable": "NOT_READ",
+        "stats_method": "NOT_READ",
+        "interaction_tested": "NOT_READ",
+        "key_endpoints": "Body weight, eWAT adipocyte hypertrophy, SVF immunoprofiling (M1/M2 macrophages, Tregs), mitochondrial ROS, MMP",
+        "key_result": "PSTi8 attenuated adipose tissue inflammation, promoted M2 macrophage polarization, and restored mitochondrial function in DIO mice",
+        "locator": "Abstract",
+        "notes": "Paywalled; animal sex not specified in abstract (preprint goand2022_ssrn corresponds to this work); MeSH lists Male"
+    },
+    {
+        "paper_id": "goand2023_lifesci",
+        "citation": "Goand et al., Life Sci, 2023",
+        "doi": "10.1016/j.lfs.2023.121415",
+        "access": "abstract",
+        "species_strain": "Mouse (C57BL/6)",
+        "sex_male": "NOT_READ",
+        "sex_female": "NOT_READ",
+        "sex_source": "NOT_READ",
+        "n_per_group": "NOT_READ",
+        "disease_model": "HFD diet-induced obesity / T2D",
+        "route": "Subcutaneous osmotic minipump (Alzet)",
+        "dose": "2 mg/kg/day",
+        "duration": "8 weeks",
+        "estrous_monitored_outcome": "NOT_READ",
+        "estrous_baseline_staged": "NOT_READ",
+        "sex_analyzed_as_variable": "NOT_READ",
+        "stats_method": "NOT_READ",
+        "interaction_tested": "NOT_READ",
+        "key_endpoints": "GTT, ITT, eWAT histology, mitochondrial ROS/MMP, Oroboros OCR, M1-M2 macrophage polarization",
+        "key_result": "Continuous delivery of PSTi8 via osmotic minipump attenuated adipose inflammation, promoted M2 polarization, and restored energy expenditure in DIO mice",
+        "locator": "Abstract",
+        "notes": "Paywalled; continuous delivery via osmotic pumps; animal sex not specified in abstract; MeSH lists Male"
+    },
+    {
+        "paper_id": "garg2023_ejp",
+        "citation": "Garg et al., Eur J Pharmacol, 2023",
+        "doi": "10.1016/j.ejphar.2023.175559",
+        "access": "abstract",
+        "species_strain": "Rat",
+        "sex_male": "NOT_READ",
+        "sex_female": "NOT_READ",
+        "sex_source": "NOT_READ",
+        "n_per_group": "NOT_READ",
+        "disease_model": "Streptozotocin-induced diabetic rats",
+        "route": "NOT_READ",
+        "dose": "NOT_READ",
+        "duration": "NOT_READ",
+        "estrous_monitored_outcome": "NOT_READ",
+        "estrous_baseline_staged": "NOT_READ",
+        "sex_analyzed_as_variable": "NOT_READ",
+        "stats_method": "NOT_READ",
+        "interaction_tested": "NOT_READ",
+        "key_endpoints": "Blood glucose, plasma PST, insulin, glucagon, hepatic PEPCK/G6Pase, skeletal muscle P-Akt, glycogen",
+        "key_result": "PSTi8 exhibited anti-hyperglycemic effects via both PST-dependent and independent pathways, enhancing muscle glucose disposal and reducing hepatic gluconeogenesis",
+        "locator": "Abstract",
+        "notes": "Paywalled; animal sex not reported in abstract; MeSH lists Male"
+    },
+    {
+        "paper_id": "garg2023_aminoacids",
+        "citation": "Garg et al., Amino Acids, 2023",
+        "doi": "10.1007/s00726-023-03332-y",
+        "access": "abstract",
+        "species_strain": "Mouse",
+        "sex_male": "NOT_READ",
+        "sex_female": "NOT_READ",
+        "sex_source": "NOT_READ",
+        "n_per_group": "NOT_READ",
+        "disease_model": "HFD-fed mouse insulin resistance",
+        "route": "NOT_READ",
+        "dose": "NOT_READ",
+        "duration": "NOT_READ",
+        "estrous_monitored_outcome": "NOT_READ",
+        "estrous_baseline_staged": "NOT_READ",
+        "sex_analyzed_as_variable": "NOT_READ",
+        "stats_method": "NOT_READ",
+        "interaction_tested": "NOT_READ",
+        "key_endpoints": "Glucose metabolism, skeletal muscle insulin sensitivity, adiposity, pro-inflammatory cytokines, BMDM M1 markers",
+        "key_result": "PSTi8 protected adipose tissue and skeletal muscle from FFA-induced IR, reducing adiposity and cytokines in HFD-fed mice",
+        "locator": "Abstract",
+        "notes": "Paywalled; animal sex not reported in abstract; MeSH lists Male"
+    },
+    {
+        "paper_id": "tshikudi2024_jcag",
+        "citation": "Tshikudi et al., J Can Assoc Gastroenterol, 2024",
+        "doi": "10.1093/jcag/gwad061.269",
+        "access": "abstract",
+        "species_strain": "Mouse (C57BL/6)",
+        "sex_male": "yes",
+        "sex_female": "yes",
+        "sex_source": "abstract",
+        "n_per_group": "not_reported (abstract-only)",
+        "disease_model": "Homeostatic colonic mucosal maintenance (non-colitic)",
+        "route": "Intrarectal (i.r.)",
+        "dose": "2.5 mg/kg",
+        "duration": "6 days",
+        "estrous_monitored_outcome": "no (abstract-only)",
+        "estrous_baseline_staged": "not_reported (abstract-only)",
+        "sex_analyzed_as_variable": "yes (abstract-only)",
+        "stats_method": "not_reported (abstract-only)",
+        "interaction_tested": "not_reported (abstract-only)",
+        "key_endpoints": "Epithelial cell proliferation (Ki67), differentiation (CK-20, Muc2, Dclk1), stem cells (Lgr5, Hopx, Ly6a), ER stress (ATF6, CHOP)",
+        "key_result": "PSTi8 altered colonic epithelial proliferation in both sexes, but selectively reduced differentiation and mucus while increasing tuft cells and ER stress (CHOP) in females only",
+        "locator": "Published abstract (A269), Aims, Methods, Results",
+        "notes": "Published conference abstract supplement; both male and female C57BL/6 mice treated; sex-stratified outcomes reported with female-specific mucosal phenotypes"
     }
 ]
 
@@ -295,9 +521,12 @@ fieldnames = [
     "notes"
 ]
 
-with open(path, "w", newline="", encoding="utf-8") as f:
-    writer = csv.DictWriter(f, fieldnames=fieldnames)
-    writer.writeheader()
-    writer.writerows(rows)
+def main():
+    with open(TABLE_PATH, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+    print(f"Successfully wrote {len(rows)} rows to {TABLE_PATH}")
 
-print(f"Successfully updated {len(rows)} rows in {path}")
+if __name__ == "__main__":
+    main()
