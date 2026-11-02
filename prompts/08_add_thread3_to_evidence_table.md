@@ -1,21 +1,14 @@
 ---
 prompt_id: 08
 slug: add_thread3_to_evidence_table
-status: PENDING
-tool: Antigravity
-model: Gemini 3.8 Flash (High); Claude Sonnet 4.6 if quota is back
-depends_on: docs/staging_new_studies.md, docs/schema.md (both in repo)
-legacy_name: "Prompt 5"
+date: 2026-11-02
+model: "Gemini 3.8 Flash (High)"
+status: running
 ---
 # 08 Add the new Thread 3 primary studies to the evidence table
 
-**Model:** Gemini 3.8 Flash (High) in Antigravity.
-**Why:** `data/evidence_table.csv` still has 11 studies; Thread 3 verification found about 9 new primary studies (plus 1 preprint) that are listed in `docs/staging_new_studies.md` but not yet in the table. The sex-coverage denominator in `docs/audit_report.md` must then be recomputed.
-
-## Prompt
-
 ```text
-Step 0: If prompts/08_add_thread3_to_evidence_table.md does not exist, save this entire prompt text verbatim to that path first, with front matter (prompt_id, date, model, status: running). When the run ends, update status and add the commit hash.
+Step 0: If prompts/08_add_thread3_to_evidence_table.md does not exist, save this entire prompt text verbatim to that path first, with front matter (prompt_id: 08, slug: add_thread3_to_evidence_table, date: 2026-11-02, model: "Gemini 3.8 Flash (High)", status: running). When the run ends, update status to done and add the commit hash.
 
 Read AGENTS.md, INDEX.md, STATE.md, docs/schema.md, docs/staging_new_studies.md, data/evidence_table.csv. Task: add the verified new Thread 3 primary studies to data/evidence_table.csv using the current schema.
 
