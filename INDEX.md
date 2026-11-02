@@ -160,3 +160,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/14_collect_structural_assets.md](prompts/14_collect_structural_assets.md) | Prompt 14: Collect and verify 1D, 2D, and 3D molecular and structural assets for PST/PSTi8 and GRP78 |
 | [prompts/15_verify_thread6.md](prompts/15_verify_thread6.md) | Prompt 15: Verification of Thread 6 (Methods and Reporting Standards) literature |
 | [prompts/16_computational_sequence_pathway_analysis.md](prompts/16_computational_sequence_pathway_analysis.md) | Prompt 16: Computational sequence profiling, cross-species alignment, variant impact scoring, and GRP78 pathway interactome retrieval |
+| [prompts/17_complete_phase1_esm2_structures_and_topics.md](prompts/17_complete_phase1_esm2_structures_and_topics.md) | Prompt 17: Complete Phase 1 computational, structural sanitization, and 6 topic synthesis deliverables |
