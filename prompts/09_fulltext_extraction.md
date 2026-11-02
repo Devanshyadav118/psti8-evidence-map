@@ -3,7 +3,8 @@ prompt_id: 09
 slug: fulltext_extraction
 date: 2026-11-02
 model: "Gemini 3.8 Flash (High)"
-status: running
+status: done
+commit: c9c099b
 ---
 # 09 Open-access full-text extraction
 

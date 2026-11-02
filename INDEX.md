@@ -32,12 +32,14 @@ One structured markdown note per published paper, featuring standardized YAML fr
 | [notes/papers/singh2019_menopause.md](notes/papers/singh2019_menopause.md) | Peri/post-menopausal insulin resistance in female rats (Peptides 2019) |
 | [notes/papers/gupta2020_skeletal.md](notes/papers/gupta2020_skeletal.md) | Skeletal muscle GLUT4 translocation & IR in HFD+STZ mice (Eur J Pharmacol 2020) |
 | [notes/papers/singh2020_heliyon.md](notes/papers/singh2020_heliyon.md) | Perimenopausal steatohepatitis, ER stress & SIRT-1/SREBP-1c in female rats (Heliyon 2020) |
+| [notes/papers/singh2020_fetuina.md](notes/papers/singh2020_fetuina.md) | Combination of PSTi8 with metformin inhibiting Fetuin-A in male diabetic mice (Heliyon 2020) |
 | [notes/papers/reza2022_lfs.md](notes/papers/reza2022_lfs.md) | Hepatic FFA oxidative stress, NOX3 & JNK in mice/HepG2 (Life Sci 2022) |
 | [notes/papers/valicherla2022_pk.md](notes/papers/valicherla2022_pk.md) | Preclinical PK, bioavailability & male vs female comparison in SD rats (Molecules 2022) |
 | [notes/papers/dadge2023_nash.md](notes/papers/dadge2023_nash.md) | NASH / MCD model & macrophage immunomodulation (Cytokine 2023; first author Goand UK) |
 | [notes/papers/yadav2024_pcos_let.md](notes/papers/yadav2024_pcos_let.md) | Letrozole + HFD-induced PCOS in female rats (Steroids 2024) |
 | [notes/papers/yadav2025_pcos_dhea.md](notes/papers/yadav2025_pcos_dhea.md) | DHEA + HFD-induced PCOS in female rats (JPET 2025) |
 | [notes/papers/tshikudi2024_colitis.md](notes/papers/tshikudi2024_colitis.md) | Colitis & sex-divergent colonic epithelial response in male vs female mice (IJMS 2024) |
+| [notes/papers/tshikudi2024_jcag.md](notes/papers/tshikudi2024_jcag.md) | Homeostatic colonic epithelial maintenance & sex-dependent response in mice (JCAG 2024) |
 
 ## data/
 

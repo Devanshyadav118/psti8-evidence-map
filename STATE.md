@@ -135,6 +135,13 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Maintained strict `NOT_READ` for 7 paywalled studies where animal sex was unstated in the abstract, adhering strictly to the MeSH non-inference rule.
   - Regenerated [docs/audit_report.md](docs/audit_report.md): denominator expanded to 20 studies; both sexes evaluated in 3 studies (15.0%); single-sex in 7 studies (35.0%); unstated/paywalled in 10 studies (50.0%); formal factorial interaction tested in 0 studies (0.0%).
   - Authored Batch 2 spot-check list in [docs/spot_check_list.md](docs/spot_check_list.md) detailing 10 newly added rows and locators for independent audit.
+- [x] **2026-11-02: Open-access full-text extraction complete (Prompt 09):**
+  - Identified 2 open-access primary studies previously classified as `status: abstract_only`: `singh2020_fetuina` and `tshikudi2024_jcag`.
+  - Retrieved open full texts via free academic APIs (NCBI E-utilities / PMC XML / Crossref; 0 Exa / Firecrawl credits consumed).
+  - Cached full-text XML payloads in gitignored `data/fulltext_cache/` (`PMC7533370` and `tshikudi2024_jcag.json`).
+  - Authored detailed paper notes with paraphrased extractions, locators, and strict 15-word quote limits: [notes/papers/singh2020_fetuina.md](notes/papers/singh2020_fetuina.md) and [notes/papers/tshikudi2024_jcag.md](notes/papers/tshikudi2024_jcag.md).
+  - Updated [data/papers_registry.csv](data/papers_registry.csv) setting both records to `status: full_text_read`.
+  - Updated [data/evidence_table.csv](data/evidence_table.csv) setting `access: full` for both records with verified locators.
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
 - [ ] Identify 2–3 candidate contributions for Phase 2.
 

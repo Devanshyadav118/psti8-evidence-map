@@ -474,7 +474,7 @@ rows = [
         "paper_id": "tshikudi2024_jcag",
         "citation": "Tshikudi et al., J Can Assoc Gastroenterol, 2024",
         "doi": "10.1093/jcag/gwad061.269",
-        "access": "abstract",
+        "access": "full",
         "species_strain": "Mouse (C57BL/6)",
         "sex_male": "yes",
         "sex_female": "yes",
