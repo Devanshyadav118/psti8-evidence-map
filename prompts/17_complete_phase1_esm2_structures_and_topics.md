@@ -1,7 +1,8 @@
 ---
 prompt_id: 17
 slug: complete_phase1_esm2_structures_and_topics
-status: running
+status: done
+commit: 538dbc5
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-02
