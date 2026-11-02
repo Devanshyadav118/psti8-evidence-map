@@ -45,7 +45,7 @@ Master tabular datasets and analytical outputs.
 
 | File | Purpose |
 | :--- | :--- |
-| [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (11 studies × 22 schema columns) |
+| [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (20 studies × 22 schema columns) |
 | [data/power_results.csv](data/power_results.csv) | Statistical power analysis results across 33 sensitivity scenarios (t-distribution) |
 | [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all 116 verified papers across Threads 1, 2, 3, and 6 |
 | [data/staging/papers_registry_pre_merge.csv](data/staging/papers_registry_pre_merge.csv) | Baseline pre-merge backup of papers_registry.csv (26 Thread 3 rows) |
@@ -75,9 +75,9 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | File | Purpose |
 | :--- | :--- |
 | [docs/schema.md](docs/schema.md) | 22-column data dictionary and allowable value definitions for evidence table |
-| [docs/audit_report.md](docs/audit_report.md) | Task A audit report: sex-coverage matrix, estrous staging, scope boundaries |
+| [docs/audit_report.md](docs/audit_report.md) | Sex-coverage audit report across 20 primary preclinical PSTi8 studies |
 | [docs/power_analysis.md](docs/power_analysis.md) | Task B report: DAI extraction, interaction power modeling, sample size trade-offs |
-| [docs/spot_check_list.md](docs/spot_check_list.md) | Task C protocol: 10 randomized table rows with locators for independent audit |
+| [docs/spot_check_list.md](docs/spot_check_list.md) | Spot-check audit protocol: 10 sampled primary studies with locators for independent audit |
 | [docs/research_plan.md](docs/research_plan.md) | Phase 1 research plan: 6 topic threads with queries, criteria, and targets |
 | [docs/search_log.md](docs/search_log.md) | Reproducible log of every literature search performed during Phase 1 |
 | [docs/search_strategy.md](docs/search_strategy.md) | Comprehensive search strategy, databases, queries, and PRISMA inclusion criteria |

@@ -127,7 +127,14 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Standardized controlled role vocabulary (`methods_reference`: 26, `primary_evidence`: 21, `background_mechanism`: 21, `pst_chga_biology`: 20, `review`: 18, `sex_estrogen`: 7, `context_only`: 3).
   - Preserved existing Thread 3 corrections and metadata integrity without overwriting.
   - Authored comprehensive audit report in [docs/registry_merge_report.md](docs/registry_merge_report.md).
-- [ ] Incorporate verified new primary studies into master evidence table (Prompt 08).
+- [x] **2026-11-02: Incorporated 9 verified Thread 3 primary studies into data/evidence_table.csv:**
+  - Expanded master evidence table [data/evidence_table.csv](data/evidence_table.csv) from 11 to **20 primary preclinical studies** across 22 schema columns.
+  - Added 9 verified primary studies: `gupta2019_dex`, `valicherla2020_jpba`, `singh2020_fetuina`, `reza2021_mito`, `goand2023_peptides`, `goand2023_lifesci`, `garg2023_ejp`, `garg2023_aminoacids`, `tshikudi2024_jcag`.
+  - Treated preprint `goand2022_ssrn` as the preprint of `goand2023_peptides` without artificial row duplication.
+  - Extracted full-text locators for open-access papers (`singh2020_fetuina`: PMC7533370 Section 2.2 male C57BL/6; `tshikudi2024_jcag`: published conference abstract A269 male & female C57BL/6).
+  - Maintained strict `NOT_READ` for 7 paywalled studies where animal sex was unstated in the abstract, adhering strictly to the MeSH non-inference rule.
+  - Regenerated [docs/audit_report.md](docs/audit_report.md): denominator expanded to 20 studies; both sexes evaluated in 3 studies (15.0%); single-sex in 7 studies (35.0%); unstated/paywalled in 10 studies (50.0%); formal factorial interaction tested in 0 studies (0.0%).
+  - Authored Batch 2 spot-check list in [docs/spot_check_list.md](docs/spot_check_list.md) detailing 10 newly added rows and locators for independent audit.
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
 - [ ] Identify 2–3 candidate contributions for Phase 2.
 

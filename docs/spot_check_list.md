@@ -1,120 +1,124 @@
-# Spot-Check Verification List
+# Spot-Check Verification List: Batch 2 (Thread 3 Additions)
 
-**Date:** 2026-10-28  
-**Purpose:** Independent human verification of extracted data fields in [data/evidence_table.csv](../data/evidence_table.csv) against original primary papers.
+**Date:** 2026-11-02  
+**Purpose:** Independent human verification of newly added data fields in [data/evidence_table.csv](../data/evidence_table.csv) and associated preprints against original primary manuscripts.
 
-Below are 10 randomly sampled study rows from the master evidence table. For each entry, key extracted values and their corresponding paper locators are provided for rapid audit against the source manuscript.
+Below are 10 study rows from the newly verified Thread 3 literature additions to the master evidence table and registry. For each entry, key extracted values and their corresponding paper locators are provided for rapid audit against the source manuscript.
 
 ---
 
-### 1. `valicherla2018` — Discovery of PSTi8
-* **Citation:** Valicherla et al., *Sci Rep*, 2018; DOI: [10.1038/s41598-018-27018-8](https://doi.org/10.1038/s41598-018-27018-8)
-* **Access Level:** Full (PMC Open Access: PMC6008391)
+### 1. `gupta2019_dex` — Glucocorticoid Fatty Liver & AMPK Activation
+* **Citation:** Gupta et al., *Biomed Pharmacother*, 2019; DOI: [10.1016/j.biopha.2019.108959](https://doi.org/10.1016/j.biopha.2019.108959)
+* **Access Level:** Abstract only (Elsevier paywall; PMID: 31108350)
 * **Items to Verify:**
-  - `species_strain`: Mouse (C57BL/6J, db/db) and Rat (Sprague Dawley) → *Locator: Methods, "Animals" section*
-  - `sex_male`: `yes` | `sex_female`: `no` → *Locator: Methods, "Animals" section specifies male animals exclusively*
-  - `n_per_group`: `n=6-8` → *Locator: Methods, "Animals" & Figure legends*
-  - `dose` & `route`: `0.3, 1, 3 mg/kg` via `i.p.` for `28 days` → *Locator: Methods, "Treatment protocol"*
-  - `sex_analyzed_as_variable`: `no` | `interaction_tested`: `not_applicable`
+  - `species_strain`: Mouse (C57BL/6) and HepG2 cells → *Locator: Abstract*
+  - `sex_male` & `sex_female`: `NOT_READ` → *Locator: Abstract (abstract states "Twenty four mice were randomly divided into 4 groups" without specifying sex)*
+  - `disease_model`: Dexamethasone-induced fatty liver disease / T2D → *Locator: Abstract*
+  - `dose` & `route`: Acute 5 mg/kg, chronic 2 mg/kg, i.p. (DEX 1 mg/kg im) → *Locator: Abstract*
+  - `key_result`: PSTi8 activates AMPK signaling via GRP78 and ameliorates glucocorticoid-induced fatty liver → *Locator: Abstract*
 
 ---
 
-### 2. `tshikudi2024_colitis` — Colitis & Sex-Dependent Epithelial Profile
-* **Citation:** Tshikudi, Hutchison & Ghia, *Int J Mol Sci*, 2024; DOI: [10.3390/ijms252312757](https://doi.org/10.3390/ijms252312757)
-* **Access Level:** Full (MDPI Open Access)
+### 2. `valicherla2020_jpba` — LC-ESI-MS/MS Bioanalytical Assay & Pharmacokinetics
+* **Citation:** Valicherla et al., *J Pharm Biomed Anal*, 2020; DOI: [10.1016/j.jpba.2019.113074](https://doi.org/10.1016/j.jpba.2019.113074)
+* **Access Level:** Abstract only (Elsevier paywall; PMID: 31891874)
 * **Items to Verify:**
-  - `sex_male`: `yes` | `sex_female`: `yes` → *Locator: Section 4.1 ("Animals")*
-  - `disease_model`: 5% DSS-induced colitis + steady-state homeostasis → *Locator: Section 4.2*
-  - `route` & `dose`: Intrarectal, `10 µg/mouse (~2.5 mg/kg)` daily → *Locator: Section 4.3*
-  - `key_result`: PSTi8 delayed colitis onset in males and elevated daily DAI at 72–96 h in females, but cumulative DAI sum and macroscopic damage scores were non-significant → *Locator: Abstract, Section 2.1, Figure 1*
-  - `estrous_controlled`: `NOT_READ` (verify if estrous staging is absent in Section 4.1)
-  - `interaction_tested`: `NOT_READ` (verify if two-way ANOVA interaction term p-value is omitted in Section 4.9 & Results)
+  - `species_strain`: Mouse plasma (healthy mice) → *Locator: Abstract*
+  - `sex_male` & `sex_female`: `NOT_READ` → *Locator: Abstract (sex not stated in published abstract)*
+  - `route`: Intravenous (IV) and intraperitoneal (IP) administration → *Locator: Abstract*
+  - `key_endpoints`: Absolute bioavailability (52.74 ± 13.50%), SPE extraction recovery >55%, linearity 5–1000 ng/mL → *Locator: Abstract*
+  - `interaction_tested`: `NOT_READ`
 
 ---
 
-### 3. `valicherla2022_pk` — Pharmacokinetics in Rats
-* **Citation:** Valicherla et al., *Molecules*, 2022; DOI: [10.3390/molecules27020339](https://doi.org/10.3390/molecules27020339)
-* **Access Level:** Full (MDPI Open Access)
+### 3. `singh2020_fetuina` — Fetuin-A Downregulation & Metformin Synergy
+* **Citation:** Singh et al., *Heliyon*, 2020; DOI: [10.1016/j.heliyon.2020.e05133](https://doi.org/10.1016/j.heliyon.2020.e05133)
+* **Access Level:** Full (Open Access PMC7533370)
 * **Items to Verify:**
-  - `species_strain`: Rat (Sprague Dawley) → *Locator: Section 4.2 ("Animals")*
-  - `sex_male`: `yes` | `sex_female`: `yes` (both sexes tested) → *Locator: Section 4.2 & Section 4.5*
-  - `sex_analyzed_as_variable`: `yes` (PK parameters reported by sex) → *Locator: Tables 4 and 5*
-  - `key_result`: Bioavailability ~95% IP and ~78% SC; no significant sex differences in PK → *Locator: Abstract, Section 2.5*
-  - `interaction_tested`: `no`
+  - `species_strain`: Mouse (C57BL/6) → *Locator: Section 2.2 ("Animals")*
+  - `sex_male`: `yes` | `sex_female`: `no` → *Locator: Section 2.2 explicitly specifies "7–8 weeks old male C57BL/6 mice"*
+  - `disease_model`: HFD (12 weeks) + STZ (100 mg/kg ip at wk 4) → *Locator: Section 2.3 & Figure 1*
+  - `dose` & `n_per_group`: PSTi8 2 mg/kg alone, 1 mg/kg combo with Metformin 150 mg/kg; n=6 per group → *Locator: Section 2.3*
+  - `key_result`: Combination of PSTi8 with metformin synergistically inhibited hepatic Fetuin-A and mitigated insulin resistance → *Locator: Abstract, Section 3.1–3.7*
 
 ---
 
-### 4. `singh2020_heliyon` — Perimenopausal Steatohepatitis & ER Stress
-* **Citation:** Singh et al., *Heliyon*, 2020; DOI: [10.1016/j.heliyon.2020.e05826](https://doi.org/10.1016/j.heliyon.2020.e05826)
-* **Access Level:** Full (Heliyon Open Access: PMC7779780)
+### 4. `reza2021_mito` — Mitochondrial Dysfunction in Hepatic Steatosis
+* **Citation:** Reza et al., *Life Sci*, 2021; DOI: [10.1016/j.lfs.2021.119905](https://doi.org/10.1016/j.lfs.2021.119905)
+* **Access Level:** Abstract only (Elsevier paywall; PMID: 34509503)
 * **Items to Verify:**
-  - `sex_male`: `no` | `sex_female`: `yes` → *Locator: Section 2.2 ("Female Wistar/SD rats")*
-  - `disease_model`: VCD perimenopause + high-fructose diet (HFrD) → *Locator: Section 2.2*
-  - `estrous_controlled`: `yes` (daily vaginal cytology monitoring) → *Locator: Section 2.3*
-  - `dose` & `route`: PSTi8 1 mg/kg alone, 0.5 mg/kg with metformin, i.p. → *Locator: Section 2.2*
+  - `species_strain`: Mouse (C57BL/6) and HepG2 cells → *Locator: Abstract*
+  - `sex_male` & `sex_female`: `NOT_READ` → *Locator: Abstract (animal sex omitted in published abstract)*
+  - `disease_model`: HFD-induced T2D and hepatic steatosis → *Locator: Abstract*
+  - `key_endpoints`: Mitochondrial ROS, OCR, MMP, ATP, SREBP-1c, apoptosis, pro-inflammatory cytokines → *Locator: Abstract*
+  - `interaction_tested`: `NOT_READ`
 
 ---
 
-### 5. `yadav2024_pcos_let` — PCOS Letrozole Model
-* **Citation:** Yadav et al., *Steroids*, 2024; DOI: [10.1016/j.steroids.2024.109558](https://doi.org/10.1016/j.steroids.2024.109558)
-* **Access Level:** Abstract only (Elsevier paywall)
+### 5. `goand2022_ssrn` — SSRN Preprint for Diet-Induced Obesity
+* **Citation:** Goand et al., *SSRN Electronic Journal*, 2022; DOI: [10.2139/ssrn.4153464](https://doi.org/10.2139/ssrn.4153464)
+* **Access Level:** Open Access Preprint (Elsevier SSRN)
 * **Items to Verify:**
-  - `disease_model`: Letrozole (2 mg/kg) + 60% HFD-induced PCOS in rats → *Locator: Abstract*
-  - `sex_male`: `no` | `sex_female`: `yes` → *Locator: Abstract (female-only disorder)*
-  - `estrous_controlled`: `yes` (cyclicity monitored and restored) → *Locator: Abstract*
-  - `dose` & `n_per_group`: `NOT_READ` (verify absence in abstract)
+  - `type`: Preprint corresponding to published peer-reviewed journal article `goand2023_peptides` → *Locator: Title page*
+  - `title`: Pancreastatin Inhibitor PSTi8 Balances Energy Homeostasis by Attenuating Adipose Tissue Inflammation in High Fat Diet Fed Mice → *Locator: Crossref / SSRN landing page*
+  - `first_author`: Umesh K. Goand → *Locator: Author list*
+  - `published_version_of`: Cross-linked to `goand2023_peptides` in master registry → *Locator: data/papers_registry.csv*
 
 ---
 
-### 6. `yadav2025_pcos_dhea` — PCOS DHEA Model
-* **Citation:** Yadav et al., *JPET*, 2025; DOI: [10.1016/j.jpet.2025.103765](https://doi.org/10.1016/j.jpet.2025.103765)
-* **Access Level:** Abstract only (ASPET paywall)
-* **Items to Verify:**
-  - `disease_model`: DHEA (60 mg/kg s.c. × 21 d) + HFD-induced PCOS → *Locator: Abstract*
-  - `dose`: PSTi8 10 mg/kg; metformin 300 mg/kg → *Locator: Abstract*
-  - `sex_male`: `no` | `sex_female`: `yes` → *Locator: Abstract*
-  - `estrous_controlled`: `yes` (cyclicity tracked as endpoint) → *Locator: Abstract*
-
----
-
-### 7. `gupta2019_obesity` — Obesity & Hyperinsulinemia
-* **Citation:** Gupta et al., *Eur J Pharmacol*, 2019; DOI: [10.1016/j.ejphar.2019.172723](https://doi.org/10.1016/j.ejphar.2019.172723)
-* **Access Level:** Abstract only (Elsevier paywall; PMID: 31586632)
+### 6. `goand2023_peptides` — Adipose Tissue Inflammation & M2 Polarization
+* **Citation:** Goand et al., *Peptides*, 2023; DOI: [10.1016/j.peptides.2022.170902](https://doi.org/10.1016/j.peptides.2022.170902)
+* **Access Level:** Abstract only (Elsevier paywall; PMID: 36375661)
 * **Items to Verify:**
   - `species_strain`: Mouse (C57BL/6) → *Locator: Abstract*
-  - `disease_model`: Mini-osmotic insulin pump hyperinsulinemia for 4 weeks → *Locator: Abstract*
-  - `dose`, `route`, `n_per_group`: `NOT_READ` (verify absence in abstract)
-  - `key_endpoints`: MAPK/NOX3-JNK, adipokines, body weight → *Locator: Abstract*
+  - `sex_male` & `sex_female`: `NOT_READ` → *Locator: Abstract (animal sex omitted in published abstract)*
+  - `disease_model`: Diet-induced obesity (DIO) in C57BL/6 mice → *Locator: Abstract*
+  - `key_endpoints`: Body weight, eWAT adipocyte hypertrophy, SVF immunoprofiling (M1/M2 macrophages, Tregs), pAMPK, pAKT → *Locator: Abstract*
+  - `key_result`: PSTi8 attenuated adipose inflammation, promoted M2 macrophage polarization, and restored mitochondrial function in DIO mice → *Locator: Abstract*
 
 ---
 
-### 8. `singh2019_menopause` — Perimenopausal Insulin Resistance
-* **Citation:** Valicherla/Singh et al., *Peptides*, 2019; DOI: [10.1016/j.peptides.2019.170147](https://doi.org/10.1016/j.peptides.2019.170147)
-* **Access Level:** Abstract only (Elsevier paywall)
+### 7. `goand2023_lifesci` — Continuous Osmotic Pump Delivery in Obesity
+* **Citation:** Goand et al., *Life Sci*, 2023; DOI: [10.1016/j.lfs.2023.121415](https://doi.org/10.1016/j.lfs.2023.121415)
+* **Access Level:** Abstract only (Elsevier paywall; PMID: 36690282)
 * **Items to Verify:**
-  - `first_author`: Check whether indexed under Valicherla GR vs Singh → *Locator: Header / Citation*
-  - `disease_model`: VCD + OVX + HFD rat model → *Locator: Abstract*
-  - `sex_male`: `no` | `sex_female`: `yes` (implied by OVX model) → *Locator: Abstract*
-  - `dose`, `route`, `duration`: `NOT_READ` (verify absence in abstract)
+  - `disease_model`: HFD diet-induced obesity / T2D in C57BL/6 mice → *Locator: Abstract*
+  - `route` & `dose`: Subcutaneous Alzet osmotic minipump, release rate 2 mg/kg/day for 8 weeks → *Locator: Abstract*
+  - `sex_male` & `sex_female`: `NOT_READ` → *Locator: Abstract (animal sex omitted in published abstract)*
+  - `key_endpoints`: GTT, ITT, eWAT histology, mitochondrial ROS/MMP, Oroboros OCR, M1-to-M2 macrophage polarization → *Locator: Abstract*
+  - `interaction_tested`: `NOT_READ`
 
 ---
 
-### 9. `reza2022_lfs` — Hepatic Oxidative Stress & JNK
-* **Citation:** Reza et al., *Life Sci*, 2022; DOI: [10.1016/j.lfs.2021.120221](https://doi.org/10.1016/j.lfs.2021.120221)
-* **Access Level:** Abstract only (Elsevier paywall)
+### 8. `garg2023_ejp` — PST-Dependent and Independent Anti-Hyperglycemic Action
+* **Citation:** Garg et al., *Eur J Pharmacol*, 2023; DOI: [10.1016/j.ejphar.2023.175559](https://doi.org/10.1016/j.ejphar.2023.175559)
+* **Access Level:** Abstract only (Elsevier paywall; PMID: 36681283)
 * **Items to Verify:**
-  - `species_strain`: Mouse (C57BL/6J) in vivo + HepG2 in vitro → *Locator: Abstract*
-  - `dose`: 1 mg/kg in vivo; 200 nM in vitro → *Locator: Abstract*
-  - `duration`: 21 days → *Locator: Abstract*
-  - `sex_male` & `sex_female`: `NOT_READ` (verify if sex is omitted in abstract)
+  - `species_strain`: Rat (streptozotocin-induced diabetic rats) and L6 / HepG2 cells → *Locator: Abstract*
+  - `sex_male` & `sex_female`: `NOT_READ` → *Locator: Abstract (animal sex omitted in published abstract)*
+  - `key_endpoints`: Blood glucose, plasma PST, insulin, glucagon, hepatic PEPCK/G6Pase, skeletal muscle P-Akt → *Locator: Abstract*
+  - `key_result`: PSTi8 exhibited anti-hyperglycemic properties via both PST-dependent and independent pathways, enhancing muscle glucose disposal and reducing hepatic gluconeogenesis → *Locator: Abstract*
 
 ---
 
-### 10. `dadge2023_nash` / `goand2023_nash` — NASH MCD Model
-* **Citation:** Goand et al. (Dadge et al.), *Cytokine*, 2023; DOI: [10.1016/j.cyto.2023.156354](https://doi.org/10.1016/j.cyto.2023.156354)
-* **Access Level:** Abstract only (Elsevier paywall)
+### 9. `garg2023_aminoacids` — Skeletal Muscle & Adipose Protection from FFA-Induced IR
+* **Citation:** Garg et al., *Amino Acids*, 2023; DOI: [10.1007/s00726-023-03332-y](https://doi.org/10.1007/s00726-023-03332-y)
+* **Access Level:** Abstract only (Springer paywall; PMID: 37721673)
 * **Items to Verify:**
-  - `first_author`: Verify first author is Goand UK (Dadge key retained for repository tracking) → *Locator: Article title page*
-  - `disease_model`: MCD diet-induced NASH in C57BL/6 mice → *Locator: Abstract*
-  - `sex_male` & `sex_female`: `NOT_READ` (verify omission in abstract)
-  - `key_endpoints`: M1/M2 macrophages, fibrosis (α-SMA), ALT/AST → *Locator: Abstract*
+  - `species_strain`: Mouse (HFD-fed mice IR model) and 3T3-L1 / BMDM cells → *Locator: Abstract*
+  - `sex_male` & `sex_female`: `NOT_READ` → *Locator: Abstract (animal sex omitted in published abstract)*
+  - `disease_model`: In vivo HFD-fed mice IR model + in vitro palmitate challenge → *Locator: Abstract*
+  - `key_endpoints`: Glucose metabolism, skeletal muscle insulin sensitivity, adiposity, pro-inflammatory cytokines, BMDM M1 markers → *Locator: Abstract*
+  - `interaction_tested`: `NOT_READ`
+
+---
+
+### 10. `tshikudi2024_jcag` — Colonic Mucosal Maintenance & Sex-Dependent Profiles
+* **Citation:** Tshikudi et al., *J Can Assoc Gastroenterol*, 2024; DOI: [10.1093/jcag/gwad061.269](https://doi.org/10.1093/jcag/gwad061.269)
+* **Access Level:** Open Access Conference Abstract Supplement (A269)
+* **Items to Verify:**
+  - `species_strain`: Mouse (C57BL/6) → *Locator: Published abstract, Methods*
+  - `sex_male`: `yes` | `sex_female`: `yes` → *Locator: Published abstract explicitly states "Male and female C57BL/6 mice were treated with PSTi8 (2.5mg/mL/kg, i.r.) or PBS for six days"*
+  - `sex_analyzed_as_variable`: `yes (abstract-only)` → *Locator: Published abstract disaggregates findings by sex ("in females but not in male mice", "in both sexes")*
+  - `interaction_tested`: `not_reported (abstract-only)` → *Locator: Published abstract (omnibus interaction test omitted)*
+  - `key_result`: PSTi8 decreased epithelial proliferation in both sexes, but lowered differentiation and mucus while enhancing ER stress (CHOP) selectively in female mice → *Locator: Published abstract, Results & Conclusions*
