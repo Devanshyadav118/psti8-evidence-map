@@ -1,10 +1,10 @@
 ---
 prompt_id: 11
 slug: gap_map
-status: PENDING (end of Phase 1; run after prompts 02, 06, 07, 08, 10)
-tool: Antigravity draft, then Gemini 4 Argon second opinion
-model: Claude Opus 4.6 in Antigravity if Claude quota is back (best); otherwise Gemini 3.8 Flash (High), then Gemini 4 Argon in the Gemini Project
-legacy_name: "Prompt 8"
+date: 2026-11-02
+model: "Gemini 3.8 Flash (High)"
+status: running
+tool: Antigravity
 ---
 # 11 Gap map and direction choice
 

@@ -94,6 +94,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md) | Direction 1 novelty assessment: Exa search log, existing review critique, and verdict |
 | [docs/structural_data_inventory.md](docs/structural_data_inventory.md) | Inventory of 1D/2D/3D structural assets, physicochemical comparisons, and AlphaFold 3 co-folding job inputs |
 | [docs/pathway_and_variant_analysis.md](docs/pathway_and_variant_analysis.md) | Computational sequence profiling, variant scoring, cross-species alignment, and GRP78 pathway interactome synthesis |
+| [docs/gap_map.md](docs/gap_map.md) | Master Evidence Gap Map: comprehensive Phase 1 synthesis, SABV gaps, structural landscape, and Phase 2 manuscript architecture |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
 | [docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md](docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md) | Decision record: fix registry seed DOIs, unsupported reading statuses, and archive old seed |
 | [docs/decisions/2026-10-31_license-cc-by-4.0.md](docs/decisions/2026-10-31_license-cc-by-4.0.md) | Decision record: CC BY 4.0 open repository license and attribution terms |

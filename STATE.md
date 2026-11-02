@@ -148,12 +148,22 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
   - Profiled human coding variants in [data/structures/1d_sequences/variant_scores.csv](data/structures/1d_sequences/variant_scores.csv): proved that high-potency diabetogenic variant Gly297Ser (`rs9658664`, pos 25) resides in the cleaved 8-mer outside PSTi8, rendering PSTi8 naturally immune to this risk allele; quantified charge inversion (+2.00) for Glu287Lys (`rs140089514`).
   - Extracted 17 high-confidence functional interactome records from STRING and Reactome in [data/structures/pathway_interactions.csv](data/structures/pathway_interactions.csv), delineating physical interactions with UPR sensors (`PERK`/`EIF2AK3`, `ATF6`, `IRE1`/`ERN1`, all scores 0.999), cell-surface kinase scaffolds (`AKT1`, score 0.960), and the `IRE1-TRAF2-JNK1-IRS1` Ser307 insulin resistance cascade.
   - Authored comprehensive synthesis report in [docs/pathway_and_variant_analysis.md](docs/pathway_and_variant_analysis.md) with strict paraphrasing and zero quotes over 15 words.
+- [x] **2026-11-02: Master Evidence Gap Map & Phase 2 Manuscript Architecture Complete (Prompt 11):**
+  - Synthesized findings across all 20 primary preclinical studies, 116 verified papers, and 32 structural assets in [docs/gap_map.md](docs/gap_map.md).
+  - Formulated comprehensive evidence matrix cross-tabulating disease models, animal sex, strain, sample sizes, and reporting standards.
+  - Documented major SABV deficits: 100% male bias in T2D/obesity; 0% baseline estrous staging compliance; 0/20 formal factorial interaction tests ($p_{\text{sex} \times \text{treatment}}$); and severe interaction underpowering (<19% power in $n=6$ cohorts).
+  - Reconciled biophysical models: electrostatic latch (`EEEEEMAV`, charge -4.997) vs. hydrophobic anchor (`VPQGLFRG`), intrinsically disordered nature of monomeric PST (pLDDT < 50), 100.00% conservation of GRP78 substrate cleft across human/rodents, and structural excision of high-potency variant Gly297Ser in PSTi8.
+  - Appraised candidate directions across novelty, impact, feasibility, and 2026 desk-rejection risk; selected **Route A: The Hybrid Systematic Evidence Audit + In Silico Structural Investigation**.
+  - Formulated full section-by-section manuscript architecture and targeted peer-reviewed journals (*Biology of Sex Differences*, *Frontiers in Endocrinology*, *Peptides*).
 - [ ] Author 6 topic synthesis notes in `notes/topics/`.
-- [ ] Identify 2–3 candidate contributions for Phase 2.
+- [x] Identify 2–3 candidate contributions for Phase 2 (Completed in [docs/gap_map.md](docs/gap_map.md); Route A selected).
 
-### Phase 2: CONTRIBUTION (planned)
+### Phase 2: CONTRIBUTION 🔄 SCOPED & READY TO EXECUTE
 
-Not yet scoped. Will be defined after Phase 1 findings.
+**Selected Strategy:** **Route A — The Hybrid Systematic Evidence Audit + In Silico Structural Investigation**  
+- **Working Title:** *Targeting GRP78 with Pancreastatin Inhibitor PSTi8: A Systematic Evidence Audit of Preclinical Sex Bias and In Silico Structural Investigation of Binding Mechanisms*  
+- **Target Journal:** *Biology of Sex Differences* (Springer Nature; Impact Factor ~4.9; turnaround ~6–8 weeks); alternatives: *Frontiers in Endocrinology*, *Peptides*.  
+- **Manuscript Plan:** 6 implementation steps outlined in [docs/gap_map.md](docs/gap_map.md).
 
 ---
 
