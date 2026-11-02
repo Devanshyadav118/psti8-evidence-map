@@ -95,6 +95,8 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/structural_data_inventory.md](docs/structural_data_inventory.md) | Inventory of 1D/2D/3D structural assets, physicochemical comparisons, and AlphaFold 3 co-folding job inputs |
 | [docs/pathway_and_variant_analysis.md](docs/pathway_and_variant_analysis.md) | Computational sequence profiling, variant scoring, cross-species alignment, and GRP78 pathway interactome synthesis |
 | [docs/gap_map.md](docs/gap_map.md) | Master Evidence Gap Map: comprehensive Phase 1 synthesis, SABV gaps, structural landscape, and Phase 2 manuscript architecture |
+| [docs/receptor_construct_audit.md](docs/receptor_construct_audit.md) | GRP78 / BiP crystallographic construct audit, caveat resolution, and receptor sanitization protocol |
+| [docs/structural_audit_argon.md](docs/structural_audit_argon.md) | Primary structural verification matrix auditing 1D/2D/3D assets against UniProt and PDB |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
 | [docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md](docs/decisions/2026-10-31_fix-registry-seed-dois-and-statuses.md) | Decision record: fix registry seed DOIs, unsupported reading statuses, and archive old seed |
 | [docs/decisions/2026-10-31_license-cc-by-4.0.md](docs/decisions/2026-10-31_license-cc-by-4.0.md) | Decision record: CC BY 4.0 open repository license and attribution terms |
@@ -119,6 +121,8 @@ Executable Python analysis tools and automation scripts.
 | [scripts/verify_thread6.py](scripts/verify_thread6.py) | Verification harness auditing Thread 6 candidate literature against PubMed and Crossref |
 | [scripts/merge_registries.py](scripts/merge_registries.py) | Automated merge script consolidating verified staging registries into master data/papers_registry.csv |
 | [scripts/analyze_sequences_and_pathways.py](scripts/analyze_sequences_and_pathways.py) | Computational pipeline executing sliding-window profiling, GRP78 alignment, variant scoring, and STRING/Reactome interactome retrieval |
+| [scripts/clean_receptor_structures.py](scripts/clean_receptor_structures.py) | Sanitization script preparing high-resolution, artifact-free 3D GRP78 receptor models from PDB and AlphaFold |
+| [scripts/run_esm2_analysis.py](scripts/run_esm2_analysis.py) | Deep learning pipeline executing real ESM-2 zero-shot mutational scanning, embeddings, and ESMFold 3D peptide predictions |
 
 ## notes/topics/
 
@@ -126,7 +130,12 @@ Topic synthesis notes produced during Phase 1 research.
 
 | File | Purpose |
 | :--- | :--- |
-| *(empty — awaiting plan approval and search execution)* | |
+| [notes/topics/01_chga_processing_and_pst_biology.md](notes/topics/01_chga_processing_and_pst_biology.md) | Topic 01: CHGA cleavage, peptide coordinates, RIA/ELISA assay discrepancies, and single-lab claims |
+| [notes/topics/02_grp78_compartmentalization_and_signaling.md](notes/topics/02_grp78_compartmentalization_and_signaling.md) | Topic 02: GRP78 cellular compartmentalization, the mechanistic paradox, and the IRE1-JNK-IRS1 cascade |
+| [notes/topics/03_psti8_preclinical_pharmacology.md](notes/topics/03_psti8_preclinical_pharmacology.md) | Topic 03: Complete in vivo pharmacological synthesis of PSTi8 across 20 disease models and indications |
+| [notes/topics/04_sex_differences_and_estrous_audit.md](notes/topics/04_sex_differences_and_estrous_audit.md) | Topic 04: Preclinical sex-bias audit, 100% male bias in T2D, and 0% baseline estrous cycle staging |
+| [notes/topics/05_factorial_power_and_reporting_standards.md](notes/topics/05_factorial_power_and_reporting_standards.md) | Topic 05: ARRIVE 2.0 / SYRCLE appraisal, the subgroup fallacy, and non-central t factorial interaction power |
+| [notes/topics/06_structural_biophysics_and_variants.md](notes/topics/06_structural_biophysics_and_variants.md) | Topic 06: Electrostatic latch vs. hydrophobic anchor, ESM-2 mutational scanning, and Gly297Ser paradox |
 
 ## prompts/
 

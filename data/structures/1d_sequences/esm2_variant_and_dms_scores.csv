@@ -1,0 +1,593 @@
+experiment_type,context_type,position,wt_residue,mut_residue,esm2_llr,interpretation,structural_region
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Human_CHGA_Full_P10645,0.9259,Cosine similarity of ESM-2 mean representation to WT PST-29 (0.9259),Whole_Peptide
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Human_WT_PST_29,1.0000,Cosine similarity of ESM-2 mean representation to WT PST-29 (1.0000),Whole_Peptide
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Human_PSTi8_21,0.9789,Cosine similarity of ESM-2 mean representation to WT PST-29 (0.9789),Whole_Peptide
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Human_Gly297Ser_PST_29,0.9986,Cosine similarity of ESM-2 mean representation to WT PST-29 (0.9986),Whole_Peptide
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Human_Glu287Lys_PST_29,0.9968,Cosine similarity of ESM-2 mean representation to WT PST-29 (0.9968),Whole_Peptide
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Mouse_PST_Model_31,0.9947,Cosine similarity of ESM-2 mean representation to WT PST-29 (0.9947),Whole_Peptide
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Mouse_PST_UniProt_Core,0.9807,Cosine similarity of ESM-2 mean representation to WT PST-29 (0.9807),Whole_Peptide
+sequence_embedding_similarity,cosine_similarity_to_WT_PST_29,N/A,N/A,Rat_PST_UniProt_Core,0.9747,Cosine similarity of ESM-2 mean representation to WT PST-29 (0.9747),Whole_Peptide
+clinical_variant_scoring,mature_PST_29,25,G,S,+0.1884,Gly297Ser in mature PST: neutral-to-tolerated substitution in cleaved hydrophobic anchor,Cleaved_C_Terminal_Octapeptide
+clinical_variant_scoring,full_CHGA_P10645,315,G,S,-0.2043,Gly315Ser in full CHGA: neutral-to-tolerated evolutionary substitution,Cleaved_C_Terminal_Octapeptide
+clinical_variant_scoring,mature_PST_29,15,E,K,-1.3195,Glu287Lys in mature PST: disruptive charge-inversion in poly-Glu electrostatic latch,Poly_Glu_Electrostatic_Latch
+clinical_variant_scoring,full_CHGA_P10645,305,E,K,-2.0224,Glu305Lys in full CHGA: deleterious charge inversion within acidic cluster,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,1,P,A,+0.8592,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,C,-1.0786,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,D,+0.8131,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,E,+3.1077,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,F,-1.0419,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,G,+2.5226,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,H,-0.6068,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,I,+0.0482,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,K,+2.1598,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,L,+0.9733,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,M,+5.5136,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,N,+0.0396,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,P,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,Q,+1.6277,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,R,+1.7411,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,S,+0.4846,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,T,+0.2959,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,V,+1.3568,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,W,-0.2773,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,1,P,Y,-1.0125,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,A,-0.4921,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,C,-2.3452,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,D,-1.1885,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,E,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,F,-2.2397,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,G,-0.1583,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,H,-1.8212,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,I,-1.9155,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,K,-0.4359,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,L,-0.7462,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,M,-2.0307,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,N,-1.6251,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,P,-0.6060,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,Q,-0.6348,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,R,-0.4977,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,S,-0.7211,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,T,-1.0471,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,V,-0.9253,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,W,-2.1148,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,2,E,Y,-2.6994,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,A,-0.4468,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,C,-3.0021,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,D,-0.7855,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,E,+0.8962,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,F,-2.8871,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,G,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,H,-1.4307,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,I,-1.7706,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,K,-0.0095,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,L,-0.8641,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,M,-1.8812,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,N,-1.4140,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,P,-0.6173,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,Q,+0.2354,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,R,-0.5184,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,S,-0.9425,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,T,-0.9489,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,V,-0.6914,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,W,-2.5774,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,3,G,Y,-2.8544,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,A,+0.0535,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,C,-1.8835,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,D,+0.0203,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,E,+1.4783,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,F,-1.9189,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,G,+0.8820,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,H,-1.1670,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,I,-1.5912,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,K,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,L,-0.3951,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,M,-1.6010,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,N,-1.0391,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,P,-0.4582,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,Q,+0.1452,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,R,+0.1473,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,S,-0.1732,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,T,-0.5896,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,V,-0.3409,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,W,-1.6596,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,4,K,Y,-2.2296,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,A,-0.3779,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,C,-3.1996,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,D,-0.7028,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,E,+1.3873,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,F,-3.0887,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,G,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,H,-1.6127,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,I,-1.8724,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,K,+0.3755,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,L,-0.8648,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,M,-1.5953,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,N,-1.4335,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,P,-0.6120,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,Q,+0.4183,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,R,-0.2514,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,S,-1.0023,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,T,-0.7846,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,V,-0.6391,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,W,-2.5708,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,5,G,Y,-2.9847,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,A,-0.9227,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,C,-2.2149,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,D,-0.9926,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,E,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,F,-2.0402,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,G,-0.0832,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,H,-1.4701,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,I,-1.5762,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,K,-0.3061,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,L,-0.6465,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,M,-2.1206,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,N,-1.2674,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,P,-1.0566,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,Q,-0.4193,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,R,-0.5035,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,S,-0.5362,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,T,-0.9987,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,V,-0.9599,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,W,-2.2558,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,6,E,Y,-2.5774,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,A,+0.1597,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,C,-2.6520,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,D,-0.0361,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,E,+1.8620,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,F,-2.4900,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,G,+0.9741,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,H,-1.5205,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,I,-1.5195,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,K,+0.6692,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,L,-0.7329,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,M,-1.0077,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,N,-0.9228,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,P,-0.7378,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,Q,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,R,+0.1924,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,S,-0.5961,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,T,-0.5314,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,V,-0.1292,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,W,-1.9051,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,7,Q,Y,-2.5564,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,A,-0.8484,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,C,-2.4114,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,D,-0.9114,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,E,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,F,-2.3124,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,G,-0.1709,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,H,-1.1021,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,I,-1.6886,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,K,-0.4514,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,L,-0.7340,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,M,-2.2270,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,N,-1.3200,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,P,-0.8233,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,Q,-0.0563,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,R,-0.5076,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,S,-0.6926,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,T,-1.0615,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,V,-0.9771,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,W,-2.6254,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,8,E,Y,-2.7629,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,A,+1.9875,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,C,-0.8251,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,D,+1.6804,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,E,+3.0828,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,F,-0.6102,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,G,+2.5776,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,H,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,I,+0.4387,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,K,+2.0670,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,L,+1.0082,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,M,+0.3148,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,N,+0.9009,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,P,+1.2873,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,Q,+1.8434,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,R,+1.5453,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,S,+1.6403,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,T,+1.4215,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,V,+1.6266,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,W,-0.5484,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,9,H,Y,-0.9722,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,A,+0.1110,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,C,-1.6886,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,D,+0.5011,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,E,+2.2581,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,F,-1.4151,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,G,+1.1009,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,H,+0.8754,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,I,-0.6259,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,K,+1.3452,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,L,+0.8213,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,M,-0.8527,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,N,-0.2729,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,P,+0.5989,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,Q,+2.6706,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,R,+0.9578,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,S,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,T,-0.1046,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,V,+0.3037,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,W,-1.1366,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,10,S,Y,-1.4062,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,A,-0.7642,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,C,-2.3162,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,D,-0.6982,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,E,+0.5179,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,F,-1.9400,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,G,-0.0681,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,H,-1.1800,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,I,-1.5166,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,K,-0.2380,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,L,-0.4224,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,M,-1.9040,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,N,-1.3172,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,P,-0.6660,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,Q,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,R,-0.5081,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,S,-0.3637,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,T,-0.9101,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,V,-0.6873,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,W,-2.1886,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,11,Q,Y,-2.5404,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,A,-0.2682,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,C,-2.7211,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,D,-0.2633,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,E,+1.5936,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,F,-2.8894,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,G,+0.8841,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,H,-1.7055,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,I,-1.7509,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,K,+0.2600,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,L,-0.9819,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,M,-1.7353,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,N,-1.2603,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,P,-0.6271,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,Q,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,R,+0.0413,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,S,-0.5951,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,T,-0.8726,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,V,-0.5015,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,W,-1.9548,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,12,Q,Y,-2.9980,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,A,-0.5765,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,C,-3.4866,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,D,-0.4859,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,E,+2.0416,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,F,-3.4518,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,G,+0.1424,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,H,-1.5920,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,I,-2.4047,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,K,+0.0000,Wild-type residue (neutral reference),N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,L,-0.9449,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,M,-1.8110,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,N,-1.9199,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,P,-0.8009,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,Q,+0.9861,Evolutionarily favorable substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,R,-0.3235,Evolutionarily neutral substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,S,-1.3722,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,T,-1.2646,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,V,-0.7208,Mildly deleterious substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,W,-2.3778,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,13,K,Y,-3.3697,Highly deleterious / constrained substitution,N_Terminal_Polar_Head
+deep_mutational_scan,mature_PST_29,14,E,A,-2.0774,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,C,-4.7160,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,D,-2.2075,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,E,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,F,-4.6874,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,G,-1.3911,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,H,-3.6428,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,I,-3.5317,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,K,-1.1374,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,L,-2.5034,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,M,-3.1543,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,N,-3.1194,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,P,-2.4598,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,Q,-1.4894,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,R,-1.7405,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,S,-2.6119,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,T,-2.4645,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,V,-2.2508,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,W,-3.9513,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,14,E,Y,-4.7181,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,A,-2.2034,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,C,-5.0007,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,D,-2.2120,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,E,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,F,-4.8549,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,G,-1.3551,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,H,-4.0588,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,I,-3.6545,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,K,-1.3195,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,L,-2.7848,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,M,-3.2936,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,N,-3.2244,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,P,-3.0511,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,Q,-1.9584,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,R,-2.0504,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,S,-2.9425,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,T,-2.7421,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,V,-2.3878,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,W,-4.0575,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,15,E,Y,-4.9642,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,A,-2.1090,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,C,-4.8938,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,D,-2.0999,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,E,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,F,-4.7677,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,G,-1.5788,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,H,-3.9374,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,I,-3.6714,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,K,-1.3834,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,L,-2.7116,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,M,-3.1569,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,N,-3.1638,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,P,-2.9371,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,Q,-1.8233,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,R,-2.1558,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,S,-2.8348,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,T,-2.6041,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,V,-2.2943,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,W,-4.2631,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,16,E,Y,-4.9186,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,A,-2.0227,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,C,-4.6659,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,D,-2.0293,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,E,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,F,-4.4665,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,G,-1.4469,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,H,-3.7402,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,I,-3.4655,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,K,-1.4000,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,L,-2.6357,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,M,-2.9202,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,N,-3.1368,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,P,-2.8582,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,Q,-1.7966,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,R,-1.9976,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,S,-2.8003,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,T,-2.5890,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,V,-2.1004,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,W,-4.0562,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,17,E,Y,-4.6388,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,A,-1.3382,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,C,-3.9526,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,D,-1.6495,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,E,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,F,-3.7241,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,G,-0.8156,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,H,-3.3152,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,I,-2.8625,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,K,-1.2447,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,L,-2.0639,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,M,-2.4877,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,N,-2.6194,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,P,-2.3162,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,Q,-1.7763,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,R,-1.5416,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,S,-2.1546,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,T,-2.0819,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,V,-1.5357,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,W,-3.2001,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,18,E,Y,-4.0465,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,A,+2.0136,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,C,-1.2973,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,D,+1.2930,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,E,+3.1773,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,F,-0.9742,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,G,+1.9136,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,H,-0.5681,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,I,-0.3694,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,K,+1.4270,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,L,+0.6195,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,M,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,N,-0.1172,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,P,+0.7082,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,Q,+1.0283,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,R,+0.9676,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,S,+0.5293,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,T,+0.7754,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,V,+1.4335,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,W,-0.7565,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,19,M,Y,-1.3035,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,A,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,C,-2.0963,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,D,-0.4910,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,E,+0.9108,Evolutionarily favorable substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,F,-1.6375,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,G,+0.0756,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,H,-1.9084,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,I,-1.2284,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,K,-0.2287,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,L,-0.3691,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,M,-0.8529,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,N,-1.3808,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,P,-0.6653,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,Q,-0.7251,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,R,-0.4423,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,S,-0.6366,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,T,-0.7044,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,V,+0.2356,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,W,-1.7856,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,20,A,Y,-2.2540,Highly deleterious / constrained substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,A,+0.4478,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,C,-1.5514,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,D,-0.6988,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,E,+0.3111,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,F,-1.1085,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,G,+0.2371,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,H,-1.4221,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,I,-1.2511,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,K,-0.3617,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,L,+0.0228,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,M,-1.0884,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,N,-1.3599,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,P,-0.0353,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,Q,-0.4394,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,R,-0.1283,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,S,-0.0211,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,T,-0.4179,Evolutionarily neutral substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,V,+0.0000,Wild-type residue (neutral reference),Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,W,-1.4545,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,21,V,Y,-1.9417,Mildly deleterious substitution,Poly_Glu_Electrostatic_Latch
+deep_mutational_scan,mature_PST_29,22,V,A,+0.0891,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,C,-1.1621,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,D,-0.0768,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,E,-0.2103,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,F,-0.5451,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,G,+0.1424,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,H,-0.8383,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,I,-0.6835,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,K,-0.5208,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,L,+0.3919,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,M,-1.4322,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,N,-0.7669,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,P,+0.0749,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,Q,-0.5308,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,R,-0.1998,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,S,+0.2492,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,T,-0.3832,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,V,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,W,-1.5240,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,22,V,Y,-1.5493,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,A,+0.2836,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,C,-0.6269,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,D,-0.6011,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,E,+0.2331,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,F,+0.1935,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,G,+0.5781,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,H,-1.0181,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,I,+1.8437,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,K,-0.0457,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,L,+1.4316,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,M,-0.6052,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,N,-0.7777,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,P,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,Q,-0.3155,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,R,-0.0721,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,S,+0.0968,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,T,-0.4633,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,V,+1.2113,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,W,-0.9468,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,23,P,Y,-0.4518,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,A,+0.7961,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,C,-0.2148,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,D,+0.1487,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,E,+0.6674,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,F,+0.2793,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,G,+1.2058,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,H,-0.5506,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,I,-0.2822,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,K,+0.1967,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,L,+1.0266,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,M,-0.6614,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,N,-0.5887,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,P,+0.7686,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,Q,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,R,+0.8971,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,S,+0.8947,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,T,+0.1710,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,V,+0.7478,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,W,-0.3097,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,24,Q,Y,-0.8193,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,A,-0.1343,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,C,-1.0796,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,D,-0.4495,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,E,-0.2863,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,F,-0.4831,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,G,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,H,-0.8478,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,I,-0.7141,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,K,-0.6552,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,L,+0.2869,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,M,-1.4620,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,N,-0.9110,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,P,-0.0653,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,Q,-0.6028,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,R,-0.0715,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,S,+0.1884,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,T,-0.4735,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,V,-0.0656,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,W,-1.4484,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,25,G,Y,-1.2872,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,A,-0.3667,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,C,-1.0179,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,D,-0.9003,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,E,-0.6348,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,F,-0.5945,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,G,+0.2125,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,H,-1.2084,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,I,-0.8525,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,K,-0.8678,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,L,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,M,-1.6465,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,N,-1.2591,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,P,-0.5361,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,Q,-0.9954,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,R,-0.0698,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,S,-0.0766,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,T,-0.7564,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,V,-0.2869,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,W,-1.3729,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,26,L,Y,-1.4160,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,A,+0.9480,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,C,+0.1435,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,D,+0.3761,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,E,+1.1048,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,F,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,G,+1.7486,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,H,+0.1526,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,I,-0.1568,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,K,+0.5718,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,L,+1.2933,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,M,-0.6514,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,N,-0.2654,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,P,+1.1203,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,Q,+0.8302,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,R,+1.4770,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,S,+1.1148,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,T,+0.3897,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,V,+0.8509,Evolutionarily favorable substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,W,+0.0941,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,27,F,Y,-0.6478,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,A,-0.3022,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,C,-0.7213,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,D,-0.7949,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,E,-0.3343,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,F,-0.1839,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,G,+0.3595,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,H,-0.9616,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,I,-0.7540,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,K,-0.4759,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,L,+0.4498,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,M,-1.3607,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,N,-1.1640,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,P,-0.1086,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,Q,-0.3382,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,R,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,S,+0.2304,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,T,-0.5595,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,V,-0.2500,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,W,-0.9972,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,28,R,Y,-1.1491,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,A,-0.3949,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,C,-0.9272,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,D,-0.8515,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,E,-0.4979,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,F,-0.5458,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,G,+0.0000,Wild-type residue (neutral reference),Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,H,-1.0927,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,I,-0.6642,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,K,-0.3369,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,L,+0.2471,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,M,-1.4505,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,N,-0.9224,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,P,-0.3345,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,Q,-0.6827,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,R,+0.1213,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,S,+0.0294,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,T,-0.5642,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,V,-0.2894,Evolutionarily neutral substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,W,-1.3890,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide
+deep_mutational_scan,mature_PST_29,29,G,Y,-1.3836,Mildly deleterious substitution,Cleaved_C_Terminal_Octapeptide

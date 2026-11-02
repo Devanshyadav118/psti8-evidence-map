@@ -88,7 +88,23 @@ The two documented non-synonymous single-nucleotide polymorphisms in the pancrea
 | **Isoelectric Point (pI)** | $4.47$ | $4.47$ ($\Delta\text{pI} = 0.00$) | $4.84$ ($\mathbf{\Delta\text{pI} = +0.38}$) |
 | **GRAVY Hydropathy** | $-1.531$ | $-1.545$ ($\Delta\text{GRAVY} = -0.014$) | $-1.545$ ($\Delta\text{GRAVY} = -0.014$) |
 | **Average Molecular Weight** | $3283.49\text{ Da}$ | $3313.52\text{ Da}$ ($+30.03\text{ Da}$) | $3282.55\text{ Da}$ ($-0.94\text{ Da}$) |
+| **ESM-2 Mature LLR (PST-29)**| Baseline (0.00) | **$+0.1884$** (Neutral / Tolerated) | **$-1.3195$** (Deleterious to Latch) |
+| **ESM-2 Full CHGA LLR (P10645)**| Baseline (0.00) | **$-0.2043$** (Neutral / Tolerated) | **$-2.0224$** (Severely Deleterious) |
 | **PSTi8 Susceptibility** | Baseline Target | **Immune** (site excised in PSTi8) | **Altered** (latch charge disrupted) |
+
+### Real ESM-2 Protein Language Model Zero-Shot Scoring & Deep Mutational Scanning
+To validate biophysical heuristics with deep evolutionary representations, the `facebook/esm2_t6_8M_UR50D` protein language model was evaluated locally ([`scripts/run_esm2_analysis.py`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/scripts/run_esm2_analysis.py); results saved in [`esm2_variant_and_dms_scores.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/1d_sequences/esm2_variant_and_dms_scores.csv)):
+1. **Sequence Representation Cosine Similarities:**
+   - Full Human CHGA vs. WT PST-29: **0.9259**
+   - PSTi8 (21-mer) vs. WT PST-29: **0.9789**
+   - Gly297Ser PST-29 vs. WT PST-29: **0.9986**
+   - Glu287Lys PST-29 vs. WT PST-29: **0.9968**
+   - Rodent PST cores vs. WT PST-29: **0.9747 to 0.9947**
+2. **Zero-Shot Masked Log-Likelihood Ratios ($\text{LLR}$):**
+   - **Gly297Ser (`rs9658664`):** Demonstrates an $\text{LLR} = \mathbf{+0.1884}$ in mature PST-29 context and $\text{LLR} = \mathbf{-0.2043}$ in full CHGA preprotein context ($|\text{LLR}| < 0.5$). This confirms that Gly297Ser represents an evolutionarily neutral/tolerated substitution in the cleaved tail that does not disrupt global structural stability, consistent with its function as a high-affinity human adaptation.
+   - **Glu287Lys (`rs140089514`):** Displays a strongly negative $\text{LLR} = \mathbf{-1.3195}$ in mature context and $\text{LLR} = \mathbf{-2.0224}$ in full CHGA context. The protein language model recognizes the inversion of the central glutamate carboxylate to basic lysine as an evolutionarily unfavorable disruption of the acidic cluster.
+3. **580-Point Deep Mutational Scan (DMS):**
+   - An in silico scan across all 29 positions and all 20 canonical amino acids establishes that the `EEEEEMAV` core (positions 14–21) is under strict evolutionary negative selection against basic residue substitutions ($\text{Arg}$, $\text{Lys}$, $\text{His}$), whereas acidic substitutions ($\text{Asp}$) are well-tolerated ($\text{LLR} > 0.0$), confirming the electrostatic latch hypothesis.
 
 ### In-Depth Variant Pharmacology
 1. **Gly297Ser (`rs9658664`): The Diabetogenic Variant and PSTi8 Immunity:**
