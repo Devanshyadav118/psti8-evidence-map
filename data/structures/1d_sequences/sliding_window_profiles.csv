@@ -1,0 +1,200 @@
+peptide_id,peptide_name,species,window_index,window_start,window_end,window_center,window_seq,net_charge_sidechains_pH74,net_charge_isolated_pH74,kyte_doolittle_hydropathy,is_poly_glu_latch,is_c_terminal_anchor
+human_wt_pst_29,Human WT PST-29,Homo sapiens,1,1,5,3.0,PEGKG,-0.0003,-0.1001,-1.9600,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,2,2,6,4.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,3,3,7,5.0,GKGEQ,-0.0003,-0.4439,-2.3400,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,4,4,8,6.0,KGEQE,-0.9998,-1.4407,-2.9600,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,5,5,9,7.0,GEQEH,-1.9607,-2.4037,-2.8200,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,6,6,10,8.0,EQEHS,-1.9607,-2.2949,-2.9000,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,7,7,11,9.0,QEHSQ,-0.9612,-1.4048,-2.9000,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,8,8,12,10.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,9,9,13,11.0,HSQQK,1.0375,0.5916,-2.9800,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,10,10,14,12.0,SQQKE,-0.0003,-0.7461,-3.0400,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,11,11,15,13.0,QQKEE,-0.9998,-1.4407,-3.5800,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,12,12,16,14.0,QKEEE,-1.9993,-2.4396,-3.5800,Yes,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,13,13,17,15.0,KEEEE,-2.9988,-3.4385,-3.5800,Yes,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,14,14,18,16.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,15,15,19,17.0,EEEEM,-3.9980,-4.3292,-2.4200,Yes,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,16,16,20,18.0,EEEMA,-2.9985,-3.3304,-1.3600,Yes,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,17,17,21,19.0,EEMAV,-1.9990,-2.3315,0.1800,No,No
+human_wt_pst_29,Human WT PST-29,Homo sapiens,18,18,22,20.0,EMAVV,-0.9995,-1.3326,1.7200,No,Yes
+human_wt_pst_29,Human WT PST-29,Homo sapiens,19,19,23,21.0,MAVVP,0.0000,-0.7151,2.1000,No,Yes
+human_wt_pst_29,Human WT PST-29,Homo sapiens,20,20,24,22.0,AVVPQ,0.0000,-0.3922,1.0200,No,Yes
+human_wt_pst_29,Human WT PST-29,Homo sapiens,21,21,25,23.0,VVPQG,0.0000,-0.4768,0.5800,No,Yes
+human_wt_pst_29,Human WT PST-29,Homo sapiens,22,22,26,24.0,VPQGL,0.0000,-0.4768,0.5000,No,Yes
+human_wt_pst_29,Human WT PST-29,Homo sapiens,23,23,27,25.0,PQGLF,0.0000,-0.0987,0.2200,No,Yes
+human_wt_pst_29,Human WT PST-29,Homo sapiens,24,24,28,26.0,QGLFR,1.0000,0.5574,-0.3600,No,Yes
+human_wt_pst_29,Human WT PST-29,Homo sapiens,25,25,29,27.0,GLFRG,1.0000,0.5574,0.2600,No,Yes
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,1,1,5,3.0,PEGKG,-0.0003,-0.1001,-1.9600,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,2,2,6,4.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,3,3,7,5.0,GKGEQ,-0.0003,-0.4439,-2.3400,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,4,4,8,6.0,KGEQE,-0.9998,-1.4407,-2.9600,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,5,5,9,7.0,GEQEH,-1.9607,-2.4037,-2.8200,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,6,6,10,8.0,EQEHS,-1.9607,-2.2949,-2.9000,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,7,7,11,9.0,QEHSQ,-0.9612,-1.4048,-2.9000,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,8,8,12,10.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,9,9,13,11.0,HSQQK,1.0375,0.5916,-2.9800,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,10,10,14,12.0,SQQKE,-0.0003,-0.7461,-3.0400,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,11,11,15,13.0,QQKEE,-0.9998,-1.4407,-3.5800,No,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,12,12,16,14.0,QKEEE,-1.9993,-2.4396,-3.5800,Yes,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,13,13,17,15.0,KEEEE,-2.9988,-3.4385,-3.5800,Yes,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,14,14,18,16.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,15,15,19,17.0,EEEEM,-3.9980,-4.3292,-2.4200,Yes,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,16,16,20,18.0,EEEMA,-2.9985,-3.3304,-1.3600,Yes,No
+human_psti8_21,Human PSTi8 (21-mer),Homo sapiens,17,17,21,19.0,EEMAV,-1.9990,-2.3315,0.1800,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,1,1,5,3.0,PEGKG,-0.0003,-0.1001,-1.9600,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,2,2,6,4.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,3,3,7,5.0,GKGEQ,-0.0003,-0.4439,-2.3400,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,4,4,8,6.0,KGEQE,-0.9998,-1.4407,-2.9600,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,5,5,9,7.0,GEQEH,-1.9607,-2.4037,-2.8200,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,6,6,10,8.0,EQEHS,-1.9607,-2.2949,-2.9000,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,7,7,11,9.0,QEHSQ,-0.9612,-1.4048,-2.9000,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,8,8,12,10.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,9,9,13,11.0,HSQQK,1.0375,0.5916,-2.9800,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,10,10,14,12.0,SQQKE,-0.0003,-0.7461,-3.0400,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,11,11,15,13.0,QQKEE,-0.9998,-1.4407,-3.5800,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,12,12,16,14.0,QKEEE,-1.9993,-2.4396,-3.5800,Yes,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,13,13,17,15.0,KEEEE,-2.9988,-3.4385,-3.5800,Yes,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,14,14,18,16.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,15,15,19,17.0,EEEEM,-3.9980,-4.3292,-2.4200,Yes,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,16,16,20,18.0,EEEMA,-2.9985,-3.3304,-1.3600,Yes,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,17,17,21,19.0,EEMAV,-1.9990,-2.3315,0.1800,No,No
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,18,18,22,20.0,EMAVV,-0.9995,-1.3326,1.7200,No,Yes
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,19,19,23,21.0,MAVVP,0.0000,-0.7151,2.1000,No,Yes
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,20,20,24,22.0,AVVPQ,0.0000,-0.3922,1.0200,No,Yes
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,21,21,25,23.0,VVPQS,0.0000,-0.4768,0.5000,No,Yes
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,22,22,26,24.0,VPQSL,0.0000,-0.4768,0.4200,No,Yes
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,23,23,27,25.0,PQSLF,0.0000,-0.0987,0.1400,No,Yes
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,24,24,28,26.0,QSLFR,1.0000,0.5574,-0.4400,No,Yes
+human_g297s_pst_29,Human Gly297Ser PST-29 (rs9658664),Homo sapiens,25,25,29,27.0,SLFRG,1.0000,0.2532,0.1800,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,1,1,5,3.0,PEGKG,-0.0003,-0.1001,-1.9600,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,2,2,6,4.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,3,3,7,5.0,GKGEQ,-0.0003,-0.4439,-2.3400,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,4,4,8,6.0,KGEQE,-0.9998,-1.4407,-2.9600,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,5,5,9,7.0,GEQEH,-1.9607,-2.4037,-2.8200,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,6,6,10,8.0,EQEHS,-1.9607,-2.2949,-2.9000,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,7,7,11,9.0,QEHSQ,-0.9612,-1.4048,-2.9000,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,8,8,12,10.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,9,9,13,11.0,HSQQK,1.0375,0.5916,-2.9800,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,10,10,14,12.0,SQQKE,-0.0003,-0.7461,-3.0400,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,11,11,15,13.0,QQKEK,0.9989,0.5536,-3.6600,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,12,12,16,14.0,QKEKE,-0.0006,-0.4432,-3.6600,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,13,13,17,15.0,KEKEE,-1.0001,-1.4421,-3.6600,Yes,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,14,14,18,16.0,EKEEE,-2.9988,-3.3296,-3.5800,Yes,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,15,15,19,17.0,KEEEM,-1.9993,-2.4417,-2.5000,Yes,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,16,16,20,18.0,EEEMA,-2.9985,-3.3304,-1.3600,Yes,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,17,17,21,19.0,EEMAV,-1.9990,-2.3315,0.1800,No,No
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,18,18,22,20.0,EMAVV,-0.9995,-1.3326,1.7200,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,19,19,23,21.0,MAVVP,0.0000,-0.7151,2.1000,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,20,20,24,22.0,AVVPQ,0.0000,-0.3922,1.0200,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,21,21,25,23.0,VVPQG,0.0000,-0.4768,0.5800,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,22,22,26,24.0,VPQGL,0.0000,-0.4768,0.5000,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,23,23,27,25.0,PQGLF,0.0000,-0.0987,0.2200,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,24,24,28,26.0,QGLFR,1.0000,0.5574,-0.3600,No,Yes
+human_e287k_pst_29,Human Glu287Lys PST-29 (rs140089514),Homo sapiens,25,25,29,27.0,GLFRG,1.0000,0.5574,0.2600,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,1,1,5,3.0,PEGKG,-0.0003,-0.1001,-1.9600,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,2,2,6,4.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,3,3,7,5.0,GKGEQ,-0.0003,-0.4439,-2.3400,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,4,4,8,6.0,KGEQE,-0.9998,-1.4407,-2.9600,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,5,5,9,7.0,GEQEH,-1.9607,-2.4037,-2.8200,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,6,6,10,8.0,EQEHS,-1.9607,-2.2949,-2.9000,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,7,7,11,9.0,QEHSQ,-0.9612,-1.4048,-2.9000,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,8,8,12,10.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,9,9,13,11.0,HSQQE,-0.9612,-1.4027,-2.9000,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,10,10,14,12.0,SQQEE,-1.9990,-2.7424,-2.9600,No,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,11,11,15,13.0,QQEEE,-2.9985,-3.4371,-3.5000,Yes,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,12,12,16,14.0,QEEEE,-3.9980,-4.4360,-3.5000,Yes,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,13,13,17,15.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,14,14,18,16.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,15,15,19,17.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,16,16,20,18.0,EEEEM,-3.9980,-4.3292,-2.4200,Yes,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,17,17,21,19.0,EEEMA,-2.9985,-3.3304,-1.3600,Yes,No
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,18,18,22,20.0,EEMAV,-1.9990,-2.3315,0.1800,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,19,19,23,21.0,EMAVV,-0.9995,-1.3326,1.7200,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,20,20,24,22.0,MAVVP,0.0000,-0.7151,2.1000,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,21,21,25,23.0,AVVPQ,0.0000,-0.3922,1.0200,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,22,22,26,24.0,VVPQG,0.0000,-0.4768,0.5800,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,23,23,27,25.0,VPQGL,0.0000,-0.4768,0.5000,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,24,24,28,26.0,PQGLF,0.0000,-0.0987,0.2200,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,25,25,29,27.0,QGLFR,1.0000,0.5574,-0.3600,No,Yes
+mouse_pst_model,Mouse PST (Synthetic / Model),Mus musculus,26,26,30,28.0,GLFRG,1.0000,0.5574,0.2600,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,1,1,5,3.0,PEGKG,-0.0003,-0.1001,-1.9600,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,2,2,6,4.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,3,3,7,5.0,GKGEQ,-0.0003,-0.4439,-2.3400,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,4,4,8,6.0,KGEQE,-0.9998,-1.4407,-2.9600,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,5,5,9,7.0,GEQEH,-1.9607,-2.4037,-2.8200,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,6,6,10,8.0,EQEHS,-1.9607,-2.2949,-2.9000,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,7,7,11,9.0,QEHSQ,-0.9612,-1.4048,-2.9000,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,8,8,12,10.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,9,9,13,11.0,HSQQE,-0.9612,-1.4027,-2.9000,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,10,10,14,12.0,SQQEE,-1.9990,-2.7424,-2.9600,No,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,11,11,15,13.0,QQEEE,-2.9985,-3.4371,-3.5000,Yes,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,12,12,16,14.0,QEEEE,-3.9980,-4.4360,-3.5000,Yes,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,13,13,17,15.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,14,14,18,16.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,15,15,19,17.0,EEEEE,-4.9975,-5.3260,-3.5000,Yes,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,16,16,20,18.0,EEEEM,-3.9980,-4.3292,-2.4200,Yes,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,17,17,21,19.0,EEEMA,-2.9985,-3.3304,-1.3600,Yes,No
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,18,18,22,20.0,EEMAV,-1.9990,-2.3315,0.1800,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,19,19,23,21.0,EMAVV,-0.9995,-1.3326,1.7200,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,20,20,24,22.0,MAVVP,0.0000,-0.7151,2.1000,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,21,21,25,23.0,AVVPQ,0.0000,-0.3922,1.0200,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,22,22,26,24.0,VVPQG,0.0000,-0.4768,0.5800,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,23,23,27,25.0,VPQGL,0.0000,-0.4768,0.5000,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,24,24,28,26.0,PQGLF,0.0000,-0.0987,0.2200,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,25,25,29,27.0,QGLFR,1.0000,0.5574,-0.3600,No,Yes
+rat_pst_model,Rat PST (Synthetic / Model),Rattus norvegicus,26,26,30,28.0,GLFRG,1.0000,0.5574,0.2600,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,1,1,5,3.0,PSEGK,-0.0003,-0.1001,-2.0400,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,2,2,6,4.0,SEGKG,-0.0003,-0.7482,-1.8000,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,3,3,7,5.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,4,4,8,6.0,GKGEL,-0.0003,-0.4439,-0.8800,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,5,5,9,7.0,KGELE,-0.9998,-1.4407,-1.5000,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,6,6,10,8.0,GELEH,-1.9607,-2.4037,-1.3600,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,7,7,11,9.0,ELEHS,-1.9607,-2.2949,-1.4400,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,8,8,12,10.0,LEHSQ,-0.9612,-1.4048,-1.4400,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,9,9,13,11.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,10,10,14,12.0,HSQQE,-0.9612,-1.4027,-2.9000,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,11,11,15,13.0,SQQEE,-1.9990,-2.7424,-2.9600,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,12,12,16,14.0,QQEED,-2.9987,-3.4386,-3.5000,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,13,13,17,15.0,QEEDG,-2.9987,-3.4399,-2.8800,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,14,14,18,16.0,EEDGE,-3.9982,-4.3278,-2.8800,Yes,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,15,15,19,17.0,EDGEE,-3.9982,-4.3278,-2.8800,Yes,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,16,16,20,18.0,DGEEA,-2.9987,-3.4399,-1.8200,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,17,17,21,19.0,GEEAM,-1.9990,-2.4403,-0.7400,No,No
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,18,18,22,20.0,EEAMV,-1.9990,-2.3315,0.1800,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,19,19,23,21.0,EAMVG,-0.9995,-1.3326,0.8000,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,20,20,24,22.0,AMVGT,0.0000,-0.3922,1.3600,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,21,21,25,23.0,MVGTP,0.0000,-0.7151,0.6800,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,22,22,26,24.0,VGTPQ,0.0000,-0.4768,-0.4000,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,23,23,27,25.0,GTPQG,0.0000,-0.4425,-1.3200,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,24,24,28,26.0,TPQGL,0.0000,-0.7916,-0.4800,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,25,25,29,27.0,PQGLF,0.0000,-0.0987,0.2200,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,26,26,30,28.0,QGLFP,0.0000,-0.4425,0.2200,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,27,27,31,29.0,GLFPQ,0.0000,-0.4425,0.2200,No,Yes
+mouse_pst_uniprot_core,Mouse PST Canonical Core (UniProt P26339),Mus musculus,28,28,32,30.0,LFPQG,0.0000,-0.4425,0.2200,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,1,1,5,3.0,PSEGK,-0.0003,-0.1001,-2.0400,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,2,2,6,4.0,SEGKG,-0.0003,-0.7482,-1.8000,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,3,3,7,5.0,EGKGE,-0.9998,-1.3319,-2.3400,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,4,4,8,6.0,GKGEL,-0.0003,-0.4439,-0.8800,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,5,5,9,7.0,KGELE,-0.9998,-1.4407,-1.5000,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,6,6,10,8.0,GELEH,-1.9607,-2.4037,-1.3600,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,7,7,11,9.0,ELEHS,-1.9607,-2.2949,-1.4400,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,8,8,12,10.0,LEHSQ,-0.9612,-1.4048,-1.4400,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,9,9,13,11.0,EHSQQ,-0.9612,-1.2960,-2.9000,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,10,10,14,12.0,HSQQE,-0.9612,-1.4027,-2.9000,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,11,11,15,13.0,SQQEE,-1.9990,-2.7424,-2.9600,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,12,12,16,14.0,QQEED,-2.9987,-3.4386,-3.5000,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,13,13,17,15.0,QEEDG,-2.9987,-3.4399,-2.8800,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,14,14,18,16.0,EEDGE,-3.9982,-4.3278,-2.8800,Yes,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,15,15,19,17.0,EDGEE,-3.9982,-4.3278,-2.8800,Yes,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,16,16,20,18.0,DGEEA,-2.9987,-3.4399,-1.8200,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,17,17,21,19.0,GEEAM,-1.9990,-2.4403,-0.7400,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,18,18,22,20.0,EEAMA,-1.9990,-2.3315,-0.3000,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,19,19,23,21.0,EAMAG,-0.9995,-1.3326,0.3200,No,No
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,20,20,24,22.0,AMAGP,0.0000,-0.3922,0.7000,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,21,21,25,23.0,MAGPP,0.0000,-0.7151,0.0200,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,22,22,26,24.0,AGPPQ,0.0000,-0.3922,-1.0600,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,23,23,27,25.0,GPPQG,0.0000,-0.4425,-1.5000,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,24,24,28,26.0,PPQGL,0.0000,-0.0987,-0.6600,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,25,25,29,27.0,PQGLF,0.0000,-0.0987,0.2200,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,26,26,30,28.0,QGLFP,0.0000,-0.4425,0.2200,No,Yes
+rat_pst_uniprot_core,Rat PST Canonical Core (UniProt P10354),Rattus norvegicus,27,27,31,29.0,GLFPG,0.0000,-0.4425,0.8400,No,Yes
