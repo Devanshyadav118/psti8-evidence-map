@@ -3,7 +3,8 @@ prompt_id: 11
 slug: gap_map
 date: 2026-11-02
 model: "Gemini 3.8 Flash (High)"
-status: running
+status: done
+commit: 6dcfec3
 tool: Antigravity
 ---
 # 11 Gap map and direction choice
