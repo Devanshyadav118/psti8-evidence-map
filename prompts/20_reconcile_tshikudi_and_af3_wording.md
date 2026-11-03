@@ -1,7 +1,7 @@
 ---
 prompt_id: 20
 slug: reconcile_tshikudi_and_af3_wording
-status: running
+status: done
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-03

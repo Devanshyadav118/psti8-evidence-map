@@ -365,7 +365,7 @@ def generate_fig4():
     ax1.set_xticks(x)
     ax1.set_xticklabels(labels)
     ax1.set_ylabel("AlphaFold 3 Confidence Score")
-    ax1.set_title("A. Quaternary Co-Folding Confidence across 5 Seeds", fontweight="bold", loc="left")
+    ax1.set_title("A. Quaternary Co-Folding Confidence (5 Diffusion Samples, modelSeeds [1])", fontweight="bold", loc="left")
     ax1.set_ylim(0, 1.05)
     ax1.legend(loc="lower left", frameon=True, edgecolor="none", facecolor="#f0f0f0")
     ax1.grid(axis="y", linestyle="--", alpha=0.5)

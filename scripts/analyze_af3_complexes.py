@@ -4,7 +4,7 @@ scripts/analyze_af3_complexes.py
 Comprehensive analysis of AlphaFold 3 co-folding runs:
 GRP78 mature + ATP + Mg2+ with PSTi8, WT PST-29, E287K, and G297S.
 Outputs:
-  - data/structures/3d_models/af3_complex_metrics.csv (all 5 seeds per complex)
+  - data/structures/3d_models/af3_complex_metrics.csv (5 diffusion samples from one seed (modelSeeds [1]) per complex)
   - data/structures/3d_models/af3_interface_contacts.csv (atomic contacts < 4.0 A in model_0)
 """
 
@@ -76,9 +76,9 @@ def main():
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     models_dir = os.path.join(base_dir, "data", "structures", "3d_models")
     
-    # 1. Parse all 5 seeds for each complex
+    # 1. Parse 5 diffusion samples from one seed (modelSeeds [1]) for each complex
     metrics_rows = []
-    print("=== Extracting AF3 Multi-Seed Metrics ===")
+    print("=== Extracting AF3 Diffusion Sample Metrics (modelSeeds [1]) ===")
     
     for comp in COMPLEXES:
         cid = comp["complex_id"]
