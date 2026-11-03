@@ -1,7 +1,7 @@
 ---
 prompt_id: 21
 slug: osf_preregistration_and_dual_screening
-status: running
+status: done
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-03

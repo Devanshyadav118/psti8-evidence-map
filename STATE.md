@@ -52,6 +52,9 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
 **Working Title:** *Targeting GRP78 with Pancreastatin Inhibitor PSTi8: A Systematic Evidence Audit of Preclinical Sex Bias and In Silico Structural Investigation of Binding Mechanisms*  
 **Manuscript Strategy:** Hybrid systematic review, SABV methodological critique, and atomic-resolution neural co-folding mechanism investigation.
 
+- [x] **OSF Prospective Protocol Registration & Dual-Screening Audit Sheet:**
+  - Authored formal OSF systematic review protocol in [docs/osf_protocol_registration.md](docs/osf_protocol_registration.md) conforming to PRISMA-P and SYRCLE guidelines across 9 structured sections.
+  - Implemented [scripts/generate_dual_screening_sheet.py](scripts/generate_dual_screening_sheet.py) to generate [data/dual_screening_audit.csv](data/dual_screening_audit.csv) covering all 20 primary studies with standardized Screener 1 extractions and pending independent review fields.
 - [x] Updated AGENTS.md with phase structure and new folder map entries.
 - [x] **Thread 3 Verification Audit Complete:**
   - Audited all 26 candidate studies from Gemini 4 Argon search ([data/staging/thread3_argon_raw.md](data/staging/thread3_argon_raw.md)) against PubMed and Crossref APIs.

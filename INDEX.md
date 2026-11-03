@@ -48,6 +48,7 @@ Master tabular datasets and analytical outputs.
 | File | Purpose |
 | :--- | :--- |
 | [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (20 studies × 22 schema columns) |
+| [data/dual_screening_audit.csv](data/dual_screening_audit.csv) | Reproducible dual-screening and extraction verification audit sheet across all 20 primary studies |
 | [data/syrcle_arrive_matrix.csv](data/syrcle_arrive_matrix.csv) | Comprehensive ARRIVE 2.0 and SYRCLE Risk of Bias matrix across all 20 primary studies |
 | [data/power_results.csv](data/power_results.csv) | Statistical power analysis results across 33 sensitivity scenarios (t-distribution) |
 | [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all 116 verified papers across Threads 1, 2, 3, and 6 |
@@ -112,6 +113,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/structural_data_inventory.md](docs/structural_data_inventory.md) | Inventory of 1D/2D/3D structural assets, physicochemical comparisons, and AlphaFold 3 co-folding job inputs |
 | [docs/pathway_and_variant_analysis.md](docs/pathway_and_variant_analysis.md) | Computational sequence profiling, variant scoring, cross-species alignment, and GRP78 pathway interactome synthesis |
 | [docs/gap_map.md](docs/gap_map.md) | Master Evidence Gap Map: comprehensive Phase 1 synthesis, SABV gaps, structural landscape, and Phase 2 manuscript architecture |
+| [docs/osf_protocol_registration.md](docs/osf_protocol_registration.md) | Formal prospective OSF protocol registration conforming to PRISMA-P and SYRCLE guidelines |
 | [docs/receptor_construct_audit.md](docs/receptor_construct_audit.md) | GRP78 / BiP crystallographic construct audit, caveat resolution, and receptor sanitization protocol |
 | [docs/structural_audit_argon.md](docs/structural_audit_argon.md) | Primary structural verification matrix auditing 1D/2D/3D assets against UniProt and PDB |
 | [docs/decisions/2026-10-27_paper-id-convention.md](docs/decisions/2026-10-27_paper-id-convention.md) | Decision record: paper_id naming convention across repository |
@@ -142,6 +144,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/run_esm2_analysis.py](scripts/run_esm2_analysis.py) | Deep learning pipeline executing real ESM-2 zero-shot mutational scanning, embeddings, and ESMFold 3D peptide predictions |
 | [scripts/analyze_af3_complexes.py](scripts/analyze_af3_complexes.py) | Diffusion sample metrics and atomic interface contact analysis pipeline for AlphaFold 3 complexes |
 | [scripts/generate_syrcle_arrive_matrix.py](scripts/generate_syrcle_arrive_matrix.py) | Evaluation script assessing ARRIVE 2.0 Essential 10 and SYRCLE Risk of Bias across all 20 studies |
+| [scripts/generate_dual_screening_sheet.py](scripts/generate_dual_screening_sheet.py) | Generator for reproducible dual-screening and data extraction verification audit sheet |
 | [scripts/generate_manuscript_figures.py](scripts/generate_manuscript_figures.py) | Publication-grade visualization suite generating Figures 1–5 in 300 DPI PNG, SVG, and PDF |
 
 ## notes/topics/
@@ -184,3 +187,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/17_integrate_af3_esm2_and_generate_figures.md](prompts/17_integrate_af3_esm2_and_generate_figures.md) | Prompt 17b: Integrate AF3 co-folding confidence and interface contacts, generate SYRCLE/ARRIVE matrix, and author 5 publication-grade figures |
 | [prompts/19_thread7_verify_and_af3_numbering.md](prompts/19_thread7_verify_and_af3_numbering.md) | Prompt 19: Verify Thread 7 target-engagement literature, audit absence claims via Exa, fix AF3 canonical numbering, and author verification report |
 | [prompts/20_reconcile_tshikudi_and_af3_wording.md](prompts/20_reconcile_tshikudi_and_af3_wording.md) | Prompt 20: Reconcile Tshikudi stats, correct linker motif, and clarify AF3 diffusion sample wording |
+| [prompts/21_osf_preregistration_and_dual_screening.md](prompts/21_osf_preregistration_and_dual_screening.md) | Prompt 21: Author formal prospective OSF protocol registration and generate dual-screening verification audit sheet |
