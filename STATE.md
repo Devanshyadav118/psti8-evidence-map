@@ -52,6 +52,10 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
 **Working Title:** *Targeting GRP78 with Pancreastatin Inhibitor PSTi8: A Systematic Evidence Audit of Preclinical Sex Bias and In Silico Structural Investigation of Binding Mechanisms*  
 **Manuscript Strategy:** Hybrid systematic review, SABV methodological critique, and atomic-resolution neural co-folding mechanism investigation.
 
+- [x] **Complete Research Manuscript Authored (manuscript/manuscript.md):**
+  - Authored full, submission-ready manuscript in [manuscript/manuscript.md](manuscript/manuscript.md) following the Guide for Authors of *Biology of Sex Differences* (BioMed Central / Springer Nature).
+  - Structured into standard BMC IMRaD format: Title & Front Matter, Structured Abstract (314 words), Introduction, Methods, Results (Sections 3.1 to 3.8), Discussion, Declarations, and 33 references.
+  - Fully integrated PRISMA systematic review, ARRIVE 2.0 / SYRCLE audit (0/20 power calculations, 0/20 allocation concealment), preclinical sex segregation (100% male bias in T2D/DIO, 0% baseline estrous staging), factorial interaction power analysis (0/20 interaction tests, <19% power in n=6 cohorts), AlphaFold 3 quaternary co-folding (refuting NBD docking; establishing interdomain linker wedge at Ile426-SBDbeta with ipTM 0.81 vs 0.76 vs 0.28), 100% SBDbeta interspecies conservation, Gly297Ser paradox resolution, and GRP78 compartmentalization model.
 - [x] **OSF Prospective Protocol Registration & Dual-Screening Audit Sheet:**
   - Authored formal OSF systematic review protocol in [docs/osf_protocol_registration.md](docs/osf_protocol_registration.md) conforming to PRISMA-P and SYRCLE guidelines across 9 structured sections.
   - Implemented [scripts/generate_dual_screening_sheet.py](scripts/generate_dual_screening_sheet.py) to generate [data/dual_screening_audit.csv](data/dual_screening_audit.csv) covering all 20 primary studies with standardized Screener 1 extractions and pending independent review fields.

@@ -13,6 +13,14 @@
 | [README.md](README.md) | Project overview, caveats, repository structure, and license notice |
 | [STATE.md](STATE.md) | Project status, completed tasks, next actions, and identified evidence gaps |
 
+## manuscript/
+
+Full research manuscript and supplementary materials for submission to *Biology of Sex Differences*.
+
+| File | Purpose |
+| :--- | :--- |
+| [manuscript/manuscript.md](manuscript/manuscript.md) | Complete, submission-ready research manuscript in standard BMC IMRaD format |
+
 ## sources/
 
 Read-only inputs, literature guides, and external reference lists.
@@ -188,3 +196,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/19_thread7_verify_and_af3_numbering.md](prompts/19_thread7_verify_and_af3_numbering.md) | Prompt 19: Verify Thread 7 target-engagement literature, audit absence claims via Exa, fix AF3 canonical numbering, and author verification report |
 | [prompts/20_reconcile_tshikudi_and_af3_wording.md](prompts/20_reconcile_tshikudi_and_af3_wording.md) | Prompt 20: Reconcile Tshikudi stats, correct linker motif, and clarify AF3 diffusion sample wording |
 | [prompts/21_osf_preregistration_and_dual_screening.md](prompts/21_osf_preregistration_and_dual_screening.md) | Prompt 21: Author formal prospective OSF protocol registration and generate dual-screening verification audit sheet |
+| [prompts/22_draft_full_manuscript.md](prompts/22_draft_full_manuscript.md) | Prompt 22: Author complete submission-ready research manuscript in BMC IMRaD format |
