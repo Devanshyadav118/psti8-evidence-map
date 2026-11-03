@@ -2,6 +2,7 @@
 prompt_id: 22
 slug: draft_full_manuscript
 status: done
+commit: d4115fd
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-03
