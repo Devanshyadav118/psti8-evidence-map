@@ -45,27 +45,29 @@ COMPLEXES = [
     }
 ]
 
-def annotate_grp78_domain(res_num):
+def annotate_grp78_domain(canon_res_num):
     """
-    Annotate GRP78 domain based on residue numbering in mature construct (1-636)
-    and canonical UniProt P11021 coordinates (res_num + 18).
-    Canonical definitions:
-      NBD: 26-407 (mature 8-389, extended to ~407 in crystallographic NBD)
-      Interdomain Linker: 408-419 (mature 390-401, or mature 408-419 in construct coordinates)
-      Linker-SBDbeta Hinge: 420-426
-      SBDbeta: 427-537
-      SBDalpha: 538-633
-      C-terminal tail: >633
+    Annotate GRP78 domain based on canonical UniProt P11021 coordinates.
+    AF3 Chain A residue IDs are 1-based along mature sequence (1-636),
+    corresponding to UniProt P11021 residues 19-654 (+18 offset).
+    
+    Canonical boundaries derived from 3LDL, 5EVZ, and UniProt P11021:
+      N-terminal mature extension: 19-25
+      NBD (ATPase Domain): 26-407 (crystal structures 3LDL/5EVZ residues 26-406/407)
+      Interdomain Linker: 408-426 (core linker 411-425 + hinge Lys426)
+      SBDbeta (Substrate-Binding Domain beta): 427-537
+      SBDalpha (Helical Lid): 538-633
+      C-terminal tail (KDEL): 634-654
     """
-    if res_num <= 407:
+    if canon_res_num < 26:
+        return "N-terminal Extension"
+    elif canon_res_num <= 407:
         return "NBD"
-    elif 408 <= res_num <= 419:
+    elif canon_res_num <= 426:
         return "Interdomain Linker"
-    elif 420 <= res_num <= 426:
-        return "Linker-SBDbeta Hinge"
-    elif 427 <= res_num <= 537:
+    elif canon_res_num <= 537:
         return "SBDbeta"
-    elif 538 <= res_num <= 633:
+    elif canon_res_num <= 633:
         return "SBDalpha"
     else:
         return "C-terminal Tail"
@@ -167,7 +169,7 @@ def main():
                         "grp78_res_num_cif": res_a.id[1],
                         "grp78_res_num_canonical": res_a.id[1] + 18,
                         "grp78_atom": aa.name,
-                        "grp78_domain": annotate_grp78_domain(res_a.id[1]),
+                        "grp78_domain": annotate_grp78_domain(res_a.id[1] + 18),
                         "distance_angstrom": round(float(d), 3)
                     })
         

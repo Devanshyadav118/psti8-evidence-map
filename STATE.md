@@ -29,6 +29,15 @@ All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **comple
 - [x] **All 6 Topic Synthesis Notes Authored:** Complete notes in [notes/topics/](notes/topics/) (`01` through `06`) with zero quotes over 15 words.
 - [x] **Comprehensive SYRCLE / ARRIVE Matrix:** Evaluated all 20 primary studies in [data/syrcle_arrive_matrix.csv](data/syrcle_arrive_matrix.csv) via [scripts/generate_syrcle_arrive_matrix.py](scripts/generate_syrcle_arrive_matrix.py).
 - [x] **5 Publication-Grade Figures Generated:** Generated high-resolution 300 DPI PNG, SVG, and PDF figures in [figures/](figures/) via [scripts/generate_manuscript_figures.py](scripts/generate_manuscript_figures.py).
+- [x] **Thread 7 Verification Audit Complete & AlphaFold 3 Numbering Fix:**
+  - Audited all 8 candidate records from Gemini 4 Argon Thread 7 staging search ([data/staging/thread7_argon_raw.md](data/staging/thread7_argon_raw.md)) against PubMed, Crossref, and PMC; mapped all 8 records to existing registry entries without duplicate rows.
+  - Updated [data/papers_registry.csv](data/papers_registry.csv) with `Thread 7` tags and upgraded `allu2014_jbc` status to `full_text_read`.
+  - Exposed 3 fabricated PMC IDs in Argon's output (PMC5993748 $\rightarrow$ PMC5992141, PMC3924308 $\rightarrow$ PMC3924307, PMC11641510 $\rightarrow$ PMC11641590).
+  - Confirmed and corrected open full-text claims: Biswas 2014 ATPase $\text{IC}_{50} \sim 5.2\ \mu\text{M}$ by interpolation (refuting fabricated sub-values); Allu 2014 helicity ($\sim 13.5\%$ in water, $19.7\%$ in TFE, 7-residue core); Hossain 2018 used PDB 3LDP (NBD, residues Tyr39, Asn55, Arg60, Glu293, Ser300, refuting fabricated PDB 5E84 docking table); Tshikudi 2024 evaluated sexes separately without an omnibus $\text{Sex} \times \text{Treatment}$ interaction test.
+  - Audited Argon absence claims via 15 targeted Exa searches (logged in [docs/tool_usage_log.md](docs/tool_usage_log.md); 0 Firecrawl credits); reported strictly as "not found in 5 searches".
+  - Corrected AF3 residue numbering along mature chain A (+18 offset to canonical UniProt P11021 coordinates); re-derived domain boundaries from 3LDL, 5EVZ, and P11021; regenerated [data/structures/3d_models/af3_interface_contacts.csv](data/structures/3d_models/af3_interface_contacts.csv).
+  - Evaluated AF3 predicted contacts across all 5 seeds against Hossain 2018 NBD docking residues (0 residue overlap).
+  - Authored [docs/thread7_verification.md](docs/thread7_verification.md) and added "Target-Engagement Evidence & Cross-Platform Comparison" to [docs/gap_map.md](docs/gap_map.md).
 
 ### Phase 2: MANUSCRIPT DRAFTING (Route A) 🔄 IN PROGRESS
 

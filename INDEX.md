@@ -105,6 +105,7 @@ Audit reports, schemas, power analyses, spot-check protocols, and decision recor
 | [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md) | Thread 2 audit addendum: laboratory independence, GRP78 paradox, sex reporting, and one-liner audit |
 | [docs/thread3_verification.md](docs/thread3_verification.md) | Thread 3 audit report: verification of 26 candidate studies against PubMed/Crossref |
 | [docs/thread6_verification.md](docs/thread6_verification.md) | Thread 6 audit report: verification of 27 methods and reporting studies against PubMed/Crossref |
+| [docs/thread7_verification.md](docs/thread7_verification.md) | Thread 7 audit report: verification of target-engagement literature, exposure of Argon hallucinations, and AF3 canonical numbering fix |
 | [docs/registry_merge_report.md](docs/registry_merge_report.md) | Registry merge report: consolidation of Threads 1, 2, 3, and 6 into master papers registry (116 records) |
 | [docs/staging_new_studies.md](docs/staging_new_studies.md) | Catalogue of verified new primary PSTi8 studies with strict sex reporting extraction |
 | [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md) | Direction 1 novelty assessment: Exa search log, existing review critique, and verdict |
@@ -181,3 +182,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/16_computational_sequence_pathway_analysis.md](prompts/16_computational_sequence_pathway_analysis.md) | Prompt 16: Computational sequence profiling, cross-species alignment, variant impact scoring, and GRP78 pathway interactome retrieval |
 | [prompts/17_complete_phase1_esm2_structures_and_topics.md](prompts/17_complete_phase1_esm2_structures_and_topics.md) | Prompt 17: Complete Phase 1 computational, structural sanitization, and 6 topic synthesis deliverables |
 | [prompts/17_integrate_af3_esm2_and_generate_figures.md](prompts/17_integrate_af3_esm2_and_generate_figures.md) | Prompt 17b: Integrate AF3 co-folding confidence and interface contacts, generate SYRCLE/ARRIVE matrix, and author 5 publication-grade figures |
+| [prompts/19_thread7_verify_and_af3_numbering.md](prompts/19_thread7_verify_and_af3_numbering.md) | Prompt 19: Verify Thread 7 target-engagement literature, audit absence claims via Exa, fix AF3 canonical numbering, and author verification report |

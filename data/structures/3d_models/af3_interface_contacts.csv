@@ -11,23 +11,23 @@ fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,O,PHE,433,451,CG,SBDbeta,3.73
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,O,PHE,433,451,CD1,SBDbeta,3.307
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,O,SER,434,452,N,SBDbeta,2.949
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,O,SER,434,452,O,SBDbeta,3.752
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,CB,THR,410,428,CG2,Interdomain Linker,3.881
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,CB,THR,410,428,CG2,SBDbeta,3.881
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,CB,PHE,433,451,CD1,SBDbeta,3.426
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,CB,PHE,433,451,CE1,SBDbeta,3.581
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,SD,THR,416,434,CB,Interdomain Linker,3.762
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,SD,THR,416,434,OG1,Interdomain Linker,3.162
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,SD,THR,416,434,CG2,Interdomain Linker,3.099
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,SD,THR,416,434,CB,SBDbeta,3.762
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,SD,THR,416,434,OG1,SBDbeta,3.162
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,MET,19,SD,THR,416,434,CG2,SBDbeta,3.099
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,CA,SER,434,452,O,SBDbeta,3.314
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,C,VAL,411,429,CG2,Interdomain Linker,3.865
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,C,VAL,411,429,CG2,SBDbeta,3.865
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,C,SER,434,452,O,SBDbeta,3.555
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,CA,Interdomain Linker,3.425
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,C,Interdomain Linker,3.694
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,CB,Interdomain Linker,3.316
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,CG2,Interdomain Linker,3.74
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,VAL,411,429,N,Interdomain Linker,3.018
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,VAL,411,429,CB,Interdomain Linker,3.969
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,VAL,411,429,CG2,Interdomain Linker,3.463
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,CB,VAL,411,429,CG2,Interdomain Linker,3.617
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,CA,SBDbeta,3.425
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,C,SBDbeta,3.694
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,CB,SBDbeta,3.316
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,THR,410,428,CG2,SBDbeta,3.74
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,VAL,411,429,N,SBDbeta,3.018
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,VAL,411,429,CB,SBDbeta,3.969
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,O,VAL,411,429,CG2,SBDbeta,3.463
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,CB,VAL,411,429,CG2,SBDbeta,3.617
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,ALA,20,CB,ALA,436,454,CA,SBDbeta,3.848
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,N,SER,434,452,O,SBDbeta,2.83
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CA,SER,434,452,O,SBDbeta,3.802
@@ -41,8 +41,8 @@ fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,O,GLN,440,458,OE1,SBDbeta,3.7
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,O,GLN,440,458,NE2,SBDbeta,3.228
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CB,VAL,443,461,CG1,SBDbeta,3.932
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG1,ILE,408,426,CD1,Interdomain Linker,3.653
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG1,GLU,409,427,O,Interdomain Linker,3.594
-fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG1,THR,410,428,CG2,Interdomain Linker,3.994
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG1,GLU,409,427,O,SBDbeta,3.594
+fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG1,THR,410,428,CG2,SBDbeta,3.994
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG1,PHE,433,451,CD1,SBDbeta,3.891
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG2,PHE,433,451,CB,SBDbeta,3.556
 fold_af3_grp78_mature_psti8_21_atp_mg,PSTi8,VAL,21,CG2,SER,434,452,O,SBDbeta,3.329
@@ -52,7 +52,7 @@ fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PRO,1,O,LEU,387,405,CD2,NBD,2.753
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PRO,1,CG,LEU,387,405,O,NBD,3.539
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PRO,1,CD,MET,178,196,CE,NBD,3.183
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PRO,1,CD,LEU,387,405,O,NBD,3.627
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,CG,LEU,398,416,O,NBD,3.804
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,CG,LEU,398,416,O,Interdomain Linker,3.804
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,CD,ARG,179,197,CZ,NBD,3.765
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,CD,ARG,179,197,NH1,NBD,3.25
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,CD,ARG,179,197,NH2,NBD,3.356
@@ -64,26 +64,26 @@ fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,OE1,VAL,487,505,CG2,SBDbeta
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,OE2,ARG,179,197,CZ,NBD,3.341
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,OE2,ARG,179,197,NH1,NBD,3.275
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,6,OE2,ARG,179,197,NH2,NBD,2.545
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CB,LEU,399,417,CD2,NBD,3.67
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CG,LEU,399,417,CD2,NBD,3.392
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,ND1,LEU,399,417,CD2,NBD,3.794
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CD2,LEU,399,417,CD2,NBD,3.58
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CD2,VAL,424,442,CG1,Linker-SBDbeta Hinge,3.487
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CE1,VAL,424,442,CG1,Linker-SBDbeta Hinge,3.881
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,NE2,VAL,424,442,CB,Linker-SBDbeta Hinge,3.654
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,NE2,VAL,424,442,CG1,Linker-SBDbeta Hinge,2.847
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,SER,10,CB,PRO,426,444,CG,Linker-SBDbeta Hinge,3.814
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,SER,10,OG,PRO,426,444,CG,Linker-SBDbeta Hinge,3.617
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,CD,PRO,426,444,O,Linker-SBDbeta Hinge,3.332
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,CE,VAL,424,442,O,Linker-SBDbeta Hinge,3.79
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,CE,VAL,424,442,CB,Linker-SBDbeta Hinge,3.842
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,THR,423,441,CG2,Linker-SBDbeta Hinge,3.938
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,N,Linker-SBDbeta Hinge,3.5
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,CA,Linker-SBDbeta Hinge,3.442
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,C,Linker-SBDbeta Hinge,3.296
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,O,Linker-SBDbeta Hinge,2.607
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,CB,Linker-SBDbeta Hinge,3.133
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,CG1,Linker-SBDbeta Hinge,3.953
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CB,LEU,399,417,CD2,Interdomain Linker,3.67
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CG,LEU,399,417,CD2,Interdomain Linker,3.392
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,ND1,LEU,399,417,CD2,Interdomain Linker,3.794
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CD2,LEU,399,417,CD2,Interdomain Linker,3.58
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CD2,VAL,424,442,CG1,SBDbeta,3.487
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,CE1,VAL,424,442,CG1,SBDbeta,3.881
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,NE2,VAL,424,442,CB,SBDbeta,3.654
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,HIS,9,NE2,VAL,424,442,CG1,SBDbeta,2.847
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,SER,10,CB,PRO,426,444,CG,SBDbeta,3.814
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,SER,10,OG,PRO,426,444,CG,SBDbeta,3.617
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,CD,PRO,426,444,O,SBDbeta,3.332
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,CE,VAL,424,442,O,SBDbeta,3.79
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,CE,VAL,424,442,CB,SBDbeta,3.842
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,THR,423,441,CG2,SBDbeta,3.938
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,N,SBDbeta,3.5
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,CA,SBDbeta,3.442
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,C,SBDbeta,3.296
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,O,SBDbeta,2.607
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,CB,SBDbeta,3.133
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,VAL,424,442,CG1,SBDbeta,3.953
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LYS,13,NZ,THR,427,445,OG1,SBDbeta,3.955
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,17,CG,LYS,428,446,O,SBDbeta,3.982
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLU,17,CD,LYS,428,446,CB,SBDbeta,4.0
@@ -122,7 +122,7 @@ fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLN,24,CG,GLN,431,449,OE1,SBDbeta
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLN,24,CG,ILE,432,450,O,SBDbeta,3.967
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,N,PHE,433,451,CD1,SBDbeta,3.429
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,N,PHE,433,451,CE1,SBDbeta,3.809
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,CA,THR,410,428,CG2,Interdomain Linker,3.993
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,CA,THR,410,428,CG2,SBDbeta,3.993
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,CA,PHE,433,451,CD1,SBDbeta,3.6
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,C,PHE,433,451,CD1,SBDbeta,3.72
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,O,PHE,433,451,CA,SBDbeta,3.38
@@ -132,16 +132,16 @@ fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,O,PHE,433,451,CD1,SBDbeta,
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,O,SER,434,452,N,SBDbeta,3.024
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,25,O,SER,434,452,O,SBDbeta,3.899
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,CA,SER,434,452,O,SBDbeta,3.242
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,C,VAL,411,429,CG2,Interdomain Linker,3.738
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,C,VAL,411,429,CG2,SBDbeta,3.738
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,C,SER,434,452,O,SBDbeta,3.524
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,THR,410,428,CA,Interdomain Linker,3.466
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,THR,410,428,C,Interdomain Linker,3.588
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,THR,410,428,CB,Interdomain Linker,3.63
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,N,Interdomain Linker,2.875
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,CA,Interdomain Linker,3.813
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,CB,Interdomain Linker,3.796
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,CG2,Interdomain Linker,3.157
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,CB,VAL,411,429,CG2,Interdomain Linker,3.669
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,THR,410,428,CA,SBDbeta,3.466
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,THR,410,428,C,SBDbeta,3.588
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,THR,410,428,CB,SBDbeta,3.63
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,N,SBDbeta,2.875
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,CA,SBDbeta,3.813
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,CB,SBDbeta,3.796
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,O,VAL,411,429,CG2,SBDbeta,3.157
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,CB,VAL,411,429,CG2,SBDbeta,3.669
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,CB,SER,434,452,O,SBDbeta,3.921
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,CD1,ARG,474,492,NH2,SBDbeta,3.509
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,LEU,26,CD2,SER,434,452,C,SBDbeta,3.875
@@ -163,14 +163,14 @@ fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,O,GLN,440,458,OE1,SBDbeta,
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,O,GLN,440,458,NE2,SBDbeta,3.222
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CB,VAL,443,461,CB,SBDbeta,3.709
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CB,VAL,443,461,CG1,SBDbeta,3.725
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CD1,GLU,409,427,O,Interdomain Linker,3.615
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CD1,GLU,409,427,O,SBDbeta,3.615
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CD1,THR,444,462,O,SBDbeta,3.81
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CD2,PHE,433,451,CB,SBDbeta,3.87
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CD2,SER,434,452,O,SBDbeta,3.889
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CD2,VAL,443,461,CB,SBDbeta,3.889
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CD2,VAL,443,461,CG1,SBDbeta,3.994
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CE1,ILE,408,426,CD1,Interdomain Linker,3.47
-fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CE1,GLU,409,427,O,Interdomain Linker,3.707
+fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CE1,GLU,409,427,O,SBDbeta,3.707
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CE2,PHE,433,451,CB,SBDbeta,3.199
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CE2,PHE,433,451,CG,SBDbeta,3.741
 fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,PHE,27,CZ,ILE,408,426,CD1,Interdomain Linker,3.357
@@ -190,27 +190,27 @@ fold_af3_grp78_mature_wt_pst29_atp_mg,WT_PST29,GLY,29,CA,THR,442,460,O,SBDbeta,3
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PRO,1,O,LEU,387,405,CD2,NBD,2.95
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PRO,1,CG,LEU,387,405,O,NBD,3.682
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PRO,1,CD,MET,178,196,CE,NBD,3.336
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,CG,LEU,398,416,O,NBD,3.7
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,CG,LEU,398,416,O,Interdomain Linker,3.7
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,CD,ARG,179,197,CZ,NBD,3.968
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,CD,ARG,179,197,NH1,NBD,3.471
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,CD,ARG,179,197,NH2,NBD,3.503
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE1,ARG,179,197,CZ,NBD,3.562
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE1,ARG,179,197,NH1,NBD,2.718
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE1,ARG,179,197,NH2,NBD,3.495
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE1,LEU,398,416,O,NBD,3.754
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE1,LEU,398,416,O,Interdomain Linker,3.754
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE2,ARG,179,197,CZ,NBD,3.486
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE2,ARG,179,197,NH1,NBD,3.422
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,6,OE2,ARG,179,197,NH2,NBD,2.676
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,HIS,9,CB,LEU,399,417,CD2,NBD,3.946
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,HIS,9,CG,LEU,399,417,CD2,NBD,3.726
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,HIS,9,CD2,LEU,399,417,CD2,NBD,3.542
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,SER,10,OG,PRO,426,444,CG,Linker-SBDbeta Hinge,3.734
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,N,Linker-SBDbeta Hinge,3.917
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CA,Linker-SBDbeta Hinge,3.781
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,O,Linker-SBDbeta Hinge,3.731
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CB,Linker-SBDbeta Hinge,2.868
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CG1,Linker-SBDbeta Hinge,3.596
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CG2,Linker-SBDbeta Hinge,3.545
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,HIS,9,CB,LEU,399,417,CD2,Interdomain Linker,3.946
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,HIS,9,CG,LEU,399,417,CD2,Interdomain Linker,3.726
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,HIS,9,CD2,LEU,399,417,CD2,Interdomain Linker,3.542
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,SER,10,OG,PRO,426,444,CG,SBDbeta,3.734
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,N,SBDbeta,3.917
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CA,SBDbeta,3.781
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,O,SBDbeta,3.731
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CB,SBDbeta,2.868
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CG1,SBDbeta,3.596
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LYS,13,NZ,VAL,424,442,CG2,SBDbeta,3.545
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,17,CG,LYS,429,447,NZ,SBDbeta,3.781
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,17,CD,LYS,428,446,O,SBDbeta,3.129
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLU,17,CD,LYS,429,447,CD,SBDbeta,3.674
@@ -267,16 +267,16 @@ fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLY,25,O,PHE,433,451,CD1,SB
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLY,25,O,SER,434,452,N,SBDbeta,2.988
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,GLY,25,O,SER,434,452,O,SBDbeta,3.88
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,CA,SER,434,452,O,SBDbeta,3.259
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,C,VAL,411,429,CG2,Interdomain Linker,3.693
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,C,VAL,411,429,CG2,SBDbeta,3.693
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,C,SER,434,452,O,SBDbeta,3.491
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,THR,410,428,CA,Interdomain Linker,3.597
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,THR,410,428,C,Interdomain Linker,3.676
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,THR,410,428,CB,Interdomain Linker,3.718
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,N,Interdomain Linker,2.915
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,CA,Interdomain Linker,3.801
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,CB,Interdomain Linker,3.721
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,CG2,Interdomain Linker,3.047
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,CB,VAL,411,429,CG2,Interdomain Linker,3.653
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,THR,410,428,CA,SBDbeta,3.597
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,THR,410,428,C,SBDbeta,3.676
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,THR,410,428,CB,SBDbeta,3.718
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,N,SBDbeta,2.915
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,CA,SBDbeta,3.801
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,CB,SBDbeta,3.721
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,O,VAL,411,429,CG2,SBDbeta,3.047
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,CB,VAL,411,429,CG2,SBDbeta,3.653
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,CB,ALA,436,454,CB,SBDbeta,3.997
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,CD2,SER,434,452,C,SBDbeta,3.908
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,LEU,26,CD2,SER,434,452,O,SBDbeta,3.917
@@ -300,14 +300,14 @@ fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CB,SER,434,452,O,SBD
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CB,VAL,443,461,CB,SBDbeta,3.747
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CB,VAL,443,461,CG1,SBDbeta,3.652
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CG,VAL,443,461,CB,SBDbeta,3.969
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CD1,GLU,409,427,O,Interdomain Linker,3.778
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CD1,GLU,409,427,O,SBDbeta,3.778
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CD1,THR,444,462,O,SBDbeta,3.742
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CD2,PHE,433,451,CB,SBDbeta,3.783
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CD2,SER,434,452,O,SBDbeta,3.783
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CD2,VAL,443,461,CB,SBDbeta,3.896
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CD2,VAL,443,461,CG1,SBDbeta,3.921
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CE1,ILE,408,426,CD1,Interdomain Linker,3.464
-fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CE1,GLU,409,427,O,Interdomain Linker,3.863
+fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CE1,GLU,409,427,O,SBDbeta,3.863
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CE1,ILE,445,463,CG1,SBDbeta,3.855
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CE2,PHE,433,451,CB,SBDbeta,3.16
 fold_af3_grp78_mature_e287k_pst29_atp_mg,E287K_PST29,PHE,27,CE2,PHE,433,451,CG,SBDbeta,3.737
@@ -340,35 +340,35 @@ fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,O,PHE,433,451,CB,SBD
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,O,PHE,433,451,CG,SBDbeta,3.673
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,O,PHE,433,451,CD1,SBDbeta,3.033
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,O,SER,434,452,N,SBDbeta,3.652
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,CB,THR,410,428,CB,Interdomain Linker,3.98
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,CB,THR,410,428,CG2,Interdomain Linker,3.48
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,CB,THR,410,428,CB,SBDbeta,3.98
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,CB,THR,410,428,CG2,SBDbeta,3.48
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,CB,PHE,433,451,CD1,SBDbeta,3.691
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,CB,PHE,433,451,CE1,SBDbeta,3.696
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,OG,THR,416,434,OG1,Interdomain Linker,3.789
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,SER,25,OG,THR,416,434,OG1,SBDbeta,3.789
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,CA,SER,434,452,O,SBDbeta,3.527
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,C,VAL,411,429,CG2,Interdomain Linker,3.64
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,C,VAL,411,429,CG2,SBDbeta,3.64
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,C,SER,434,452,O,SBDbeta,3.696
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,THR,410,428,CA,Interdomain Linker,3.53
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,THR,410,428,C,Interdomain Linker,3.611
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,THR,410,428,CB,Interdomain Linker,3.538
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,N,Interdomain Linker,2.843
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,CA,Interdomain Linker,3.752
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,CB,Interdomain Linker,3.643
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,CG2,Interdomain Linker,3.052
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,CB,VAL,411,429,CG2,Interdomain Linker,3.428
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,THR,410,428,CA,SBDbeta,3.53
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,THR,410,428,C,SBDbeta,3.611
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,THR,410,428,CB,SBDbeta,3.538
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,N,SBDbeta,2.843
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,CA,SBDbeta,3.752
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,CB,SBDbeta,3.643
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,O,VAL,411,429,CG2,SBDbeta,3.052
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,CB,VAL,411,429,CG2,SBDbeta,3.428
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,CD1,ARG,474,492,NH2,SBDbeta,3.525
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,CD2,THR,435,453,C,SBDbeta,3.647
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,LEU,26,CD2,THR,435,453,O,SBDbeta,2.907
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,N,SER,434,452,O,SBDbeta,2.909
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CA,SER,434,452,O,SBDbeta,3.864
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,C,VAL,411,429,CG2,Interdomain Linker,3.918
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,O,VAL,411,429,CG2,Interdomain Linker,3.86
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,C,VAL,411,429,CG2,SBDbeta,3.918
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,O,VAL,411,429,CG2,SBDbeta,3.86
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,O,ALA,436,454,N,SBDbeta,3.452
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,O,ALA,436,454,CA,SBDbeta,3.829
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,O,ALA,436,454,CB,SBDbeta,2.991
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CB,SER,434,452,O,SBDbeta,3.763
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CB,VAL,443,461,CG1,SBDbeta,3.99
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CD1,GLU,409,427,O,Interdomain Linker,3.929
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CD1,GLU,409,427,O,SBDbeta,3.929
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CD1,THR,444,462,O,SBDbeta,3.767
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CD2,PHE,433,451,CB,SBDbeta,3.431
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CD2,SER,434,452,O,SBDbeta,3.853
@@ -386,17 +386,17 @@ fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CZ,ILE,445,463,CG1,S
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,PHE,27,CZ,VAL,481,499,CG2,SBDbeta,3.459
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,O,THR,444,462,N,SBDbeta,3.845
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,O,THR,444,462,O,SBDbeta,3.761
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CG,VAL,411,429,CA,Interdomain Linker,3.912
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NE,GLY,412,430,N,Interdomain Linker,3.485
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,412,430,N,Interdomain Linker,3.769
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,412,430,CA,Interdomain Linker,3.965
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,412,430,C,Interdomain Linker,3.886
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,413,431,N,Interdomain Linker,3.729
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH1,GLY,413,431,N,Interdomain Linker,3.783
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,412,430,N,Interdomain Linker,3.745
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,412,430,CA,Interdomain Linker,3.59
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,412,430,C,Interdomain Linker,3.695
-fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,413,431,N,Interdomain Linker,3.989
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CG,VAL,411,429,CA,SBDbeta,3.912
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NE,GLY,412,430,N,SBDbeta,3.485
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,412,430,N,SBDbeta,3.769
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,412,430,CA,SBDbeta,3.965
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,412,430,C,SBDbeta,3.886
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,CZ,GLY,413,431,N,SBDbeta,3.729
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH1,GLY,413,431,N,SBDbeta,3.783
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,412,430,N,SBDbeta,3.745
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,412,430,CA,SBDbeta,3.59
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,412,430,C,SBDbeta,3.695
+fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,ARG,28,NH2,GLY,413,431,N,SBDbeta,3.989
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,GLY,29,N,GLN,440,458,CD,SBDbeta,3.984
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,GLY,29,N,GLN,440,458,OE1,SBDbeta,3.952
 fold_af3_grp78_mature_g297s_pst29_atp_mg,G297S_PST29,GLY,29,N,GLN,440,458,NE2,SBDbeta,3.444

@@ -98,19 +98,20 @@ In clinical genetics, `Gly297Ser` (`rs9658664`) is associated with elevated bloo
 
 ## 5.5 AlphaFold 3 Co-Folding Discoveries
 
-Full-length neural co-folding with the AlphaFold 3 Server across 5 seeds in [`data/structures/3d_models/af3_complex_metrics.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_complex_metrics.csv) and [`data/structures/3d_models/af3_interface_contacts.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_interface_contacts.csv) provides atomic verification of the mechanism:
+Full-length neural co-folding with the AlphaFold 3 Server across 5 seeds in [`data/structures/3d_models/af3_complex_metrics.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_complex_metrics.csv) and [`data/structures/3d_models/af3_interface_contacts.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_interface_contacts.csv) using canonical UniProt P11021 numbering (+18 offset from the 636-residue mature chain) provides atomic resolution:
 
-1. **Refutation of Direct Catalytic ATPase Pocket Binding:**
-   * Early proposals conjectured that PSTi8 acts as an ATP mimetic inside the nucleotide cleft. The AF3 models definitively refute this: in the presence of $\text{Mg}^{2+}$-ATP, PSTi8 establishes **0 contacts with the NBD**.
-   * PSTi8 achieves top confidence (ranking score 0.85, ipTM 0.81, min PAE 2.30 Å) by acting as an **unshielded steric wedge** at the Interdomain Linker (residues 408–416) and $\text{SBD}\beta$ entrance (residues 433–478) via its C-terminal `E18-M19-A20-V21` tip, projecting its `E14–E17` polyanionic core into solvent.
+1. **Alternative Binding Locus for PSTi8:**
+   * Early literature (Hossain et al., 2018) modeled PSTi8 docking into the catalytic ATPase site of isolated NBD (PDB 3LDP; contacting Tyr39, Asn55, Arg60, Glu293, Ser300). The AF3 models predict an alternative locus: in the presence of $\text{Mg}^{2+}$-ATP, PSTi8 makes **0 contacts with the NBD** (residues 26–407).
+   * PSTi8 achieves top confidence (ranking score 0.85, ipTM 0.81, min PAE 2.30 Å) by acting as an **unshielded steric wedge** at the Interdomain Linker hinge (1 residue: `ILE426`, chain CIF 408) and $\text{SBD}\beta$ entrance (12 residues: `GLU427`, `THR428`, `VAL429`, `THR434`, `PHE451`, `SER452`, `THR453`, `ALA454`, `GLN458`, `VAL461`, `GLY493`, `GLN496`; chain CIF 409–478) via its C-terminal `E18-M19-A20-V21` tip, projecting its `E14–E17` polyanionic core into solvent.
 
-2. **Wild-Type PST-29 as a Tri-Domain Allosteric Clamp:**
-   * Full-length WT PST-29 (ranking 0.81, ipTM 0.76) forms **140 atomic contacts (<4.0 Å)** spanning the NBD (6 residues: `M178`–`L399`), Linker (7 residues), and $\text{SBD}\beta$ cleft (19 residues: `T427`–`K498`).
-   * The cleaved octapeptide `VPQGLFRG` serves as a hydrophobic anchor, clamping the NBD and SBD together to restrict physiological interdomain allosteric cycling.
+2. **Wild-Type PST-29 as an Extended Multi-Domain Modulator:**
+   * Full-length WT PST-29 (ranking 0.81, ipTM 0.76) forms **140 atomic contacts (<4.0 Å)** across 32 residues: NBD interdomain-adjacent surface (4 residues: `MET196`, `ARG197`, `GLN401`, `LEU405`), Interdomain Linker (3 residues: `LEU416`, `LEU417`, `ILE426`), and $\text{SBD}\beta$ cleft (25 residues: `GLU427`–`LYS516`).
+   * The terminal octapeptide `VPQGLFRG` serves as a hydrophobic anchor in the $\text{SBD}\beta$ pocket, stabilizing interdomain interactions.
+   * Overlap between AF3-predicted WT contacts and the Hossain 2018 NBD docking residues is **0 residues (0% overlap)** across all 5 seeds.
 
 3. **Structural Basis for the Gly297Ser Defect:**
-   * Introducing Ser25 into the hydrophobic $\text{SBD}\beta$ pocket causes steric and electrostatic disruption: atomic contacts decrease by 43.6% (140 to 79), NBD bridging is completely abolished (6 to 0), and pairwise ipTM plummets from 0.47 to 0.28 (min PAE worsening from 2.89 Å to 5.54 Å).
-   * Because PSTi8 lacks residues 22–29, it is entirely immune to this pocket destabilization.
+   * Introducing Ser25 into the hydrophobic $\text{SBD}\beta$ pocket causes steric disruption: atomic contacts decrease by 43.6% (140 to 79 across 20 residues: 1 Linker `ILE426` and 19 $\text{SBD}\beta$ residues `GLU427`–`VAL499`), NBD bridging is absent in Model 0 (4 to 0), and pairwise ipTM drops from 0.47 to 0.28 (min PAE worsening from 2.89 Å to 5.54 Å).
+   * Because PSTi8 lacks residues 22–29, it bypasses this pocket destabilization entirely.
 
 
 ---

@@ -261,23 +261,35 @@ All 4 quaternary complexes were folded using the AlphaFold 3 Server across 5 see
 
 ### Key Structural Discoveries:
 
-1. **Refutation of Direct Catalytic ATPase Binding (Steric Linker Wedge Mechanism):**
-   * Early literature speculated that PSTi8 or PST might bind within the GRP78 nucleotide-binding cleft. The AF3 co-folded models decisively refute this: in the presence of $\text{Mg}^{2+}$-ATP, PSTi8 makes **0 contacts with the NBD** (residues 1–407).
-   * Instead, PSTi8 (ranking 0.85, ipTM 0.81, min PAE 2.30 Å) acts as an **unshielded steric wedge** lodging cleanly at the junction of the **Interdomain Linker** (residues `ILE408`, `GLU409`, `THR410`, `VAL411`, `THR416`) and the **$\text{SBD}\beta$ cleft entrance** (residues `PHE433`, `SER434`, `THR435`, `ALA436`, `GLN440`, `VAL443`, `GLY475`, `GLN478`).
-   * This binding is mediated strictly by the C-terminal hydrophobic tip (`GLU18`, `MET19`, `ALA20`, `VAL21`), leaving its intensely polyanionic `E14–E17` core projecting outward into the solvent.
+1. **Receptor Architecture & Canonical Numbering Definition:**
+   * GRP78 coordinates follow canonical human UniProt P11021 (full precursor 1–654; mature protein residues 19–654 after cleavage of the 18-residue signal peptide). The AF3 submitted mature chain sequence (1–636) therefore corresponds to UniProt coordinates with a $+18$ residue offset ($\text{UniProt Residue} = \text{AF3 Chain Residue} + 18$).
+   * Canonical domain boundaries re-derived from experimental crystal structures 3LDL (NBD, residues 26–406), 5EVZ (NBD, residues 26–407), and UniProt P11021:
+     * **NBD (ATPase Domain):** UniProt residues 26–407 (mature chain residues 8–389)
+     * **Interdomain Linker:** UniProt residues 408–426 (mature chain residues 390–408; core linker `411-VGGSTRIPKIQQLVK-425` plus hinge `Ile426`)
+     * **$\text{SBD}\beta$ (Substrate-Binding Domain $\beta$):** UniProt residues 427–537 (mature chain residues 409–519)
+     * **$\text{SBD}\alpha$ (Helical Lid):** UniProt residues 538–633 (mature chain residues 520–615)
+     * **C-terminal Tail (KDEL):** UniProt residues 634–654 (mature chain residues 616–636)
 
-2. **Wild-Type PST-29 Acts as a Tri-Domain Allosteric Clamp:**
-   * In contrast to PSTi8's localized 48 contacts, full-length WT PST-29 establishes **140 atomic contacts (<4.0 Å)** spanning three distinct structural modules:
-     * **NBD:** 6 residues (`MET178`, `ARG179`, `GLN383`, `LEU387`, `LEU398`, `LEU399`)
-     * **Interdomain Linker:** 7 residues (`ILE408`–`PRO426`)
-     * **$\text{SBD}\beta$ Cleft:** 19 residues (`THR427`–`LYS498`)
-   * The cleaved octapeptide `VPQGLFRG` acts as a deep hydrophobic anchor within the $\text{SBD}\beta$ cavity, allowing the intact peptide to clamp the NBD and SBD together and restrict interdomain allosteric cycling.
+2. **Alternative Binding Locus for PSTi8 (Steric Linker Wedge Mechanism):**
+   * While early docking literature (Hossain et al., 2018) modeled PSTi8 inside the catalytic ATPase site of isolated NBD (PDB 3LDP; contacts Tyr39, Asn55, Arg60, Glu293, Ser300), AF3 predicts that in the full-length chaperone in the presence of $\text{Mg}^{2+}$-ATP, PSTi8 engages an alternative locus with **0 contacts to the NBD** (residues 26–407).
+   * AF3 predicts PSTi8 (ranking score 0.85, complex ipTM 0.81, min PAE 2.30 Å) lodges as an **unshielded steric wedge** across:
+     * **Interdomain Linker Hinge:** 1 residue (`ILE426`, chain CIF residue 408)
+     * **$\text{SBD}\beta$ Cleft Entrance:** 12 residues (`GLU427`, `THR428`, `VAL429`, `THR434`, `PHE451`, `SER452`, `THR453`, `ALA454`, `GLN458`, `VAL461`, `GLY493`, `GLN496`; chain CIF residues 409–411, 416, 433–436, 440, 443, 475, 478)
+   * This interaction is mediated by the hydrophobic C-terminal tip of PSTi8 (`GLU18`, `MET19`, `ALA20`, `VAL21`), leaving its intensely polyanionic `E14–E17` core solvent-exposed.
 
-3. **Atomic Resolution of the Gly297Ser Paradox:**
-   * Diabetogenic human variant Gly297Ser (`rs9658664`, mature pos 25) introduces a polar, steric hydroxymethyl sidechain into the tightly packed, hydrophobic $\text{SBD}\beta$ cleft.
-   * This mutation causes catastrophic local destabilization:
-     * Atomic contacts drop by **43.6%** (from 140 down to 79).
-     * NBD bridging is completely abolished (**6 residues down to 0**).
-     * Pairwise receptor-peptide ipTM collapses from **0.47** (WT) to **0.28** (G297S), and minimum inter-chain PAE worsens from **2.89 Å** to **5.54 Å**.
-   * Crucially, because PSTi8 is intentionally truncated at residue 21 (`...MAV`), it **completely excises the entire octapeptide harboring Gly297Ser**, rendering PSTi8 **pharmacologically and structurally immune** to this diabetogenic risk allele.
+3. **Wild-Type PST-29 as an Extended Multi-Domain Modulator:**
+   * In contrast to PSTi8's localized 48 contacts, full-length WT PST-29 establishes **140 atomic contacts (<4.0 Å)** spanning 32 GRP78 residues across three regions:
+     * **NBD:** 4 residues on the interdomain-adjacent surface (`MET196`, `ARG197`, `GLN401`, `LEU405`; chain CIF residues 178, 179, 383, 387)
+     * **Interdomain Linker:** 3 residues (`LEU416`, `LEU417`, `ILE426`; chain CIF residues 398, 399, 408)
+     * **$\text{SBD}\beta$ Cleft:** 25 residues (`GLU427` through `LYS516`; chain CIF residues 409–498)
+   * The terminal octapeptide `VPQGLFRG` provides a deep hydrophobic anchor in the $\text{SBD}\beta$ cleft, allowing the full peptide to bridge the SBD and the NBD interdomain face.
+   * Notably, AF3 predicts 0 contacts between WT PST-29 and the catalytic nucleotide-binding pocket residues reported in Hossain 2018 (Tyr39, Asn55, Arg60, Glu293, Ser300), showing 0 residue overlap across all 5 AF3 models.
+
+4. **Atomic Resolution of the Gly297Ser Paradox:**
+   * Diabetogenic human variant Gly297Ser (`rs9658664`, mature pos 25) introduces a polar hydroxymethyl sidechain into the hydrophobic $\text{SBD}\beta$ cleft.
+   * In AF3 Model 0, this substitution results in:
+     * Contact reduction of **43.6%** (from 140 down to 79 contacts across 20 GRP78 residues: 1 Linker `ILE426` and 19 $\text{SBD}\beta$ residues `GLU427`–`VAL499`).
+     * Elimination of NBD bridging (**4 residues down to 0 in Model 0**).
+     * Pairwise receptor-peptide ipTM reduction from **0.47** (WT) to **0.28** (G297S), with minimum PAE worsening from **2.89 Å** to **5.54 Å**.
+   * Truncation at residue 21 (`...MAV`) in PSTi8 removes the entire C-terminal octapeptide containing position 25, so PSTi8 bypasses the sequence region affected by this variant.
 
