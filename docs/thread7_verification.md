@@ -133,8 +133,8 @@ Per strict reporting rules, outcomes are phrased as "not found in $N$ searches":
   $$\text{UniProt Canonical Coordinate} = \text{AF3 Chain Residue Number} + 18$$
 
 ### 4B. Standard Domain Boundaries (Re-Derived from 3LDL, 5EVZ, and P11021)
-* **NBD (Nucleotide-Binding Domain):** UniProt residues 26–407 (crystal structures 3LDL residues 26–406; 5EVZ residues 26–407; mature chain residues 8–389).
-* **Interdomain Linker:** UniProt residues 408–426 (mature chain residues 390–408; core linker `411-VGGSTRIPKIQQLVK-425` plus hinge residue `Ile426`).
+* **NBD (Nucleotide-Binding Domain):** UniProt residues 26–407 (crystal structures 3LDL residues 26–406; 5EVZ residues 26–407; mature chain residues 8–389; contains subdomain IIB motif `362-VGGSTRIPKIQQLVK-376`).
+* **Interdomain Linker:** UniProt residues 408–426 (mature chain residues 390–408; containing conserved interdomain linker motif `416-LLDVCPLTLG-425` and hinge residue `Ile426`).
 * **$\text{SBD}\beta$ (Substrate-Binding Domain $\beta$-sandwich):** UniProt residues 427–537 (mature chain residues 409–519).
 * **$\text{SBD}\alpha$ (Helical Lid Domain):** UniProt residues 538–633 (mature chain residues 520–615).
 * **C-terminal Tail (KDEL):** UniProt residues 634–654 (mature chain residues 616–636).
@@ -152,14 +152,14 @@ Per strict reporting rules, outcomes are phrased as "not found in $N$ searches":
 
 ## 5. Cross-Platform Comparison: AF3 Predicted Contacts vs Hossain 2018 Docking
 
-A rigorous comparison between the contact residues reported by Hossain et al. (2018) from rigid-body docking onto isolated NBD (PDB 3LDP) and the contacts predicted across all 5 AF3 seeds (20 models in total) reveals:
+A rigorous comparison between the contact residues reported by Hossain et al. (2018) from rigid-body docking onto isolated NBD (PDB 3LDP) and the contacts predicted across 5 diffusion samples from one seed (`modelSeeds [1]`; 20 models across 4 complexes in total) reveals:
 
 * **Hossain 2018 Docking Residues (NBD Catalytic Pocket):** Tyr39, Asn55, Arg60, Glu293, Ser300 (UniProt canonical numbering 26–407).
-* **AF3 Predictions across All 5 Seeds:**
-  * **PSTi8 Complex (5 seeds):** In all 5 models, AF3 predicts PSTi8 engages the $\text{SBD}\beta$ cleft (UniProt 427–496) and interdomain linker hinge (`ILE426`), making **0 contacts with the NBD**. Overlap with Hossain 2018 docking residues is **0 residues (0% overlap)**.
-  * **WT PST-29 Complex (5 seeds):** AF3 predicts extensive engagement of the $\text{SBD}\beta$ cavity (UniProt 427–516) and the interdomain linker (411–426), with contacts to the outer linker-adjacent surface of NBD (UniProt 196–198, 401, 405). Across all 5 seeds, AF3 predicts **0 contacts** with the catalytic ATPase cleft residues (39, 55, 60, 293, 300). Overlap with Hossain 2018 docking residues is **0 residues (0% overlap)**.
-  * **E287K and G297S Complexes (5 seeds each):** In all 10 models, contacts are concentrated in $\text{SBD}\beta$ and the linker, with 0 contacts to catalytic pocket residues. Overlap is **0 residues (0% overlap)**.
-* **Comparative Interpretation:** AF3 predicts an alternative, full-length binding mode in which peptides engage the client-binding $\text{SBD}\beta$ groove and interdomain linker rather than the catalytic nucleotide pocket. The observation that isolated NBD docking and full-length quaternary co-folding predict different binding loci highlights the necessity of experimental biophysical mapping (e.g., cross-linking mass spectrometry or point-mutant binding assays) to definitively resolve target engagement.
+* **AF3 Predictions across 5 Diffusion Samples (`modelSeeds [1]`):**
+  * **PSTi8 Complex (5 diffusion samples):** In all 5 models, AF3 predicts PSTi8 engages the $\text{SBD}\beta$ cleft (UniProt 427–496) and interdomain linker hinge (`ILE426`), making **0 contacts with the NBD**. Overlap with Hossain 2018 docking residues is **0 residues (0% overlap)**.
+  * **WT PST-29 Complex (5 diffusion samples):** AF3 predicts extensive engagement of the $\text{SBD}\beta$ cavity (UniProt 427–516) and the interdomain linker (411–426), with contacts to the outer linker-adjacent surface of NBD (UniProt 196–198, 401, 405). Across all 5 diffusion samples, AF3 predicts **0 contacts** with the catalytic ATPase cleft residues (39, 55, 60, 293, 300). Overlap with Hossain 2018 docking residues is **0 residues (0% overlap)**.
+  * **E287K and G297S Complexes (5 diffusion samples each):** In all 10 models, contacts are concentrated in $\text{SBD}\beta$ and the linker, with 0 contacts to catalytic pocket residues. Overlap is **0 residues (0% overlap)**.
+* **Comparative Interpretation:** Hossain et al. (2018) docked onto isolated NBD (PDB 3LDP) only; the AF3 jobs modeled full-length mature GRP78 with ATP + $\text{Mg}^{2+}$ occupying the catalytic NBD cleft. The 0-residue overlap between the AF3 interface and Hossain 2018 docking residues directly reflects these setup differences and is **neither agreement nor disagreement**. The observation that isolated NBD docking and full-length quaternary co-folding predict different binding loci highlights the necessity of experimental biophysical mapping (e.g., cross-linking mass spectrometry or point-mutant binding assays) to definitively resolve target engagement.
 
 ---
 

@@ -93,21 +93,22 @@ In clinical genetics, `Gly297Ser` (`rs9658664`) is associated with elevated bloo
 - **The Paradox:** Does the clinical existence of this hyperactive variant compromise PSTi8 therapy?
 - **The Structural Reality:** PSTi8 terminates at residue 21 (`...EMAV`). Residue 25 is located exclusively in the cleaved octapeptide.
 - **Resolution:** Because the polymorphic site is physically absent from PSTi8, **PSTi8 is structurally and pharmacologically refractory to the Gly297Ser polymorphism**. Patients carrying this high-potency diabetogenic risk allele express a hyperactive endogenous PST peptide, yet PSTi8 retains full competitive potency to neutralize both wild-type and Gly297Ser PST.
+- **Residue Numbering in Allu et al. (2014):** In full-length human CHGA (UniProt P10645), PST-29 corresponds to residues 273–301 (`PEGKGEQEHSQQKEEEEEMAVVPQGLFRG-NH2`). The conserved core motif `HSQQKEE` spans residues **281–287** (positions 9–15 of PST-29). Position 284 is Glutamine (Gln, `Q`), an uncharged polar residue that does not participate in electrostatic salt-bridge formation. Confirmed CD spectroscopy demonstrates enhanced $\alpha$-helical content for PST-297S over PST-WT (~13.5% vs ~5.1% in water; 19.7% vs 10.6% in 30% TFE).
 
 ---
 
 ## 5.5 AlphaFold 3 Co-Folding Discoveries
 
-Full-length neural co-folding with the AlphaFold 3 Server across 5 seeds in [`data/structures/3d_models/af3_complex_metrics.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_complex_metrics.csv) and [`data/structures/3d_models/af3_interface_contacts.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_interface_contacts.csv) using canonical UniProt P11021 numbering (+18 offset from the 636-residue mature chain) provides atomic resolution:
+Full-length neural co-folding with the AlphaFold 3 Server across 5 diffusion samples from one seed (`modelSeeds [1]`) in [`data/structures/3d_models/af3_complex_metrics.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_complex_metrics.csv) and [`data/structures/3d_models/af3_interface_contacts.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_interface_contacts.csv) using canonical UniProt P11021 numbering (+18 offset from the 636-residue mature chain) provides atomic resolution:
 
 1. **Alternative Binding Locus for PSTi8:**
    * Early literature (Hossain et al., 2018) modeled PSTi8 docking into the catalytic ATPase site of isolated NBD (PDB 3LDP; contacting Tyr39, Asn55, Arg60, Glu293, Ser300). The AF3 models predict an alternative locus: in the presence of $\text{Mg}^{2+}$-ATP, PSTi8 makes **0 contacts with the NBD** (residues 26–407).
-   * PSTi8 achieves top confidence (ranking score 0.85, ipTM 0.81, min PAE 2.30 Å) by acting as an **unshielded steric wedge** at the Interdomain Linker hinge (1 residue: `ILE426`, chain CIF 408) and $\text{SBD}\beta$ entrance (12 residues: `GLU427`, `THR428`, `VAL429`, `THR434`, `PHE451`, `SER452`, `THR453`, `ALA454`, `GLN458`, `VAL461`, `GLY493`, `GLN496`; chain CIF 409–478) via its C-terminal `E18-M19-A20-V21` tip, projecting its `E14–E17` polyanionic core into solvent.
+   * PSTi8 achieves top confidence (ranking score 0.85, ipTM 0.81, min PAE 2.30 Å) by acting as an **unshielded steric wedge** at the Interdomain Linker hinge (1 residue: `ILE426`, chain CIF 408; adjacent to the conserved linker motif `416-LLDVCPLTLG-425`, distinct from NBD motif `362-VGGSTRIPKIQQLVK-376`) and $\text{SBD}\beta$ entrance (12 residues: `GLU427`, `THR428`, `VAL429`, `THR434`, `PHE451`, `SER452`, `THR453`, `ALA454`, `GLN458`, `VAL461`, `GLY493`, `GLN496`; chain CIF 409–478) via its C-terminal `E18-M19-A20-V21` tip, projecting its `E14–E17` polyanionic core into solvent.
 
 2. **Wild-Type PST-29 as an Extended Multi-Domain Modulator:**
    * Full-length WT PST-29 (ranking 0.81, ipTM 0.76) forms **140 atomic contacts (<4.0 Å)** across 32 residues: NBD interdomain-adjacent surface (4 residues: `MET196`, `ARG197`, `GLN401`, `LEU405`), Interdomain Linker (3 residues: `LEU416`, `LEU417`, `ILE426`), and $\text{SBD}\beta$ cleft (25 residues: `GLU427`–`LYS516`).
    * The terminal octapeptide `VPQGLFRG` serves as a hydrophobic anchor in the $\text{SBD}\beta$ pocket, stabilizing interdomain interactions.
-   * Overlap between AF3-predicted WT contacts and the Hossain 2018 NBD docking residues is **0 residues (0% overlap)** across all 5 seeds.
+   * Overlap between AF3-predicted WT contacts and the Hossain 2018 NBD docking residues is **0 residues (0% overlap)** across all 5 diffusion samples from one seed (`modelSeeds [1]`).
 
 3. **Structural Basis for the Gly297Ser Defect:**
    * Introducing Ser25 into the hydrophobic $\text{SBD}\beta$ pocket causes steric disruption: atomic contacts decrease by 43.6% (140 to 79 across 20 residues: 1 Linker `ILE426` and 19 $\text{SBD}\beta$ residues `GLU427`–`VAL499`), NBD bridging is absent in Model 0 (4 to 0), and pairwise ipTM drops from 0.47 to 0.28 (min PAE worsening from 2.89 Å to 5.54 Å).

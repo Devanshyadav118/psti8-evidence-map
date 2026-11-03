@@ -24,10 +24,10 @@
 - **Figure 1A:** Daily Disease Activity Index (DAI) score time-course over 6 days of DSS-induced colitis (line plots with error bars).
 - **Figure 1C:** Cumulative sum of DAI across the 7-day study period (bar charts with error bars).
 - **Figure 1D:** Macroscopic damage score (macro-score) assessing diarrhea, rectal bleeding, and rectal prolapse (bar charts with error bars).
-- **Methods (Section 4.1 & 4.9):** Reports $n = 5\text{--}6$ per group for tissue/cellular assays and $n = 12\text{--}15$ per group for daily clinical scoring cohorts.
+- **Methods (Section 4.1 & 4.11):** Reports $n = 5\text{--}6$ per group for tissue/cellular assays and $n = 12\text{--}15$ per group for daily clinical scoring cohorts.
 
 ### B. Error Bar Definition: SEM vs. SD
-In Section 4.9 ("Statistical Analysis"), the authors state:
+In Section 4.11 ("Statistical Analysis"), the authors state:
 > *"Data were expressed as the mean ± standard deviation (S.D.)."*
 
 - **Direct Interpretation (Branch A — Stated SD):**  

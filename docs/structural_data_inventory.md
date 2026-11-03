@@ -249,9 +249,9 @@ Because pancreastatin is an intrinsically disordered peptide that undergoes conf
 
 ## 7. AlphaFold 3 Co-Folding Results & Mechanistic Breakthroughs
 
-All 4 quaternary complexes were folded using the AlphaFold 3 Server across 5 seeds (`model_0` through `model_4`) and evaluated in [scripts/analyze_af3_complexes.py](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/scripts/analyze_af3_complexes.py). The results provide atomic-resolution validation of the pancreastatin:GRP78 interaction mode and resolve three long-standing mechanistic enigmas:
+All 4 quaternary complexes were folded using the AlphaFold 3 Server across 5 diffusion samples from one seed (`modelSeeds [1]`, `model_0` through `model_4`) and evaluated in [scripts/analyze_af3_complexes.py](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/scripts/analyze_af3_complexes.py). The results provide atomic-resolution validation of the pancreastatin:GRP78 interaction mode and resolve three long-standing mechanistic enigmas:
 
-### Table 7.1: Multi-Seed Confidence Summary (Top-Ranked Model 0 vs 5-Seed Range)
+### Table 7.1: Confidence Summary across 5 Diffusion Samples (Top-Ranked Model 0 vs 5-Sample Range from modelSeeds [1])
 | Complex | Ranking Score | Complex ipTM | Complex pTM | Pairwise ipTM ($A \leftrightarrow B$) | Min PAE ($A \leftrightarrow B$) | Fraction Disordered |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **PSTi8 + GRP78 + ATP + $\text{Mg}^{2+}$** | **0.85** (0.84–0.85) | **0.81** (0.79–0.81) | **0.83** (0.82–0.83) | **0.48** (0.48–0.50) | **2.30 Å** (2.17–2.30) | 0.07 |
@@ -264,8 +264,8 @@ All 4 quaternary complexes were folded using the AlphaFold 3 Server across 5 see
 1. **Receptor Architecture & Canonical Numbering Definition:**
    * GRP78 coordinates follow canonical human UniProt P11021 (full precursor 1–654; mature protein residues 19–654 after cleavage of the 18-residue signal peptide). The AF3 submitted mature chain sequence (1–636) therefore corresponds to UniProt coordinates with a $+18$ residue offset ($\text{UniProt Residue} = \text{AF3 Chain Residue} + 18$).
    * Canonical domain boundaries re-derived from experimental crystal structures 3LDL (NBD, residues 26–406), 5EVZ (NBD, residues 26–407), and UniProt P11021:
-     * **NBD (ATPase Domain):** UniProt residues 26–407 (mature chain residues 8–389)
-     * **Interdomain Linker:** UniProt residues 408–426 (mature chain residues 390–408; core linker `411-VGGSTRIPKIQQLVK-425` plus hinge `Ile426`)
+     * **NBD (ATPase Domain):** UniProt residues 26–407 (mature chain residues 8–389; contains subdomain IIB motif `362-VGGSTRIPKIQQLVK-376`)
+     * **Interdomain Linker:** UniProt residues 408–426 (mature chain residues 390–408; containing conserved interdomain linker motif `416-LLDVCPLTLG-425` and hinge `Ile426`)
      * **$\text{SBD}\beta$ (Substrate-Binding Domain $\beta$):** UniProt residues 427–537 (mature chain residues 409–519)
      * **$\text{SBD}\alpha$ (Helical Lid):** UniProt residues 538–633 (mature chain residues 520–615)
      * **C-terminal Tail (KDEL):** UniProt residues 634–654 (mature chain residues 616–636)
@@ -283,7 +283,7 @@ All 4 quaternary complexes were folded using the AlphaFold 3 Server across 5 see
      * **Interdomain Linker:** 3 residues (`LEU416`, `LEU417`, `ILE426`; chain CIF residues 398, 399, 408)
      * **$\text{SBD}\beta$ Cleft:** 25 residues (`GLU427` through `LYS516`; chain CIF residues 409–498)
    * The terminal octapeptide `VPQGLFRG` provides a deep hydrophobic anchor in the $\text{SBD}\beta$ cleft, allowing the full peptide to bridge the SBD and the NBD interdomain face.
-   * Notably, AF3 predicts 0 contacts between WT PST-29 and the catalytic nucleotide-binding pocket residues reported in Hossain 2018 (Tyr39, Asn55, Arg60, Glu293, Ser300), showing 0 residue overlap across all 5 AF3 models.
+   * Notably, AF3 predicts 0 contacts between WT PST-29 and the catalytic nucleotide-binding pocket residues reported in Hossain 2018 (Tyr39, Asn55, Arg60, Glu293, Ser300), showing 0 residue overlap across all 5 diffusion samples from one seed (`modelSeeds [1]`).
 
 4. **Atomic Resolution of the Gly297Ser Paradox:**
    * Diabetogenic human variant Gly297Ser (`rs9658664`, mature pos 25) introduces a polar hydroxymethyl sidechain into the hydrophobic $\text{SBD}\beta$ cleft.

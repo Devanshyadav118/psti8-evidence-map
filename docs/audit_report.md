@@ -51,8 +51,8 @@ Exactly **three studies** (15.0% of the corpus) evaluated both male and female a
   - In colitic males, PSTi8 delayed the onset of DAI elevation (from 24 h to 48 h) and preserved colonic stem cells and differentiated colonic epithelial cells (CECs).
   - The authors explicitly describe these experimental findings as **descriptive**. The phenotype is documented as observed, without characterization as generalized male protection versus female exacerbation.
 - **Sex analyzed as a variable?** **Yes (`sex_analyzed_as_variable: yes`).** Endpoints were stratified by sex throughout the Results section.
-- **Sex × Treatment interaction tested?** **Not reported (`interaction_tested: not_reported`).** Section 4.9 specifies two-way ANOVA, but the manuscript does not publish the omnibus interaction test statistic ($F_{\text{sex} \times \text{treatment}}$, degrees of freedom, or interaction p-value). Results are presented as within-sex pairwise post-hoc tests.
-- **Estrous control:** Neither baseline estrous staging nor longitudinal cycle monitoring is reported in the Methods (`estrous_monitored_outcome: no`, `estrous_baseline_staged: no`; locator: Section 4.1–4.9).
+- **Sex × Treatment interaction tested?** **Confirmed absent (`interaction_tested: no`).** Section 4.11 specifies ordinary one-way ANOVA with Bonferroni or Tukey post-hoc tests; ordinary one-way ANOVA was applied across Figures 1–8. Two-way ANOVA is mentioned only in Figure 1 and 7 captions for longitudinal timecourses and marker arrays, but no two-way ANOVA evaluating a Sex x Treatment interaction was performed anywhere in the paper.
+- **Estrous control:** Neither baseline estrous staging nor longitudinal cycle monitoring is reported in the Methods (`estrous_monitored_outcome: no`, `estrous_baseline_staged: no`; locator: Section 4.1, 4.11).
 - **Evidentiary status:** Verified from open-access full text.
 
 ### C. Tshikudi et al., 2024 (*J Can Assoc Gastroenterol*, DOI: [10.1093/jcag/gwad061.269](https://doi.org/10.1093/jcag/gwad061.269))
@@ -86,10 +86,10 @@ Every gap is categorized strictly into:
 
 ### Gap 2: Formal Factorial Sex × Treatment Interaction Testing ($p_{\text{sex} \times \text{treatment}}$)
 *Scope:* 3 studies including both sexes (`valicherla2022_pk`, `tshikudi2024_colitis`, `tshikudi2024_jcag`).
-- **(a) Confirmed absent in papers read (1 study):** In `valicherla2022_pk`, sex differences were analyzed via pairwise t-tests/descriptive summaries; no interaction test was conducted (`interaction_tested: no`).
-- **(b) Unreported in papers read (1 study):** In `tshikudi2024_colitis`, two-way ANOVA was conducted, but the omnibus interaction test statistic ($F_{\text{sex} \times \text{treatment}}$, degrees of freedom, and p-value) is `not_reported`; the paper presents only within-sex pairwise post-hocs.
+- **(a) Confirmed absent in papers read (2 studies):** Both `valicherla2022_pk` and `tshikudi2024_colitis` were examined in open full text; neither performed a factorial interaction test (`interaction_tested: no` in both). In `valicherla2022_pk`, sex differences were analyzed via pairwise t-tests/descriptive summaries. In `tshikudi2024_colitis`, Section 4.11 and figure legends specify ordinary one-way ANOVA with Tukey's post-hoc tests between individual group averages; no two-way ANOVA evaluating a Sex x Treatment interaction was performed.
+- **(b) Unreported in papers read (0 studies):** Zero fully read studies utilized a factorial model while omitting the interaction statistic.
 - **(c) Abstract-only reporting (1 study):** In `tshikudi2024_jcag`, sex-dependent outcomes are reported, but statistical models and interaction statistics are not disclosed (`interaction_tested: not_reported (abstract-only)`).
-- **Summary:** **Zero of the 3 studies (0.0%)** testing both sexes published the omnibus interaction test statistic.
+- **Summary:** **Zero of the 3 studies (0.0%)** testing both sexes published the omnibus interaction test statistic. In both fully read dual-sex studies (100%), factorial interaction testing is confirmed absent.
 
 ### Gap 3: Baseline Estrous Cycle Staging vs. Longitudinal Outcome Monitoring
 *Scope:* 7 studies using female animals (`singh2019_menopause`, `singh2020_heliyon`, `valicherla2022_pk`, `yadav2024_pcos_let`, `yadav2025_pcos_dhea`, `tshikudi2024_colitis`, `tshikudi2024_jcag`).
