@@ -26,3 +26,18 @@
 | 2026-11-02 | exa | `"Ioannidis" "PSTi8" "PSTCDelta8" Peptides 2022` | Inspect known review: ioannidis2022_peptides | 0 | 2 |
 | 2026-11-02 | exa | `"sex bias" OR "sex differences" "PSTi8"` | Inspect PSTi8 sex bias primary literature | 0 | 2 |
 | 2026-11-02 | exa | `"systematic review" OR "scoping review" "chromogranin A" diabetes OR "insulin resistance"` | Novelty check: CgA systematic reviews in diabetes | 0 | 2 |
+| 2026-11-03 | exa | `GRP78 siRNA knockdown pancreastatin PSTi8 insulin resistance rescue` | Prompt 19: Check Argon absence claim 1 (GRP78 knockdown) | 0 | 2 |
+| 2026-11-03 | exa | `HSPA5 shRNA silencing blocks pancreastatin or PSTi8 effect on glucose uptake` | Prompt 19: Check Argon absence claim 1 (GRP78 knockdown) | 0 | 2 |
+| 2026-11-03 | exa | `BiP knockdown eliminates pancreastatin inhibitory action in hepatocytes` | Prompt 19: Check Argon absence claim 1 (GRP78 knockdown) | 0 | 2 |
+| 2026-11-03 | exa | `GRP78 CRISPR knockout primary hepatocytes pancreastatin resistance PSTi8` | Prompt 19: Check Argon absence claim 1 (GRP78 knockdown) | 0 | 2 |
+| 2026-11-03 | exa | `siRNA against GRP78 HSPA5 abolishes PSTi8 activation of AMPK or Akt` | Prompt 19: Check Argon absence claim 1 (GRP78 knockdown) | 0 | 2 |
+| 2026-11-03 | exa | `pancreastatin GRP78 surface plasmon resonance SPR binding affinity Kd` | Prompt 19: Check Argon absence claim 2 (SPR/ITC binding) | 0 | 2 |
+| 2026-11-03 | exa | `PSTi8 HSPA5 isothermal titration calorimetry ITC binding thermodynamics` | Prompt 19: Check Argon absence claim 2 (SPR/ITC binding) | 0 | 2 |
+| 2026-11-03 | exa | `surface plasmon resonance purified BiP GRP78 binding pancreastatin inhibitor` | Prompt 19: Check Argon absence claim 2 (SPR/ITC binding) | 0 | 2 |
+| 2026-11-03 | exa | `isothermal titration calorimetry GRP78 pancreastatin PST Kd binding constant` | Prompt 19: Check Argon absence claim 2 (SPR/ITC binding) | 0 | 2 |
+| 2026-11-03 | exa | `Biacore SPR binding kinetics of PSTi8 with recombinant human GRP78` | Prompt 19: Check Argon absence claim 2 (SPR/ITC binding) | 0 | 2 |
+| 2026-11-03 | exa | `AlphaFold model of pancreastatin bound to GRP78 HSPA5` | Prompt 19: Check Argon absence claim 3 (AlphaFold model) | 0 | 2 |
+| 2026-11-03 | exa | `AlphaFold-Multimer structure of PSTi8 complexed with GRP78 BiP` | Prompt 19: Check Argon absence claim 3 (AlphaFold model) | 0 | 2 |
+| 2026-11-03 | exa | `AlphaFold 3 prediction of pancreastatin inhibitor PSTi8 receptor complex` | Prompt 19: Check Argon absence claim 3 (AlphaFold model) | 0 | 2 |
+| 2026-11-03 | exa | `AlphaFold docking GRP78 pancreastatin CHGA co-folding structure` | Prompt 19: Check Argon absence claim 3 (AlphaFold model) | 0 | 2 |
+| 2026-11-03 | exa | `in silico AlphaFold structure of GRP78 with pancreastatin variant Gly297Ser` | Prompt 19: Check Argon absence claim 3 (AlphaFold model) | 0 | 2 |
