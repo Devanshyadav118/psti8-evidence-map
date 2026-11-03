@@ -148,20 +148,21 @@ def generate_fig2():
     ]
 
     alpha = 0.05
-    z_alpha = stats.norm.ppf(1 - alpha / 2)
+    z_alpha = 1.95996398454
 
     for d_val, label, col, ls in effect_sizes:
         # 4 groups, total N = 4*n, df = 4*(n - 1)
-        # Power approximated via non-central t or normal
+        # Power approximated via non-central normal distribution
         ncp = (d_val / 2.0) * np.sqrt(n_vals)
-        power = 1 - stats.norm.cdf(z_alpha - ncp) + stats.norm.cdf(-z_alpha - ncp)
+        power = 1.0 - norm_cdf(z_alpha - ncp) + norm_cdf(-z_alpha - ncp)
         ax1.plot(n_vals, power * 100, label=label, color=col, linestyle=ls, linewidth=2.0)
 
     # Highlight typical preclinical sample size n=6
     n_typical = 6
     ncp_typ = (1.0 / 2.0) * np.sqrt(n_typical)
-    power_typ = (1 - stats.norm.cdf(z_alpha - ncp_typ)) * 100
+    power_typ = (1.0 - norm_cdf(z_alpha - ncp_typ)) * 100
     ax1.axvline(n_typical, color="black", linestyle=":", linewidth=1.2)
+
     ax1.scatter([n_typical], [power_typ], color="#e41a1c", s=70, zorder=5)
     ax1.annotate(f"Standard $n = 6$/group\nPower = {power_typ:.1f}% for $L/\\sigma = 1.0$\n(Massive False-Negative Deficit)",
                  xy=(n_typical, power_typ), xytext=(n_typical + 3, 20),
@@ -238,9 +239,9 @@ def generate_fig3():
         reader = csv.DictReader(fp)
         for row in reader:
             if row["peptide_id"] == "human_wt_pst_29":
-                windows.append(int(row["window_start_pos"]))
-                charges.append(float(row["net_charge_ph7_4"]))
-                hydropathies.append(float(row["mean_kyte_doolittle_hydropathy"]))
+                windows.append(int(row["window_start"]))
+                charges.append(float(row["net_charge_sidechains_pH74"]))
+                hydropathies.append(float(row["kyte_doolittle_hydropathy"]))
 
     ax1_twin = ax1.twinx()
 

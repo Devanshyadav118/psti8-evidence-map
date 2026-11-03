@@ -1,6 +1,6 @@
 # STATE.md — Project Status
 
-**Last Updated:** 2026-11-02  
+**Last Updated:** 2026-11-03  
 **Vault:** `psti8-sex-bias-review`
 
 ---
@@ -8,36 +8,34 @@
 ## 1. Project Phase & Execution Status
 
 ### Phase 0: Sex-Bias Evidence Table ✅ COMPLETE
-
 All primary phases (Scaffold, Step 2 extraction, and Tasks A, B, C) are **complete**.
 
-- [x] **Step 1 — Vault Scaffold:** Directory hierarchy, `AGENTS.md`, `CLAUDE.md`, `docs/schema.md`, `sources/study_guide.md`, `docs/decisions/`.
-- [x] **Step 2 — Data Extraction & Note Authoring:**
-  - [x] Populated [data/evidence_table.csv](data/evidence_table.csv) with all 11 published PSTi8 studies across 22 standardized schema columns (including `sex_source`, split estrous columns, and `not_reported`).
-  - [x] Created all 11 individual markdown files in [notes/papers/](notes/papers/) with YAML frontmatter, locators, and access tags.
-- [x] **Task A — Sex-Coverage Audit:**
-  - [x] Authored [docs/audit_report.md](docs/audit_report.md) with disease-by-sex matrix, two-sex study breakdown, list of unreported/`NOT_READ` studies, and explicit boundary statements. Colitis findings accurately reflect daily vs cumulative/macroscopic endpoints and descriptive characterization.
-  - [x] Classified evidence gaps into (a) confirmed absent, (b) unreported, and (c) cannot assess because NOT_READ, with exact counts.
-- [x] **Task B — Statistical Power Analysis:**
-  - [x] Documented extraction and derivation of $L$ and $\sigma$ from Figure 1 of Tshikudi et al. (2024).
-  - [x] Implemented exact Student's t-distribution critical values and non-central t CDF in [scripts/power_analysis.py](scripts/power_analysis.py).
-  - [x] Addressed error bar ambiguity: modeled both direct SD ($\sigma \in [0.8, 1.0]$) and converted SEM-to-SD ($\sigma \in [1.4, 1.8]$).
-  - [x] Headlined realistic interaction contrast range ($L \in [1.0, 2.5]$) and dedicated cumulative-DAI endpoint section ($\sigma_{\text{cum}} \in [2.5, 4.0]$, $L_{\text{cum}} \in [1.0, 3.5]$).
-  - [x] Exported 33 sensitivity scenarios to [data/power_results.csv](data/power_results.csv) and authored synthesis in [docs/power_analysis.md](docs/power_analysis.md).
-- [x] **Task C — Verification Protocol & Handoff:**
-  - [x] Generated [docs/spot_check_list.md](docs/spot_check_list.md) with 10 randomly sampled table rows for audit.
-  - [x] Updated [INDEX.md](INDEX.md) and [STATE.md](STATE.md).
-  - [x] Added "Papers to Obtain" list resolving paywalled `NOT_READ` fields.
-
-### Phase 1: RESEARCH 🔄 IN PROGRESS
+### Phase 1: RESEARCH ✅ COMPLETE
 
 **Goal:** Compile what is known and unknown about PSTi8, the pancreastatin/CHGA pathway, and related T2D biology, to identify a feasible computational or literature contribution.
 
-- [x] Created [docs/research_plan.md](docs/research_plan.md) with 6 topic threads, search queries, inclusion criteria, and paper targets.
-- [x] Created [docs/search_strategy.md](docs/search_strategy.md) documenting systematic literature search strategy, databases, queries, and PRISMA criteria.
-- [x] Created [data/papers_registry.csv](data/papers_registry.csv) with header + 11 existing PSTi8 studies pre-loaded.
-- [x] Created [docs/search_log.md](docs/search_log.md).
-- [x] Created `notes/topics/` directory for topic synthesis notes.
+- [x] **Thread 1 Verification:** 34 verified studies in [data/staging/thread1_registry_unverified.csv](data/staging/thread1_registry_unverified.csv) and [docs/thread1_verification.md](docs/thread1_verification.md).
+- [x] **Thread 2 Verification:** 32 verified studies in [docs/thread2_verification.md](docs/thread2_verification.md) and [docs/thread2_audit_addendum.md](docs/thread2_audit_addendum.md).
+- [x] **Thread 3 Verification:** 26 candidate studies audited in [docs/thread3_verification.md](docs/thread3_verification.md); 9 new primary studies added to [data/evidence_table.csv](data/evidence_table.csv) (20 total).
+- [x] **Thread 6 Verification:** 24 verified studies in [docs/thread6_verification.md](docs/thread6_verification.md).
+- [x] **Master Registry Consolidation:** Merged 116 authenticated studies into [data/papers_registry.csv](data/papers_registry.csv).
+- [x] **Direction 1 Novelty Check:** Confirmed 0 systematic reviews, 0 meta-analyses, and 0 registered protocols exist in [docs/novelty_check_direction1.md](docs/novelty_check_direction1.md).
+- [x] **Structural Assets Manifest:** Catalogued 49 1D, 2D, and 3D assets in [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv).
+- [x] **Computational Sequence Profiling & Alignment:** Sliding-window profiles (199 windows), cross-species alignment (100% SBDbeta invariance), variant scoring, and STRING/Reactome interactome in [docs/pathway_and_variant_analysis.md](docs/pathway_and_variant_analysis.md).
+- [x] **Master Evidence Gap Map:** Synthesized complete evidence matrix, power modeling, and Route A decision in [docs/gap_map.md](docs/gap_map.md).
+- [x] **Crystallographic Construct Audit & Receptor Sanitization:** Documented all construct traps (PDB 5E84 loop deletion, 5E85 cis-tethered peptide, 3LDL Mg occupancy) in [docs/structural_audit_argon.md](docs/structural_audit_argon.md) and [docs/receptor_construct_audit.md](docs/receptor_construct_audit.md); generated clean models in [data/structures/3d_models/cleaned/](data/structures/3d_models/cleaned/).
+- [x] **ESM-2 DMS & ESMFold Predictions:** Performed 580-point deep mutational scan and ESMFold peptide predictions via [scripts/run_esm2_analysis.py](scripts/run_esm2_analysis.py).
+- [x] **AlphaFold 3 Quaternary Co-Folding Analysis:** Parsed all 5 seeds across 4 complexes in [scripts/analyze_af3_complexes.py](scripts/analyze_af3_complexes.py), generating [data/structures/3d_models/af3_complex_metrics.csv](data/structures/3d_models/af3_complex_metrics.csv) and [data/structures/3d_models/af3_interface_contacts.csv](data/structures/3d_models/af3_interface_contacts.csv); validated steric wedge mechanism and resolved Gly297Ser paradox.
+- [x] **All 6 Topic Synthesis Notes Authored:** Complete notes in [notes/topics/](notes/topics/) (`01` through `06`) with zero quotes over 15 words.
+- [x] **Comprehensive SYRCLE / ARRIVE Matrix:** Evaluated all 20 primary studies in [data/syrcle_arrive_matrix.csv](data/syrcle_arrive_matrix.csv) via [scripts/generate_syrcle_arrive_matrix.py](scripts/generate_syrcle_arrive_matrix.py).
+- [x] **5 Publication-Grade Figures Generated:** Generated high-resolution 300 DPI PNG, SVG, and PDF figures in [figures/](figures/) via [scripts/generate_manuscript_figures.py](scripts/generate_manuscript_figures.py).
+
+### Phase 2: MANUSCRIPT DRAFTING (Route A) 🔄 IN PROGRESS
+
+**Target Journal:** *Biology of Sex Differences* (Springer Nature; Impact Factor ~4.9; turnaround ~6–8 weeks)  
+**Working Title:** *Targeting GRP78 with Pancreastatin Inhibitor PSTi8: A Systematic Evidence Audit of Preclinical Sex Bias and In Silico Structural Investigation of Binding Mechanisms*  
+**Manuscript Strategy:** Hybrid systematic review, SABV methodological critique, and atomic-resolution neural co-folding mechanism investigation.
+
 - [x] Updated AGENTS.md with phase structure and new folder map entries.
 - [x] **Thread 3 Verification Audit Complete:**
   - Audited all 26 candidate studies from Gemini 4 Argon search ([data/staging/thread3_argon_raw.md](data/staging/thread3_argon_raw.md)) against PubMed and Crossref APIs.

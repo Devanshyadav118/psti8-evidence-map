@@ -48,6 +48,7 @@ Master tabular datasets and analytical outputs.
 | File | Purpose |
 | :--- | :--- |
 | [data/evidence_table.csv](data/evidence_table.csv) | Primary curated evidence table (20 studies × 22 schema columns) |
+| [data/syrcle_arrive_matrix.csv](data/syrcle_arrive_matrix.csv) | Comprehensive ARRIVE 2.0 and SYRCLE Risk of Bias matrix across all 20 primary studies |
 | [data/power_results.csv](data/power_results.csv) | Statistical power analysis results across 33 sensitivity scenarios (t-distribution) |
 | [data/papers_registry.csv](data/papers_registry.csv) | Master registry of all 116 verified papers across Threads 1, 2, 3, and 6 |
 | [data/staging/papers_registry_pre_merge.csv](data/staging/papers_registry_pre_merge.csv) | Baseline pre-merge backup of papers_registry.csv (26 Thread 3 rows) |
@@ -65,10 +66,25 @@ Master tabular datasets and analytical outputs.
 | [data/staging/thread6_argon_raw.md](data/staging/thread6_argon_raw.md) | Raw Gemini 4 Argon literature search output for Thread 6 (methods and reporting standards) |
 | [data/staging/thread6_registry_unverified.csv](data/staging/thread6_registry_unverified.csv) | Verified Thread 6 staging registry with role assignments and bibliometric checks |
 | [data/staging/thread6_raw_api_responses.json](data/staging/thread6_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 27 verified Thread 6 records |
-| [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv) | Manifest cataloguing 28 1D, 2D, and 3D structural assets for PST/PSTi8 and GRP78 |
+| [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv) | Manifest cataloguing 49 1D, 2D, and 3D structural assets for PST/PSTi8 and GRP78 |
+| [data/structures/3d_models/af3_complex_metrics.csv](data/structures/3d_models/af3_complex_metrics.csv) | AlphaFold 3 multi-seed confidence metrics across all 4 complexes (20 seed runs) |
+| [data/structures/3d_models/af3_interface_contacts.csv](data/structures/3d_models/af3_interface_contacts.csv) | Atomic residue-residue contacts (<4.0 A in model 0) across all 4 complexes with domain annotations |
 | [data/structures/1d_sequences/](data/structures/1d_sequences/) | Canonical FASTA, JSON metadata, and ProtParam physicochemical properties |
 | [data/structures/2d_chemical/](data/structures/2d_chemical/) | RDKit-modeled .sdf, .smi, and .svg chemical representations of free and amidated peptides |
-| [data/structures/3d_models/](data/structures/3d_models/) | RCSB PDB crystal structures (3LDL, 5EVZ, 5E84, 5E85) and AlphaFold DB models with PAE |
+| [data/structures/3d_models/](data/structures/3d_models/) | RCSB PDB crystal structures (3LDL, 5EVZ, 5E84, 5E85), AlphaFold DB models, and AlphaFold 3 complexes |
+
+## figures/
+
+Publication-grade manuscript figures in 300 DPI PNG, SVG, and PDF formats.
+
+| File | Purpose |
+| :--- | :--- |
+| [figures/fig1_preclinical_sex_audit.png](figures/fig1_preclinical_sex_audit.png) | Figure 1: Animal sex distribution across disease indications and ARRIVE 2.0 / SABV compliance |
+| [figures/fig2_factorial_power_and_pk.png](figures/fig2_factorial_power_and_pk.png) | Figure 2: 2x2 Factorial interaction power curves and male vs female PK equivalence |
+| [figures/fig3_peptide_biophysics_and_disorder.png](figures/fig3_peptide_biophysics_and_disorder.png) | Figure 3: Electrostatic latch vs hydrophobic anchor profiles and CHGA intrinsic disorder |
+| [figures/fig4_af3_cofolding_and_contacts.png](figures/fig4_af3_cofolding_and_contacts.png) | Figure 4: AlphaFold 3 co-folding confidence and GRP78 domain contact footprint |
+| [figures/fig5_grp78_conservation_and_interactome.png](figures/fig5_grp78_conservation_and_interactome.png) | Figure 5: 100% GRP78 cleft cross-species invariance and compartmentalized signaling network |
+
 
 ## docs/
 
@@ -123,6 +139,9 @@ Executable Python analysis tools and automation scripts.
 | [scripts/analyze_sequences_and_pathways.py](scripts/analyze_sequences_and_pathways.py) | Computational pipeline executing sliding-window profiling, GRP78 alignment, variant scoring, and STRING/Reactome interactome retrieval |
 | [scripts/clean_receptor_structures.py](scripts/clean_receptor_structures.py) | Sanitization script preparing high-resolution, artifact-free 3D GRP78 receptor models from PDB and AlphaFold |
 | [scripts/run_esm2_analysis.py](scripts/run_esm2_analysis.py) | Deep learning pipeline executing real ESM-2 zero-shot mutational scanning, embeddings, and ESMFold 3D peptide predictions |
+| [scripts/analyze_af3_complexes.py](scripts/analyze_af3_complexes.py) | Multi-seed metrics and atomic interface contact analysis pipeline for AlphaFold 3 complexes |
+| [scripts/generate_syrcle_arrive_matrix.py](scripts/generate_syrcle_arrive_matrix.py) | Evaluation script assessing ARRIVE 2.0 Essential 10 and SYRCLE Risk of Bias across all 20 studies |
+| [scripts/generate_manuscript_figures.py](scripts/generate_manuscript_figures.py) | Publication-grade visualization suite generating Figures 1–5 in 300 DPI PNG, SVG, and PDF |
 
 ## notes/topics/
 
@@ -161,3 +180,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/15_verify_thread6.md](prompts/15_verify_thread6.md) | Prompt 15: Verification of Thread 6 (Methods and Reporting Standards) literature |
 | [prompts/16_computational_sequence_pathway_analysis.md](prompts/16_computational_sequence_pathway_analysis.md) | Prompt 16: Computational sequence profiling, cross-species alignment, variant impact scoring, and GRP78 pathway interactome retrieval |
 | [prompts/17_complete_phase1_esm2_structures_and_topics.md](prompts/17_complete_phase1_esm2_structures_and_topics.md) | Prompt 17: Complete Phase 1 computational, structural sanitization, and 6 topic synthesis deliverables |
+| [prompts/17_integrate_af3_esm2_and_generate_figures.md](prompts/17_integrate_af3_esm2_and_generate_figures.md) | Prompt 17b: Integrate AF3 co-folding confidence and interface contacts, generate SYRCLE/ARRIVE matrix, and author 5 publication-grade figures |

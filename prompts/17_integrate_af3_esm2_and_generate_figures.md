@@ -1,7 +1,7 @@
 ---
 prompt_id: 17
 slug: integrate_af3_esm2_and_generate_figures
-status: running
+status: done
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-03
