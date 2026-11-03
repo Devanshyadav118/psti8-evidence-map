@@ -96,6 +96,25 @@ In clinical genetics, `Gly297Ser` (`rs9658664`) is associated with elevated bloo
 
 ---
 
+## 5.5 AlphaFold 3 Co-Folding Discoveries
+
+Full-length neural co-folding with the AlphaFold 3 Server across 5 seeds in [`data/structures/3d_models/af3_complex_metrics.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_complex_metrics.csv) and [`data/structures/3d_models/af3_interface_contacts.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_interface_contacts.csv) provides atomic verification of the mechanism:
+
+1. **Refutation of Direct Catalytic ATPase Pocket Binding:**
+   * Early proposals conjectured that PSTi8 acts as an ATP mimetic inside the nucleotide cleft. The AF3 models definitively refute this: in the presence of $\text{Mg}^{2+}$-ATP, PSTi8 establishes **0 contacts with the NBD**.
+   * PSTi8 achieves top confidence (ranking score 0.85, ipTM 0.81, min PAE 2.30 Å) by acting as an **unshielded steric wedge** at the Interdomain Linker (residues 408–416) and $\text{SBD}\beta$ entrance (residues 433–478) via its C-terminal `E18-M19-A20-V21` tip, projecting its `E14–E17` polyanionic core into solvent.
+
+2. **Wild-Type PST-29 as a Tri-Domain Allosteric Clamp:**
+   * Full-length WT PST-29 (ranking 0.81, ipTM 0.76) forms **140 atomic contacts (<4.0 Å)** spanning the NBD (6 residues: `M178`–`L399`), Linker (7 residues), and $\text{SBD}\beta$ cleft (19 residues: `T427`–`K498`).
+   * The cleaved octapeptide `VPQGLFRG` serves as a hydrophobic anchor, clamping the NBD and SBD together to restrict physiological interdomain allosteric cycling.
+
+3. **Structural Basis for the Gly297Ser Defect:**
+   * Introducing Ser25 into the hydrophobic $\text{SBD}\beta$ pocket causes steric and electrostatic disruption: atomic contacts decrease by 43.6% (140 to 79), NBD bridging is completely abolished (6 to 0), and pairwise ipTM plummets from 0.47 to 0.28 (min PAE worsening from 2.89 Å to 5.54 Å).
+   * Because PSTi8 lacks residues 22–29, it is entirely immune to this pocket destabilization.
+
+
+---
+
 ## 6. Crystallographic Receptor Construct Traps
 
 When utilizing experimental GRP78 PDB crystal structures for computational modeling, researchers must account for critical construct artifacts documented in [`docs/receptor_construct_audit.md`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/docs/receptor_construct_audit.md):

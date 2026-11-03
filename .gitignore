@@ -16,3 +16,8 @@ fulltext_cache/
 *mcp*.json
 mcp-config.json
 .mcp/
+
+# AlphaFold 3 MSAs (large alignments)
+data/structures/3d_models/**/msas/
+*.a3m
+

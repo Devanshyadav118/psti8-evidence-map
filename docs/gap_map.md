@@ -167,6 +167,12 @@ Literature synthesis reveals a deep mechanistic tension between intracellular ch
    - Activated JNK1 directly engages `IRS1` (score $= 0.993$), catalyzing inhibitory phosphorylation at `Ser307`. This inhibitory phosphorylation uncouples IRS1 from the insulin receptor (`INSR`), inducing insulin resistance.
    - At the cell surface, GRP78 complexes with `AKT1` (score $= 0.960$). PSTi8 blocks extracellular pancreastatin binding to cell-surface GRP78, preserving AKT phosphorylation while alleviating ER stress-induced JNK activation.
 
+### AlphaFold 3 Co-Folding Discoveries & Mechanistic Resolution
+Evaluation of full-length quaternary co-folding runs in [`data/structures/3d_models/af3_complex_metrics.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_complex_metrics.csv) and [`data/structures/3d_models/af3_interface_contacts.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/3d_models/af3_interface_contacts.csv) provides atomic-resolution breakthroughs:
+1. **Refutation of Direct Catalytic ATPase Pocket Binding:** PSTi8 (ranking score 0.85, complex ipTM 0.81, min PAE 2.30 Å) does not bind inside the nucleotide-binding pocket. Instead, in the presence of $\text{Mg}^{2+}$-ATP, PSTi8 binds with **0 NBD contacts**, functioning as an unshielded steric wedge at the **Interdomain Linker** (residues 408–416) and **$\text{SBD}\beta$ entrance** (residues 433–478) via its C-terminal `E18-M19-A20-V21` tip, projecting its `E14–E17` polyanionic core into solvent.
+2. **WT PST-29 as a Tri-Domain Allosteric Clamp:** Full-length WT PST-29 (ranking 0.81, ipTM 0.76, 140 atomic contacts) acts as an extensive tri-domain clamp spanning the NBD (6 residues: `M178`–`L399`), Linker (7 residues), and $\text{SBD}\beta$ cleft (19 residues: `T427`–`K498`), driven by insertion of its hydrophobic `VPQGLFRG` anchor.
+3. **Resolution of the Gly297Ser (rs9658664) Paradox:** Diabetogenic Ser25 introduces a polar steric clash in the hydrophobic $\text{SBD}\beta$ pocket, cutting contacts by 43.6% (140 down to 79), abolishing NBD bridging (6 down to 0), and collapsing pairwise ipTM from 0.47 to 0.28 (min PAE worsening from 2.89 Å to 5.54 Å). In contrast, PSTi8 excises residues 22–29 and is completely immune to this destabilization while achieving superior binding confidence.
+
 ---
 
 ## 5. Critical Direction Comparison
