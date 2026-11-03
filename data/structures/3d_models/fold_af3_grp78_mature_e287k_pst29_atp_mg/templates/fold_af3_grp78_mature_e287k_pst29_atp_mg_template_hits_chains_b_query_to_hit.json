@@ -1,0 +1,70 @@
+
+[{
+ "name": "fold_af3_grp78_mature_e287k_pst29_atp_mg_template_hit_0_chains_b.cif",
+ "queryIndices": [
+  23,
+  27,
+  17,
+  20,
+  26,
+  18,
+  19,
+  24,
+  16,
+  21,
+  15,
+  22,
+  25
+ ],
+ "templateIndices": [
+  188,
+  192,
+  182,
+  185,
+  191,
+  183,
+  184,
+  189,
+  181,
+  186,
+  180,
+  187,
+  190
+ ]
+}
+,{
+ "name": "fold_af3_grp78_mature_e287k_pst29_atp_mg_template_hit_1_chains_b.cif",
+ "queryIndices": [
+  23,
+  27,
+  17,
+  26,
+  20,
+  18,
+  19,
+  24,
+  16,
+  21,
+  15,
+  14,
+  22,
+  25
+ ],
+ "templateIndices": [
+  141,
+  145,
+  135,
+  144,
+  138,
+  136,
+  137,
+  142,
+  134,
+  139,
+  133,
+  132,
+  140,
+  143
+ ]
+}
+]
