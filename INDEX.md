@@ -20,6 +20,7 @@ Full research manuscript and supplementary materials for submission to *Biology 
 | File | Purpose |
 | :--- | :--- |
 | [manuscript/manuscript.md](manuscript/manuscript.md) | Complete, submission-ready research manuscript in standard BMC IMRaD format |
+| [manuscript/cover_letter.md](manuscript/cover_letter.md) | Formal journal submission cover letter addressed to Editors-in-Chief of *Biology of Sex Differences* |
 
 ## sources/
 
