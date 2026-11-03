@@ -5,6 +5,7 @@ status: done
 tool: Antigravity
 model: "Gemini 3.8 Flash (High)"
 date: 2026-11-03
+commit: 195d352
 ---
 
 Step 0: Save this entire prompt text verbatim to prompts/17_integrate_af3_esm2_and_generate_figures.md first, with front matter (prompt_id: 17, slug: integrate_af3_esm2_and_generate_figures, status: running, tool: Antigravity, model: "Gemini 3.8 Flash (High)", date: 2026-11-03). When the run ends, update status to done and add the commit hash.
