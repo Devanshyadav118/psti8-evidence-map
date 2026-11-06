@@ -204,3 +204,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/22_draft_full_manuscript.md](prompts/22_draft_full_manuscript.md) | Prompt 22: Author complete submission-ready research manuscript in BMC IMRaD format |
 | [prompts/23_muse_gpu_sync_and_esm2_650m_dms.md](prompts/23_muse_gpu_sync_and_esm2_650m_dms.md) | Prompt 23: Reconcile 14 paywalled studies, sync main, audit GPU, run full ESM-2 650M DMS on PST-29 |
 | [prompts/24_integrate_esm2_650m_and_compile_docx.md](prompts/24_integrate_esm2_650m_and_compile_docx.md) | Prompt 24: Integrate ESM-2 650M metrics into manuscript and variant tables, compile submission .docx |
+| [prompts/25_antigravity_project_context_briefing.md](prompts/25_antigravity_project_context_briefing.md) | Prompt 25: Antigravity project context briefing — full PSTi8 state, open items, and working rules |
