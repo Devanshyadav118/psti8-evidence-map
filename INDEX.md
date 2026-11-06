@@ -20,6 +20,7 @@ Full research manuscript and supplementary materials for submission to *Biology 
 | File | Purpose |
 | :--- | :--- |
 | [manuscript/manuscript.md](manuscript/manuscript.md) | Complete, submission-ready research manuscript in standard BMC IMRaD format |
+| [manuscript/Targeting_GRP78_PSTi8_Manuscript.docx](manuscript/Targeting_GRP78_PSTi8_Manuscript.docx) | Compiled submission Word document generated from manuscript.md via scripts/compile_manuscript_docx.py |
 | [manuscript/cover_letter.md](manuscript/cover_letter.md) | Formal journal submission cover letter addressed to Editors-in-Chief of *Biology of Sex Differences* |
 
 ## sources/
@@ -153,6 +154,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/clean_receptor_structures.py](scripts/clean_receptor_structures.py) | Sanitization script preparing high-resolution, artifact-free 3D GRP78 receptor models from PDB and AlphaFold |
 | [scripts/run_esm2_analysis.py](scripts/run_esm2_analysis.py) | Deep learning pipeline executing real ESM-2 zero-shot mutational scanning, embeddings, and ESMFold 3D peptide predictions |
 | [scripts/run_esm2_650m_dms.py](scripts/run_esm2_650m_dms.py) | Full ESM-2 650M deep mutational scan (580 variants) on PST-29 in full-length human CHGA context, masked marginal LLR |
+| [scripts/compile_manuscript_docx.py](scripts/compile_manuscript_docx.py) | Compiler converting manuscript.md to submission-ready .docx via python-docx (headings, tables, lists, monospace code blocks) |
 | [scripts/analyze_af3_complexes.py](scripts/analyze_af3_complexes.py) | Diffusion sample metrics and atomic interface contact analysis pipeline for AlphaFold 3 complexes |
 | [scripts/generate_syrcle_arrive_matrix.py](scripts/generate_syrcle_arrive_matrix.py) | Evaluation script assessing ARRIVE 2.0 Essential 10 and SYRCLE Risk of Bias across all 20 studies |
 | [scripts/generate_dual_screening_sheet.py](scripts/generate_dual_screening_sheet.py) | Generator for reproducible dual-screening and data extraction verification audit sheet |
@@ -201,3 +203,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/21_osf_preregistration_and_dual_screening.md](prompts/21_osf_preregistration_and_dual_screening.md) | Prompt 21: Author formal prospective OSF protocol registration and generate dual-screening verification audit sheet |
 | [prompts/22_draft_full_manuscript.md](prompts/22_draft_full_manuscript.md) | Prompt 22: Author complete submission-ready research manuscript in BMC IMRaD format |
 | [prompts/23_muse_gpu_sync_and_esm2_650m_dms.md](prompts/23_muse_gpu_sync_and_esm2_650m_dms.md) | Prompt 23: Reconcile 14 paywalled studies, sync main, audit GPU, run full ESM-2 650M DMS on PST-29 |
+| [prompts/24_integrate_esm2_650m_and_compile_docx.md](prompts/24_integrate_esm2_650m_and_compile_docx.md) | Prompt 24: Integrate ESM-2 650M metrics into manuscript and variant tables, compile submission .docx |

@@ -90,6 +90,7 @@ The two documented non-synonymous single-nucleotide polymorphisms in the pancrea
 | **Average Molecular Weight** | $3283.49\text{ Da}$ | $3313.52\text{ Da}$ ($+30.03\text{ Da}$) | $3282.55\text{ Da}$ ($-0.94\text{ Da}$) |
 | **ESM-2 Mature LLR (PST-29)**| Baseline (0.00) | **$+0.1884$** (Neutral / Tolerated) | **$-1.3195$** (Deleterious to Latch) |
 | **ESM-2 Full CHGA LLR (P10645)**| Baseline (0.00) | **$-0.2043$** (Neutral / Tolerated) | **$-2.0224$** (Severely Deleterious) |
+| **ESM-2 650M LLR (Full CHGA, P10645)**| Baseline (0.00) | **$-0.4453$** (Near-neutral / Tolerated) | **$-3.2734$** (Severely Deleterious) |
 | **PSTi8 Susceptibility** | Baseline Target | **Immune** (site excised in PSTi8) | **Altered** (latch charge disrupted) |
 
 ### Real ESM-2 Protein Language Model Zero-Shot Scoring & Deep Mutational Scanning
@@ -105,6 +106,23 @@ To validate biophysical heuristics with deep evolutionary representations, the `
    - **Glu287Lys (`rs140089514`):** Displays a strongly negative $\text{LLR} = \mathbf{-1.3195}$ in mature context and $\text{LLR} = \mathbf{-2.0224}$ in full CHGA context. The protein language model recognizes the inversion of the central glutamate carboxylate to basic lysine as an evolutionarily unfavorable disruption of the acidic cluster.
 3. **580-Point Deep Mutational Scan (DMS):**
    - An in silico scan across all 29 positions and all 20 canonical amino acids establishes that the `EEEEEMAV` core (positions 14–21) is under strict evolutionary negative selection against basic residue substitutions ($\text{Arg}$, $\text{Lys}$, $\text{His}$), whereas acidic substitutions ($\text{Asp}$) are well-tolerated ($\text{LLR} > 0.0$), confirming the electrostatic latch hypothesis.
+
+### ESM-2 650M Deep Mutational Scan (Prompt 23)
+The 8M-parameter scan above was repeated at full scale with the 650-million-parameter model `facebook/esm2_t33_650M_UR50D` ([`scripts/run_esm2_650m_dms.py`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/scripts/run_esm2_650m_dms.py); per-variant scores in [`esm2_650m_dms_scores.csv`](file:///home/devansh/Downloads/Devansh%20projects/psti8-sex-bias-review/data/structures/1d_sequences/esm2_650m_dms_scores.csv)), scoring all 580 variants by masked marginal log-likelihood ratio ($\text{LLR} = \log P(\text{mutant} \mid \text{context}) - \log P(\text{wild-type} \mid \text{context})$) in full-length human CHGA context (457 aa, UniProt P10645). Execution was CPU-only in bfloat16 precision (no GPU/CUDA on the host); runtime 185.9 s for the complete scan.
+- **Gly297Ser (`rs9658664`):** $\text{LLR} = \mathbf{-0.4453}$ — near-neutral/tolerated, consistent with the 8M model ($-0.2043$ in full CHGA context). The substitution is tolerated at the sequence level; its diabetogenic potency comes from the specific GRP78 interface disruption, not from global peptide destabilization.
+- **Glu287Lys (`rs140089514`):** $\text{LLR} = \mathbf{-3.2734}$ — severely deleterious, stronger than the 8M estimate ($-2.0224$). A charge inversion inside the poly-Glu latch is evolutionarily disfavored at full model scale.
+- **Regional constraint (mean LLR over non-wild-type substitutions):** poly-Glu latch (positions 14–21) **$-3.1296$** vs. C-terminal anchor (positions 22–29) **$-0.9186$** vs. N-terminal head (positions 1–13) $-1.1671$ — approximately **3.4× greater evolutionary constraint** on the latch than on the anchor, confirming that the acidic cluster, not the hydrophobic tail, is the conserved functional core.
+- **Met19Glu — the single most favored substitution in the scan ($\text{LLR} = \mathbf{+4.58}$):** replacing the latch methionine with a sixth glutamate is evolutionarily preferred, i.e. the model favors extending the poly-Glu run. The most deleterious substitution is Glu16Cys ($\text{LLR} = -9.78$), breaking the acidic cluster with a cysteine.
+
+| ESM-2 650M metric (full CHGA context) | Value |
+| :--- | :--- |
+| Gly297Ser (rs9658664) LLR | -0.4453 (near-neutral) |
+| Glu287Lys (rs140089514) LLR | -3.2734 (severely deleterious) |
+| Poly-Glu latch mean LLR (positions 14–21) | -3.1296 |
+| C-terminal anchor mean LLR (positions 22–29) | -0.9186 |
+| Constraint ratio (latch / anchor) | ~3.4× |
+| Most favored substitution | Met19Glu, LLR +4.58 |
+| Most deleterious substitution | Glu16Cys, LLR -9.78 |
 
 ### In-Depth Variant Pharmacology
 1. **Gly297Ser (`rs9658664`): The Diabetogenic Variant and PSTi8 Immunity:**
