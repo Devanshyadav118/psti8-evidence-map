@@ -122,3 +122,17 @@ Every gap is categorized strictly into:
 1. **No Conclusions Regarding PSTi8 Efficacy or Safety:** The evidence table documents methodological and reporting characteristics; it does not evaluate, confirm, or dispute the clinical safety, efficacy, or therapeutic index of PSTi8.
 2. **No Generalization Across Paywalled Literature:** Missing data fields labeled `NOT_READ` represent access restrictions, not confirmed absence of data in original manuscripts.
 3. **No Characterization of Colitis Findings as Divergent Protection vs Exacerbation:** Because cumulative and macroscopic endpoints were not significantly different and interaction statistics were not reported, the data do not support claims of polarized male-protective versus female-harmful systemic drug actions.
+
+---
+
+## 5. Limitations (PRISMA 2020)
+
+This section states the review's limitations formally under PRISMA 2020 reporting standards (Item 23: limitations of the evidence and of the review processes).
+
+**Paywall constraint (review-process limitation).** 14 of the 20 primary studies (70.0%) are behind publisher paywalls (Elsevier, Springer, ASPET) and were evaluated solely from published abstracts and validated bibliographic metadata (PubMed/Crossref). Unstated methodological parameters — sample size per group, exact animal sex, estrous staging — are coded strictly as `NOT_READ` in [data/evidence_table.csv](../data/evidence_table.csv), and no missing values were inferred or imputed from disease models or MeSH indexing. Within the 14 paywalled studies, sex is `NOT_READ` in 10 and labelled `inferred_from_model` with explicit provenance in 4 (female-only endocrine/surgical models: `singh2019_menopause`, `yadav2024_pcos_let`, `yadav2025_pcos_dhea`; male-only model: `gupta2019_obesity`). All 14 remain `abstract_only` in [data/papers_registry.csv](../data/papers_registry.csv). This constraint was re-verified in full on 2026-11-06 (Prompt 23): all 14 have confirmed PubMed records with no open-access full text in Europe PMC (no PMCID), so no additional methods data could be retrieved through free routes.
+
+**Consequences for the synthesis.** Because of this constraint: (a) the sex-coverage denominator is incomplete — the reported 50.0% `NOT_READ` rate for sex reflects access, not confirmed absence of female animals; (b) factorial Sex × Treatment interaction testing cannot be assessed in any paywalled study; (c) baseline estrous staging cannot be assessed in the 3 paywalled female-model studies; and (d) dose, route, duration, and per-group sample size are `NOT_READ` wherever abstracts omit them (124 `NOT_READ` cells across the 20-row evidence table). Any future retrieval of these 14 full texts would be expected to change the reported sex-coverage percentages and should trigger a re-audit of this report.
+
+**Evidence limitation.** The 6 fully read studies and the published conference abstract are the only sources from which methods-level claims in this report are verified. Abstract-only findings are reported as abstract-level evidence only, and single-lab concentration (all colitis data from one laboratory) further limits generalizability.
+
+**Not medical advice.** This audit is an exploratory literature synthesis, not peer-reviewed evidence and not medical, clinical, or pharmacological advice.

@@ -77,6 +77,7 @@ Master tabular datasets and analytical outputs.
 | [data/staging/thread6_registry_unverified.csv](data/staging/thread6_registry_unverified.csv) | Verified Thread 6 staging registry with role assignments and bibliometric checks |
 | [data/staging/thread6_raw_api_responses.json](data/staging/thread6_raw_api_responses.json) | Raw PubMed and Crossref API responses for all 27 verified Thread 6 records |
 | [data/structures/structures_manifest.csv](data/structures/structures_manifest.csv) | Manifest cataloguing 49 1D, 2D, and 3D structural assets for PST/PSTi8 and GRP78 |
+| [data/structures/1d_sequences/esm2_650m_dms_scores.csv](data/structures/1d_sequences/esm2_650m_dms_scores.csv) | Full ESM-2 650M deep mutational scan (580 variants) on PST-29 in full CHGA context, masked marginal LLR |
 | [data/structures/3d_models/af3_complex_metrics.csv](data/structures/3d_models/af3_complex_metrics.csv) | AlphaFold 3 confidence metrics across 5 diffusion samples from one seed (modelSeeds [1]) for all 4 complexes (20 model evaluations) |
 | [data/structures/3d_models/af3_interface_contacts.csv](data/structures/3d_models/af3_interface_contacts.csv) | Atomic residue-residue contacts (<4.0 A in model 0) across all 4 complexes with domain annotations |
 | [data/structures/1d_sequences/](data/structures/1d_sequences/) | Canonical FASTA, JSON metadata, and ProtParam physicochemical properties |
@@ -151,6 +152,7 @@ Executable Python analysis tools and automation scripts.
 | [scripts/analyze_sequences_and_pathways.py](scripts/analyze_sequences_and_pathways.py) | Computational pipeline executing sliding-window profiling, GRP78 alignment, variant scoring, and STRING/Reactome interactome retrieval |
 | [scripts/clean_receptor_structures.py](scripts/clean_receptor_structures.py) | Sanitization script preparing high-resolution, artifact-free 3D GRP78 receptor models from PDB and AlphaFold |
 | [scripts/run_esm2_analysis.py](scripts/run_esm2_analysis.py) | Deep learning pipeline executing real ESM-2 zero-shot mutational scanning, embeddings, and ESMFold 3D peptide predictions |
+| [scripts/run_esm2_650m_dms.py](scripts/run_esm2_650m_dms.py) | Full ESM-2 650M deep mutational scan (580 variants) on PST-29 in full-length human CHGA context, masked marginal LLR |
 | [scripts/analyze_af3_complexes.py](scripts/analyze_af3_complexes.py) | Diffusion sample metrics and atomic interface contact analysis pipeline for AlphaFold 3 complexes |
 | [scripts/generate_syrcle_arrive_matrix.py](scripts/generate_syrcle_arrive_matrix.py) | Evaluation script assessing ARRIVE 2.0 Essential 10 and SYRCLE Risk of Bias across all 20 studies |
 | [scripts/generate_dual_screening_sheet.py](scripts/generate_dual_screening_sheet.py) | Generator for reproducible dual-screening and data extraction verification audit sheet |
@@ -198,3 +200,4 @@ Permanent prompt library storing every prompt given to an agent before execution
 | [prompts/20_reconcile_tshikudi_and_af3_wording.md](prompts/20_reconcile_tshikudi_and_af3_wording.md) | Prompt 20: Reconcile Tshikudi stats, correct linker motif, and clarify AF3 diffusion sample wording |
 | [prompts/21_osf_preregistration_and_dual_screening.md](prompts/21_osf_preregistration_and_dual_screening.md) | Prompt 21: Author formal prospective OSF protocol registration and generate dual-screening verification audit sheet |
 | [prompts/22_draft_full_manuscript.md](prompts/22_draft_full_manuscript.md) | Prompt 22: Author complete submission-ready research manuscript in BMC IMRaD format |
+| [prompts/23_muse_gpu_sync_and_esm2_650m_dms.md](prompts/23_muse_gpu_sync_and_esm2_650m_dms.md) | Prompt 23: Reconcile 14 paywalled studies, sync main, audit GPU, run full ESM-2 650M DMS on PST-29 |

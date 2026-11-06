@@ -286,11 +286,11 @@ To further validate the allosteric linker-wedge model, we have established a pri
 1. **Domain-Isolated Controls:** Co-folding PSTi8 against isolated NBD-only (residues 26–407) in apo and ADP states to confirm lack of intrinsic pocket affinity.
 2. **Sequence Specificity Controls:** Co-folding scrambled PSTi8 sequences and two random 21-mers to determine non-specific binding thresholds.
 3. **Positive Peptide Control:** Co-folding the known high-affinity GRP78-binding peptide `HWDFAWPW`.
-4. **Multi-Seed Diffusion Sampling:** Evaluating seed variance across 5 independent random model seeds (`modelSeeds: [1, 2, 3, 4, 5]`).
+4. **Multi-Sample Diffusion Assessment:** Evaluating sample variance across 5 diffusion samples from one seed (`modelSeeds: [1]`).
 5. **Cross-Platform Verification:** Orthogonal co-folding utilizing Boltz-2 and Chai-1 deep-learning architectures.
 
 ### 4.7 Study Limitations
-This study has two primary limitations. First, 10 of the 20 primary in vivo studies remain behind publisher paywalls; data extraction for these studies was derived from publisher abstracts and validated bibliographic metadata, precluding full-text methodological auditing of those cohorts. Second, our quaternary structural models represent in silico neural predictions; while AlphaFold 3 achieves near-experimental accuracy in peptide-protein co-folding, definitive biophysical proof of the allosteric wedge requires cryo-electron microscopy or X-ray crystallography of intact full-length GRP78 in complex with PSTi8.
+This study has two primary limitations. First, 14 of the 20 primary in vivo studies (70.0%) remain behind publisher paywalls (Elsevier, Springer, ASPET); data extraction for these studies was derived from publisher abstracts and validated bibliographic metadata (PubMed/Crossref), precluding full-text methodological auditing of those cohorts. Unstated methodological parameters (sample size, exact animal sex, estrous staging) are coded strictly as `NOT_READ`, and no missing values were inferred or imputed from disease models or MeSH indexing; in 4 studies sex is labelled `inferred_from_model` with explicit provenance, and in 10 studies sex is `NOT_READ`. This paywall constraint is a formal limitation of the review under PRISMA 2020 reporting standards. Second, our quaternary structural models represent in silico neural predictions; while AlphaFold 3 achieves near-experimental accuracy in peptide-protein co-folding, definitive biophysical proof of the allosteric wedge requires cryo-electron microscopy or X-ray crystallography of intact full-length GRP78 in complex with PSTi8.
 
 ---
 
