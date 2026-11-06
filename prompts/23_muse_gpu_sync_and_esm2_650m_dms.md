@@ -2,7 +2,8 @@
 prompt_id: 23
 slug: muse_gpu_sync_and_esm2_650m_dms
 target: "Meta Muse"
-status: running
+status: done
+commit: caec78e
 date: 2026-11-03
 ---
 
